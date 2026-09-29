@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "purpose": "Immediate navigation; read first.",
+    "source": "Dialogues_All_with_speakers.json"
+  },
+  "files": {
+    "01_Main_characters.json": [
+      "Brencis",
+      "Ambrus",
+      "Xanthe",
+      "Bakir",
+      "Florin",
+      "Marat",
+      "Drogos",
+      "Catalin",
+      "Pieter",
+      "Marat (Crake)"
+    ],
+    "02_Important_secondary.json": [
+      "Lacra",
+      "Vicho",
+      "Isbrand",
+      "Anca",
+      "Yanna",
+      "Mirto",
+      "Lunka",
+      "Esme",
+      "Sara"
+    ],
+    "03_Third_order.json": [
+      "Bakr-Erga",
+      "Ascar",
+      "Aurelius",
+      "Sanzhani Tsarina",
+      "Pixies",
+      "PixiesLeader",
+      "PixiesKid",
+      "Pixie_Merchant"
+    ],
+    "04_Other_named.json": "Other identifiable named/unique characters not in groups 1-3",
+    "05_Generic_NPC.json": "Unnamed / role-only NPCs, guards, soldiers, peasants, merchants, etc.",
+    "06_Coen.json": "Coen sections, all coen_comments sections, and user-specified Coen sections",
+    "07_Character_dossiers.json": "Information about significant characters from others' dialogue",
+    "09_Unclassified.json": "Sections that remain unresolved. Check here when a section or GUID is not otherwise classified."
+  },
+  "rules": {
+    "mixed_sections": "Full section duplicated under every relevant named/generic character. Coen is excluded from 06_Coen when mixed.",
+    "unresolved": "Raw GUIDs and their sections are preserved in 09_Unclassified when no confident assignment exists.",
+    "coen_comments": "Every section whose name contains coen_comments is placed in 06_Coen.",
+    "single_speaker": "Single-speaker sections contain only an array of plain dialogue lines.",
+    "vt": "All vt_e / vt_c sets appear only under the corresponding character vt; vt_e_/vt_c_ dialogue sections are removed as duplicates."
+  },
+  "stats": {
+    "source_sections": 2138,
+    "source_entries": 12723,
+    "unclassified_sections": 596,
+    "unclassified_entries": 5330,
+    "character_file_section_memberships": 1827,
+    "character_file_entry_memberships": 6626,
+    "vt_character_sets": 190,
+    "vt_lines": 4112
+  },
+  "notes": [
+    "Character files preserve full mixed-speaker sections; those sections are duplicated under every relevant character.",
+    "Single-speaker sections contain only an array of dialogue lines.",
+    "VT voice sets (vt_e/vt_c) appear only under each character vt and are not repeated as dialogue sections.",
+    "All coen_comments sections are assigned to Coen.",
+    "User-specified pixie sections are placed under Third Order -> Pixies.",
+    "User-specified CD_BOI_Tower_Ambrus, CD_Bakir_Tower, Coen_checkpoint_Firstreaction, and CD_Xanthe_Tower are placed in 06_Coen.",
+    "q302_40_Brencis_BeforeFight was removed from Esme and Volk and duplicated in full under Brencis and Coen; unresolved GUID keys are preserved."
+  ]
+}

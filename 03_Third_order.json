@@ -1,0 +1,516 @@
+{
+  "_meta": {
+    "source": "Dialogues_All_with_speakers.json",
+    "file_role": "03_Third_order.json",
+    "structure": "character -> dialogue_sections + vt",
+    "notes": [
+      "Built fresh from Dialogues_All_with_speakers.json.",
+      "Full mixed-speaker sections are duplicated under each relevant non-Coen character.",
+      "06_Coen contains only sole-speaker Coen sections.",
+      "Unresolved GUIDs are preserved rather than discarded.",
+      "VT data exists only under vt; vt_e_/vt_c_ sections are not duplicated as dialogue sections.",
+      "Single-speaker dialogue sections are stored as arrays of plain lines.",
+      "Rebuilt with source-authoritative ordinary dialogue content; VT sets retained under vt."
+    ]
+  },
+  "characters": {
+    "Ascar": {
+      "dialogue_sections": {
+        "sq713_Askar_after_soldiers": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[chuckle] You're hard to please, old man. Don't worry, I'll be out of your hair now."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "You keep asking questions like that one and you'll get in trouble. I want none of it, you hear me?"
+            }
+          ]
+        },
+        "sq713_Askar_default": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You know what? Never mind. Good day to you."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "You keep asking questions like that one and you'll get in trouble. I want none of it, you hear me?"
+            }
+          ]
+        },
+        "sq713_askar_smalltalk": {
+          "dialogue": [
+            {
+              "speaker": "Ascar",
+              "line": "Can't tell the bees to wait. It's just me and them, these days."
+            },
+            {
+              "speaker": "Character.Background.SQ713_Village_woman",
+              "line": "You work too hard, Ascar. You need a break."
+            }
+          ]
+        },
+        "sq713_askar_talks_to_bees": [
+          "How are we doing today?"
+        ],
+        "SQ713_dlg_cinematic_Ascar_after_dog": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Someone sent me to check in on you."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "What's going on here? Who are you? And what the hell are you doing in my house?!"
+            }
+          ]
+        },
+        "SQ713_dlg_gmpl_Ascar_after_dog": [
+          "Get out of my house!"
+        ],
+        "sq713_dlg_gmpl_spying_Askar_with_female_villager": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.SQ713_Village_woman",
+              "line": "You stay safe out there."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "The woods. Time to check on the snares."
+            }
+          ]
+        },
+        "sq713_spying_Askar_in_beehive": [
+          "Still here. Good."
+        ],
+        "sq713_spying_Askar_with_female_villager": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.SQ713_Village_woman",
+              "line": "You stay safe out there."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "The woods. Time to check on the snares."
+            }
+          ]
+        },
+        "sq713_spying_Askar_with_soldiers": {
+          "dialogue": [
+            {
+              "speaker": "Ascar",
+              "line": "What? I don't know this man!"
+            },
+            {
+              "speaker": "Character.Background.SQ713_Brencis_Soldier",
+              "line": "You can explain yourself to the torturer. Get them!"
+            },
+            {
+              "speaker": "Character.Background.SQ713_Brencis_Soldier2",
+              "line": "That'll teach him."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay hidden]"
+            }
+          ]
+        },
+        "SQ713_To_Close_Ascar": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Who, me? No, not at all."
+            },
+            {
+              "speaker": "Ascar",
+              "line": "Need something?"
+            }
+          ]
+        },
+        "cc_tantari_01_ascar_comments_gmpl": [
+          "You're getting old too, eh?"
+        ]
+      },
+      "vt": {
+        "vt_c": [
+          "Careful. You’ll poke someone’s eye out with that thing.",
+          "Hey! Don't touch me!",
+          "Hmm, too much rain this season. Hope it doesn’t sour the nectar.",
+          "I can't believe my eyes...",
+          "If the clover blooms early, I might get a second harvest. Fingers crossed.",
+          "Keep your distance.",
+          "Mercy, I beg of you! Spare me!",
+          "Monster! Begone!",
+          "Oh, for the love of – stop that mess!",
+          "Oh, no. This is bad.",
+          "Quit pestering me.",
+          "Shit!",
+          "Someone... anyone... help!",
+          "Well... Best not to overthink it.",
+          "What do you think you're doing?",
+          "What's that supposed to be?"
+        ]
+      }
+    },
+    "Pixies": {
+      "dialogue_sections": {
+        "poi103_03_pixie_ending": {
+          "54D669884C80CCD964B9BDA6E66D4B51": "And how would that work?",
+          "BA3511844388EB757B699F97C818066F": "Bring me nice pearly-whites – and I'll give you something in return. Cross my heart!",
+          "1B1B98454237D18B4495E086BF8096A2": "How would that work?",
+          "CBE40C2445D66E46D936398669684F01": "I'm afraid your friends won't be supplying you with fresh teeth anymore.",
+          "C10DFF924AFA24113590A9B1BC66D72B": "Innocent, guilty – honestly, I couldn't care less.",
+          "C92FF1D04080B6AE7380319DA5551865": "Oh. How about you, then?",
+          "2A891F0F410AB110B25EA38F27BCA62C": "Uhhh... Is that a trick question?",
+          "5575BCE746C4AB62A62D7FBF9E94A14B": "You want me to kill innocent people for you?",
+          "89CBDECE45973CF91F60FA8DDDFC4706": "You want me to kill innocent people?"
+        },
+        "poi104_01_pixie_mute_met": {
+          "787A1CAA4E0F6768838EB4A625AAB4F9": "He crawled into our home... Vile, mindless... Hungry...",
+          "97A0EC004EBA3D28E79219B6CEFA7FAC": "He...?",
+          "EDCC0FD24A430338BF5451A743327399": "Hey... What's wrong?",
+          "022B54C64EEDDE2229FBF78AE9DB28DA": "I can't help you right now.",
+          "41D5D3594E11F2D77DB761951058C09B": "I can't help you right now. I'm sorry.",
+          "851522F54E75D180B16865A0B94DCE72": "Lead me to your burrow.",
+          "59A037A54DA3764E046E20BF8D7B7B0C": "Lead me to your burrow. I'll see what I can do.",
+          "3D9EE2E446BECAE70019D1AB719D7A1F": "My burrow! Ravaged! Destroyed!",
+          "815E19BB42E086163E3520B50D4EFE4D": "Please, my sisters... Maybe it's not too late.",
+          "9CE5D72E4305E7D29ABD8A8D4A21DF5E": "Thank you! Come... This way.",
+          "127E7D914C74E3536F11C0926C9FC3B1": "There's no time! You have to come with me! Please!",
+          "CFFB9A8C4DC044EECDB5228F474FFBEC": "Ugggghhh! Leave, then! Leave me alone!",
+          "B4F5B9884816FF10ED27CAA3E00A7CDB": "What happened?",
+          "C980F6D74A3EFD98FEA428A5ECC8E472": "What happened?",
+          "1F57520641FA7409903BA59E7DA78617": "[sob] You came back!"
+        },
+        "poi104_02_pixie_comments": {
+          "EC6378A4419823F20430A996623D1C32": "Follow me!",
+          "4ED9C66E42AE275CADC2EAA064B701F1": "Here! He's still inside, I can hear him!",
+          "CC6066F046CCBC47FA5F9F9543F0CECD": "Rest in peace, sisters."
+        },
+        "poi104_03_pixie_mute_inside": {
+          "C991FFAF496842206CA340A8AA4995DE": "And... My sisters?",
+          "C8C063EA495824E2F6B0C0B167A69316": "Be safe, dawnwalker.",
+          "CC55F702449CD6FD21D4238078534CE5": "Dead, I'm afraid.",
+          "CF14909F4D90715796BB2A9656945B0D": "Oh, how wrong we were!",
+          "81599C1F47C97661A63E489CA40F19F0": "Oh, no... I... I should've known... Should've realised it was too good to be true...",
+          "1CDE1E2C446305201D37A2B97EDECE8A": "So you lured him into your burrow.",
+          "35A8757847F522FC3D67C29BB1E24E9E": "There's nothing more I can do for you, I'm afraid.",
+          "B7D6F53C45BCD6F00B5717B1A81BA844": "There's nothing more I can do for you.",
+          "BAB64711465CD0ED73B5C895AA59C883": "There. Your burrow is safe again.",
+          "C9F7296E4D91DBDB7DADF5AC993731B0": "This was your burrow, I assume? It's safe, now.",
+          "E84810D741F503F4B160E0AD4D9C87F8": "Too good to be true? What do you mean?",
+          "717648974B2EB4B717B135B0BCD8755B": "We saw him, alone in the forest, a freshly sired murohn... So many teeth! Beautiful fresh fangs, everywhere!",
+          "99CC15CA49AD6320EFC526A7C098BC8E": "We thought we could keep him around, pry the teeth from his flesh just as they erupted – again and again!",
+          "BF6F4FD349311C5F7E104A88B209F4A9": "What do you mean?",
+          "463C3B894B45012AEE43C7A05A25753E": "You've avenged my sisters. That's plenty. And I'll make sure our tsarina hears of it."
+        },
+        "poi103_01_pulling_teeth": {
+          "471641E3478179588BC312B1DC001325": "Ah-ha. Hoping for more bloodshed – and more mouths to loot?",
+          "CFA7F06A4887ABDC278CAB8BB542486A": "And everyone's happy?",
+          "2C1C2ECF47830F3EE7FF25B6FB975FBD": "Did you kill these men?",
+          "95B939A44ACC704AF0D6CEB073ADF3DC": "Did you kill these men?",
+          "93EB013F4C8BEB1CE5544B99F2F73075": "Elaborate, please.",
+          "D1EC0E41414390C8B9217E980424977E": "Every time they dump a body here, I leave them something in return for all the pretty teeth!",
+          "34ED1CC945273943002D5CAC650728A7": "I didn't lay a finger on them! You don't like it, talk to the bandits!",
+          "A76ED3D3448602CEC97E818B7BED9EF3": "I might have helped it along, though.",
+          "7AD507AB4FCC69D3EA7010A5637C45AE": "I'm foraging teeth! It's like foraging mushrooms... Only you forage teeth instead!",
+          "FBE397284A5BA988FA872288E7F0D3B6": "Indeed! Go talk to them. Maybe they'll do something nice for you, too!",
+          "9C313F74444DF5EA91F73C88A39B28C5": "Me? Noooo. Absolutely not!",
+          "89FF22EB44DFDE516A368C8ED2D9B34E": "Need! Ugh. You humans are so bloody practical!",
+          "0EA5423F4FD4ADA60D4F24ABE3938917": "Not anymore, I'm afraid. Those men and I – we had a disagreement.",
+          "1B28308F4532FFC30A620C81026E1BE3": "Oh! Shame... Did you take their teeth? If not, I stake my claim!",
+          "A1F6DB9C46D8F5A7D2BFA58C58128158": "Oh, it's simple, really. There's a few men in the forest nearby. Bandits. Big and mean!",
+          "02D0064F4173848D36B095B473F7BA01": "Tell you what – if you come across any, bring them to me and I'll give you something nice in return. Sound good?",
+          "3A69E9584F4CE3D014EA66874D3CCB5F": "This isn't right.",
+          "E294CD4D460594FA9AB3AE86675E75F1": "This isn't right. These people – they did nothing wrong.",
+          "B7EBA93D481F92DDA1376EA9ADF66EA3": "Uh, no thanks. I've got no use for them.",
+          "FED9321D4CC99A2408F7C6A71F5348F8": "Uh... Just what are you doing here?",
+          "76B209544DEF4FF5CF5834AD9D66DDF6": "Use! Ah, silly humans... Teeth are to be enjoyed, not used! ",
+          "4671B85640C1F4E7E7A44684BE235493": "We don't need them. We admire them. We listen to them clink.",
+          "11405BA04B3B802FAFD9059E103A5CDC": "Whaaat? Nooooo.",
+          "D7E499764DB9FD11F35730A98AD9B191": "What do you need all these teeth for?",
+          "CE530605401B6AC56E48979157B3A556": "What do you use all the teeth for?",
+          "26FD72D448BA49F251D2C597D0C67EB7": "You get the teeth, the bandits get gold – and everyone's happy?"
+        },
+        "poi102_2_pixie_chatter": {
+          "AA3723414B3109ACD77000A37BEE972C": "The charm! Bring it back, remember!",
+          "2DFD18644A7AF3C86D4EE3BF9EB8D58C": "They robbed us! Drove us out!",
+          "A20DD7444DB8F091D1F7069C8647FC63": "We'll perish, now! Die, all of us!"
+        },
+        "poi102_01_pixie": {
+          "3BBDAA694016E68AD5AA3D8BE7B6AF6A": "Ah! Will you help us now?",
+          "3E36F397487713AA0712A380EFEC1CB5": "Charm? What does it look like?",
+          "54107B0B4E2EC55132A37BB235F698D0": "Drive the kobolds out. Kill them, if need be! But most of all, retrieve the charm!",
+          "6B0DF6504597B95D9293D6970BF3471C": "Help us, dawnwalker. I beg of you.",
+          "8D8522F14EDC66C067E6508EB84CE94D": "I can't right now.",
+          "5B2AB3044F688FCFBE87F4B6ED2BDB67": "Kobolds! Always digging! Always scheming! Always stealing! ",
+          "608E40964011B13A09BD2E8B2E6C7FA3": "Looks don't matter! You'll know when you find it. You'll feel it!",
+          "BD3BF1D041F95780F43672B8393203F0": "Oh, leave us, then! Homeless! Hungry! Shivering in the cold!",
+          "CCD8D741421E8B3FE0E344A9A07BABAF": "Our burrow! They took it over! Drove us out!",
+          "142CCF994B35D2B5246B31B2CE8BF9CC": "Please! It's sacred! It hurts even to think that kobolds are laying their dirty claws on it!",
+          "0106E9C1416FD9651B62BE8B913A7F60": "Right. I'll see what I can do.",
+          "C78F01F54133296E66E7AA88B1FEC060": "Sorry – I can't right now.",
+          "50399A4947B2C8233CD0869EC5246530": "They?",
+          "39A244C447D481778998BDA69A21C41F": "What do you want me to do?",
+          "A4FE568646970730640E1BB7F085777A": "What do you want me to do?",
+          "AC300EAC4891CC667AB37489A609B20E": "What's wrong?"
+        },
+        "poi102_02_pixie_finale": {
+          "0332593A4EF9F255B94D23B8C4A023AD": "But – But we need your help! The reward – I'll double it! How about that?",
+          "496B52064A6BD0CA031D92A9DACD2E12": "Good one.",
+          "972C90904D9487C92F05A8911158111C": "Good one.",
+          "D7A471184120D0AF215527A5AE1A8728": "Ha! You're clever – for a human! But joking aside, did you kill them or not?",
+          "36986E2848C6D008EACA4181C7745295": "Here, take this – and begone!",
+          "41EB2A2B4DC31F7BCC01F3A235F2CA85": "Hm. Let me think about this.",
+          "6110364244F7F96EE2CFC990A6505AB4": "I don't like being taken for a fool.",
+          "E40F84394BDF8CDF7A6E1EAF7DBDA209": "I don't like being taken for a fool.",
+          "757A53B840469D6A91F6A5B6DDDD75A3": "I think you lied to me.",
+          "26988E294BA81F110CD3D298D4112698": "I'll be right back.",
+          "574C56B64F05B5221B4134B6E8033D6F": "It is now! Hahaha!",
+          "9118B9E4472079CEB4310594C313F354": "Listen, I'll be right back.",
+          "DE82CFAB4DC5A7D6DDBC8698EFD551D5": "Oh, don't pout! The kobolds – they don't mind. Not anymore. Haha!",
+          "DC0A283846909ADFBD89559CB12B0D47": "Sounds good. Especially since I've already done what you asked of me.",
+          "1A1F3FC9452DE03C114E6D8ADF15EB1F": "Wait – was this even your burrow?",
+          "9D9D0BC749216C0AC7F77B8BD10FF736": "What? But you said –",
+          "7BFBF831482B3D2D8986B8B6A420DAF2": "What? Then why did you – Ah. I see. I tricked you, so you tricked me. Tit for tat!",
+          "2D7FB20A414C219C49F5C88C7E45C751": "Words, words, words! Don't ever trust them! They're like the eye on the butterfly's wing! Black and yellow stripes on a fly!",
+          "58BF975043202F1806F2A499E4C593E3": "Yes. The kobolds - they're dead.",
+          "D50346214473D059BA44B8AB810990C6": "Yes. The kobolds – they're dead. And I've got your charm.",
+          "1C409E5041F54CC83D24BAB0EAB84482": "Yes. Very funny! Lots of laughs. Not for the kobolds, though! Haha!",
+          "0A83E99B49A4633FDE99479ACF0AC454": "You can keep it. Haha!",
+          "1EBF5DA9415B6E3DF86C6A96B6F39121": "You fool me – and expect me to just go along with it?",
+          "D0F6722F46069B1A58493092CD80073C": "You fool me – and expect me to just go along with it?",
+          "945C793242B118B35886078034D17D3B": "You lied to me.",
+          "E582711242619E84A4FC9F88CC94205C": "You're back! Did you do what we asked?"
+        },
+        "poi101_02_trapped_pixie": {
+          "E6E8559F4A6B0859354B1A9D3919C7EB": "And then?",
+          "90C1891C45AC7EA6C53AF89813F648D9": "Bah. Enough talking. Enough humans.",
+          "3DDD7200485E0F1651EBBCB50761F0FA": "But no more. You heard me, you helped me. And now, you will be rewarded.",
+          "84C791604B2E043C863307B2BC5B3883": "Dancing?",
+          "9833D5584453FEA88DE8A79270E08564": "Haha! Free at last! No more dancing!",
+          "A9810B3E4926378D3EC9C3A348764516": "He made me! Starved me until I did as he said!",
+          "D4216E3242A88E51BC5FD1837B3F3E2D": "I'll tell our tsarina of your deeds. She'll be pleased, I'm sure. But there's more.",
+          "85FFCC89413736B43FB58F8FA34F9741": "It's yours for the taking. But don't tarry. It won't be there forever.",
+          "7623CC944FA1193F3E96E2AC77AA2787": "My sisters and I shall give him a performance he'll never forget.",
+          "5869D99C4231D09573CCC890FC606560": "Return to the burrow. Share tales of my sorrows.",
+          "EA0BC69C4DE8485CD9EB1E984E5F1395": "Rewarded...?",
+          "234E69084DAA48CEC0EE9D9E91A03712": "This man – he's hiding silver in the other room, under one of the floorboards.",
+          "37FFBE03412BA59464D648BAA028A85B": "What are you going to do now?",
+          "0FA276944237A998C58F0D90014E3435": "What do you mean? Why?",
+          "BDC82F9E40BA7E8E16AB16B629EC8141": "What will you do now?",
+          "8BD7A8F144AFBB81101D37957FF88C68": "You want to reward me? How?"
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Ha, show off.",
+          "Haha! Do it again! Do it again!",
+          "Haha, I like how the light bounces off it!",
+          "Hey! My burrow!",
+          "I wouldn't go there if I were you.",
+          "Oh-oh!",
+          "Ouch! Careful!",
+          "Ouch! Ugh, that must've hurt!",
+          "Tap, tap, tap, the weather today is crap.",
+          "Want me to talk? Blah, blah, blah, blah... There.",
+          "Why so close? Want to show me your teeth?"
+        ]
+      }
+    },
+    "PixiesLeader": {
+      "dialogue_sections": {
+        "PixieQueen_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You don't know her."
+            },
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "Your blood. It's different. Tainted."
+            }
+          ]
+        },
+        "sq720_05_pixie_reveal": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "You walk both in the sun and by the moon's pale light. You see more than others. You can be trusted."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay quiet]"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "You're not listening! I said I don't want to! "
+            },
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "Yes. A plaything for fucking monsters!"
+            }
+          ]
+        },
+        "sq720_05b_pixie_tonisdead": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "You were asked to find Tonis. Which you did."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Will you reward me?"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "[sobs]"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Ah. The ferns will glisten as if adorned with pearls.",
+          "Am I to be impressed?",
+          "And here I was thinking all humans were boring.",
+          "Don't stick your nose where it doesn't belong.",
+          "I speak when I wish to.",
+          "Shh. What was that?",
+          "Show me the respect I deserve.",
+          "Try as you might, you can't hurt me that way."
+        ]
+      }
+    },
+    "PixiesKid": {
+      "dialogue_sections": {
+        "sq720_01_girl_chatter": [
+          "Will you find Tonis? Pretty please!"
+        ],
+        "sq720_01_little_girl": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[chuckle] Alright, alright. Where's this palace of yours, exactly?"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "You have a sister, right? Lunka. They say they could get a message to her, if you have one."
+            }
+          ]
+        },
+        "sq720_01a_girl_chatter_gmpl": [
+          "[mumble] Peter Piper picked a peck of..."
+        ],
+        "sq720_04_reunion": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "You... You haven't changed a bit. Even your clothes are the same."
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "Tonis! Oh, Coen, you found him!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Something else must live here."
+            }
+          ]
+        },
+        "sq720_04b_reunion_tonisdead": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "Where's Tonis?! Where is he?!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Something killed him."
+            }
+          ]
+        },
+        "sq720_05_pixie_reveal": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "You walk both in the sun and by the moon's pale light. You see more than others. You can be trusted."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay quiet]"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "You're not listening! I said I don't want to! "
+            },
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "Yes. A plaything for fucking monsters!"
+            }
+          ]
+        },
+        "sq720_05b_pixie_tonisdead": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "You were asked to find Tonis. Which you did."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Will you reward me?"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "[sobs]"
+            }
+          ]
+        },
+        "sq720_07b_little_girl_after_quest_camp": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "Tonis doesn't like it when I talk about them."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You look busy."
+            }
+          ]
+        },
+        "sq720_07c_little_girl_after_quest_burrow": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You think he still knows how to play?"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "Yes, I meant to ask! How is he? I haven't seen him since that time!"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Pixie_Merchant": {
+      "dialogue_sections": {
+        "merchants_teeth_pixie": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.POI103.Pixie_Merchant",
+              "line": "You. You know what I like. Did you bring me any?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Where do you get this stuff from?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    }
+  }
+}

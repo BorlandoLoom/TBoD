@@ -1,0 +1,1151 @@
+{
+  "_meta": {
+    "source": "Dialogues_All_with_speakers.json",
+    "file_role": "06_Coen.json",
+    "structure": "character -> dialogue_sections + vt",
+    "notes": [
+      "Built from Dialogues_All_with_speakers.json.",
+      "Every section whose name contains coen_comments is included in 06_Coen.",
+      "Unresolved GUIDs are preserved rather than discarded.",
+      "VT data exists only under vt; vt_e_/vt_c_ sections are not duplicated as dialogue sections.",
+      "Single-speaker dialogue sections are stored as arrays of plain lines.",
+      "Rebuilt with source-authoritative ordinary dialogue content; VT sets retained under vt."
+    ]
+  },
+  "characters": {
+    "Coen": {
+      "dialogue_sections": {
+        "cc_city_middens_coen_lines": [
+          "Who? Me?"
+        ],
+        "coen_blood_hunger_reactions": [
+          "Well, then – conversation over."
+        ],
+        "coen_voiceset": [
+          "[sigh] Pissing cats and dogs..."
+        ],
+        "cs_q001_04_shadowstep_intro": [
+          "Shit. Looks a mile deep."
+        ],
+        "cs_q001_05_shadowstep_outro": [
+          "What?! How?"
+        ],
+        "cs_q001_06_antigrav": [
+          "Woah!"
+        ],
+        "cs_q101_09_zombies_nun_reveal_alternative_version": [
+          "Oh, fuck."
+        ],
+        "cs_sq711_01_loop_intro": [
+          "What?!"
+        ],
+        "cs_sq715_02_brencis_arrival": [
+          "Shit. Great place for a meeting…"
+        ],
+        "cs_sq715_03_brencis_captures_pieter": [
+          "Shit. Shit!"
+        ],
+        "hhpoi101_coens_comments": [
+          "Wow, that's a hefty sum. I'll take it as a compliment."
+        ],
+        "hhpoi102_coens_comments": [
+          "Those poor dogs..."
+        ],
+        "hhpoi103_coens_comments": [
+          "They just wanted to get out of the valley to start their new life?"
+        ],
+        "OA101_Oneliners": [
+          "Vrakhiri scum. All of them."
+        ],
+        "OA104_Oneliners": [
+          "What is Ambrus up to..."
+        ],
+        "OA105_Oneliners": [
+          "What's this... Blood transport? Lots of guards..."
+        ],
+        "OA106_Oneliners": [
+          "What is this place? It reeks of blood..."
+        ],
+        "OA106_Outcome_Lines": [
+          "Shit. It doesn't look good."
+        ],
+        "OA107_OneLiners": [
+          "What is this place? It smells of rot and blood..."
+        ],
+        "OA108_KoboldsBanter": [
+          "We take it! Take it all! Share!"
+        ],
+        "OA108_Oneliners": [
+          "What is this place? A prison?"
+        ],
+        "OA109_Oneliners": [
+          "Prisoners... Where are they taking them?"
+        ],
+        "OA110_Oneliners": [
+          "Hope Brencis goes thirsty now. "
+        ],
+        "OA111_Main": [
+          "What is this place? Smells like blood..."
+        ],
+        "OA112_Coen_Oneliners": [
+          "What is this place? Looks like a vrakhiri operation... But where are the guards?"
+        ],
+        "OA113_OneLiners": [
+          "What's that stench? Is it - blood?"
+        ],
+        "ob101_1_coen_comments_gpl": [
+          "Bakir's men... Seems like they've already hunted down their prey."
+        ],
+        "ob102_1_coen_comments_gpl": [
+          "Sounds too good to be true."
+        ],
+        "ob104_1_coen_comments_gpl": [
+          "Smells of spirits... Must be one of Bakir's distilleries."
+        ],
+        "ob105_1_coen_comments_gpl": [
+          "That is where Bakir's men make alcohol..."
+        ],
+        "ob106_1_coen_comments_gpl": [
+          "A distillery? Here?"
+        ],
+        "ob107_1_coen_comments": [
+          "Bakir's men putting on a show..."
+        ],
+        "ob108_1_coen_comments": [
+          "Poor man... Held in a pillory without food nor drink..."
+        ],
+        "ob109_1_coen_comments": [
+          "Nothing like a public humiliation to amuse the masses..."
+        ],
+        "ob110_1_coen_comments_gpl": [
+          "Military transport... Bakir's men."
+        ],
+        "ob112_1_coen_comments_gpl": [
+          "What's in here? Oh, ugh... God, it smells!"
+        ],
+        "ox114_02_coen_comments": [
+          "This has Armaya written all over it..."
+        ],
+        "ox116_04_coen_comments_gpl": [
+          "What's this? A dagger... But unlike any other I've seen."
+        ],
+        "POI001_Dead_Drop_finding_letter_ns_FG": [
+          "Huh. Wonder what this is all about."
+        ],
+        "POI002_VMG_entering_cemetery_ns_FG": [
+          "The outcasts's burial ground..."
+        ],
+        "POI002_VMG_inspect_grave_ns_FG": [
+          "What's this? Freshly cut flowers... And a necklace. "
+        ],
+        "POI003_Deserted_House_clues_ns_FG": [
+          "[cough] Ugh, this place reeks..."
+        ],
+        "POI004_WC_Coen_b_reaction": [
+          "What's this? A letter?"
+        ],
+        "poi_ox101_boi": [
+          "Training grounds..."
+        ],
+        "poi_ox103_boi": [
+          "This is where they train new blood slaves..."
+        ],
+        "poi_ox115_01_coen_comments": [
+          "Whoah. Now that's unsettling."
+        ],
+        "poi_ox_103_dlg_01_coen_gpl": [
+          "Huh? Did he switch sides...?"
+        ],
+        "POI_Xanthe_Coen_comments": [
+          "Xanthe’s men? What are they doing here?"
+        ],
+        "POICH102_Finale": [
+          "Wind chimes and some baubles... I wonder what they mean."
+        ],
+        "POICH102_Generic": [
+          "Wind chimes... "
+        ],
+        "POICH102a_Oneliners": [
+          "Uriashi engravings... Similar to those I saw in the clan Bakr village."
+        ],
+        "POICH102b_Oneliners": [
+          "Two sets of tracks. The older ones look human. And the fresher ones... Uriashi, I think."
+        ],
+        "POICH102c_Main": [
+          "Why would such a thing haunt the mountain top?"
+        ],
+        "POICH102d_Oneliners": [
+          "Xanthe's apprentice, looking for a glyph? And two uriashi guides... Curious."
+        ],
+        "POICH103_Oneliners": [
+          "Who would send me a letter?"
+        ],
+        "POICH_101_Finale_Gameplay": [
+          "Warriors came here to... have their swords turned into silver?"
+        ],
+        "POICH_101_Generic": [
+          "Wait, this sword... Could that be... Mihai?"
+        ],
+        "POICH_101a_Main": [
+          "Yet another hand."
+        ],
+        "POICH_101b_Main": [
+          "Wonder if the warrior made it out or ended up as their meal?"
+        ],
+        "POICH_101c_Main": [
+          "Why had they abandoned this cart? Didn't need it anymore? Or maybe had to leave in a hurry..."
+        ],
+        "q001_06_calling_vlad": [
+          "Vlad! Vlaaaad!"
+        ],
+        "q001_06_coen_solo_banter": [
+          "What's this? A... nest?"
+        ],
+        "q001_after_getting_back_up_ns_FG": [
+          "Finally! A way out!"
+        ],
+        "q001_coen_antigrav_reactions_ns_FG": [
+          "What?! How?!"
+        ],
+        "q001_coen_barks_ns_FG": [
+          "What are these things?"
+        ],
+        "q001_coen_left_mine_ns_FG": [
+          "Oh God... I'd better move fast."
+        ],
+        "q001_coen_shadowstep_challenge_reactions_ns_FG": [
+          "What?! How did I – ?"
+        ],
+        "q001_crossroad_ns_FG": [
+          "Something's burning..."
+        ],
+        "q001_destroyed_barricade_ns_FG": [
+          "So much blood. Like a slaughterhouse."
+        ],
+        "q001_drinking_blood_reaction_ns_FG": [
+          "Oh God, what did I just do!"
+        ],
+        "q001_finding_survivor_01_ns_FG": [
+          "Look! Over there!"
+        ],
+        "q001_first_kill_reaction_ns_FG": [
+          "I... I ripped them to shreds – with my bare hands..."
+        ],
+        "q001_kobold_bones_ns_FG": [
+          "So many bones..."
+        ],
+        "q001_lower_mine_river_vista_ns_FG": [
+          "What is this place?"
+        ],
+        "q001_lower_mine_sec_chamber_ns_FG": [
+          "Ugh... Rotten, all of it..."
+        ],
+        "q001_mine_corpse_03_ns_FG": [
+          "Oh God. All his bones, shattered... Skull smashed open. I... I can't."
+        ],
+        "q001_mine_corpse_07_ns_FG": [
+          "The cart... The vrakhir tossed it like a toy."
+        ],
+        "q001_mine_entrance_outside_NEW_ns_FG": [
+          "There's a hole... Vladimir must've dug his way through."
+        ],
+        "q001_poi_blood_draining_station_ns_FG": [
+          "This hook is clean..."
+        ],
+        "q001_poi_dead_rebel_ns_FG": [
+          "Otokar... Beaten to death."
+        ],
+        "q001_poi_foreman_office_comments_2_ns_FG": [
+          "Dad's old workshop..."
+        ],
+        "q001_shadowstep_reaction_ns_FG": [
+          "How...?!"
+        ],
+        "q001_vladimirs_footprints_1_ns_FG": [
+          "Blood... And footprints. Must be Vladimir's."
+        ],
+        "q001_vladimirs_footprints_2_ns_FG": [
+          "He was running – and somebody was behind him."
+        ],
+        "q001_vlads_victim_ns_FG": [
+          "Stabbed in the back. Vlad must've got him, once he was outside."
+        ],
+        "q002_anca_conclusion": [
+          "She must've gone to the river to get water."
+        ],
+        "q002_anca_herb_garden": [
+          "Half of the vegetable patch is watered."
+        ],
+        "q002_anca_hut_knock": [
+          "Hello...? She's not in."
+        ],
+        "q002_anca_not_here": [
+          "She's gone somewhere."
+        ],
+        "q002_anca_water_barrel": [
+          "The barrel's empty."
+        ],
+        "q002_coens_exploration_lines": [
+          "God. I'll never get used to the sight of these creatures..."
+        ],
+        "q002_fluff_angel_fresco": [
+          "Archangel Michael. Pity he can't swoop in to save us..."
+        ],
+        "q002_fluff_two_saints_fresco": [
+          "Saint Demetrius and Saint Sabbas."
+        ],
+        "q002_house_comments": [
+          "The wreath is all dried up... I should make Lunka a new one. Maybe there's some aster left in the fields?"
+        ],
+        "q002_interactive_banner": [
+          "God, this tapestry is awful."
+        ],
+        "q002_interactive_baptis_font": [
+          "Old baptismal font... Stained red with blood."
+        ],
+        "q002_interactive_cross": [
+          "The old cross... Not much left of it."
+        ],
+        "q002_interactive_fresco01": [
+          "The symbol on his cloak – the vrakhiri erased it, too. Huh."
+        ],
+        "q002_interactive_fresco02": [
+          "The convent she funded."
+        ],
+        "q002_interactive_gremla_body": [
+          "The vrakhiri wanted to teach us all a lesson."
+        ],
+        "q002_time_reminder": [
+          "Mass is starting soon..."
+        ],
+        "q002_time_reminder_2": [
+          "Shit! Mass is about to start."
+        ],
+        "q101_00a_coen_comments_laslea": [
+          "This is Lunka's... Oh, God."
+        ],
+        "q101_00b_coen_comments_fog": [
+          "Who are you?!"
+        ],
+        "q101_00c_coen_comments_monastery": [
+          "Whoever was here – they're gone, now. Huh."
+        ],
+        "q101_06d_tyna_boi": [
+          "What the hell happened here?"
+        ],
+        "q101_06e_relic_boi": [
+          "What's this? Looks old... And valuable."
+        ],
+        "q101_06g_tyna_frescoes": [
+          "The saint's last days... And ascension to heaven."
+        ],
+        "q102_00a_coen_comments_old_district": [
+          "This whole building is covered in writing... "
+        ],
+        "q102_00b_coen_comments_cathedral": [
+          "Won't get through here. But I can hear some... howling on the other side."
+        ],
+        "q102_00c_coen_comments_asylum": [
+          "[cough] Damn, what a stench... [cough] Something's rotten in here."
+        ],
+        "q102_00d_coen_comments_catacombs": [
+          "Under Saint Mihai's memorial stone... Right. I should find out what the Saint's personal sigil looks like."
+        ],
+        "q102_00e_coen_comments_treasury": [
+          "What do we have here?"
+        ],
+        "q102_boi_cathedral_night": [
+          "Won't get anything done just standing around. Still, staying up here would be a smart idea."
+        ],
+        "Q105_Coen_chatter_rebel_meeting_point": [
+          "This must be Sara."
+        ],
+        "Q105_dlg_gmpl_21_Vlad_house_silver_arrowheads_SOI": [
+          "This sack's much smaller… but still rather heavy. Huh."
+        ],
+        "Q105_dlg_gmpl_coen_see_renna_body": [
+          "Those damn soldiers branded her a traitor."
+        ],
+        "q105_dlg_gmpl_coens_extra_commentary": [
+          "These keys could come in handy..."
+        ],
+        "Q105_dlg_gmpl_guard_post_coen_chatters": [
+          "Looks like a wedding ring... Should be tied to some strong emotions."
+        ],
+        "q105_flour_bags_ns_FG": [
+          "Silver spearheads... So this is how the rebels were smuggling their contraband!"
+        ],
+        "q105_flour_on_coat_ns_FG": [
+          "Huh. I've never seen Vlad wear this."
+        ],
+        "Q105_Guard_Post_Coen_chatters": [
+          "Sold Mert's things, huh? I think I know who’s got them now."
+        ],
+        "q105_narrator_part2_ns_FG": [
+          "Who needs this much flour...?"
+        ],
+        "Q105_Rebel_Meeting_Point_Coen_gmpl": [
+          "The rope is cut. They must have tied someone to a tree."
+        ],
+        "Q105_Vladimir_coat_SOI": [
+          "There is a piece of bread inside... No longer fresh, though it hasn't gone stale yet"
+        ],
+        "Q105_vlads_house_investigation": [
+          "They marked him as a traitor... No surprise, I guess."
+        ],
+        "Q106_Bloody_Marks_Chatters": [
+          "The trail leads outside the city..."
+        ],
+        "Q106_dlg_gmpl_01a_Coen_commentary_when_he_want_to_meet_Sara_at_night": [
+          "Right place, wrong time. I should come back here by daylight."
+        ],
+        "Q106_dlg_gmpl_04_Scouts_house_BOI": [
+          "Wait. Is that blood I see next to the cart?"
+        ],
+        "Q106_dlg_gmpl_28_Age_of_Heroes_Thief_body_BOI": [
+          "Still clutching the hilt... They were surprisingly well-armed for a gang of thieves."
+        ],
+        "Q106_dlg_gmpl_40_Astrologer_book_SOI": [
+          "Who knows what harm it could cause in the wrong hands?"
+        ],
+        "q106_dlg_gmpl_coens_extra_commentary": [
+          "This mark... Could this be one of the hidden rebel caches?"
+        ],
+        "q300_gmpl_calling_people": [
+          "Yanna?! Mirto?!"
+        ],
+        "q300_gmpl_worry_lines": [
+          "Please, God, let them be all right..."
+        ],
+        "sq001_inspect_broken_statue": [
+          "Holy images... Hacked to pieces, as Brencis ordered."
+        ],
+        "sq001_inspect_defiled_grave": [
+          "Clay-like, red soil here..."
+        ],
+        "sq001_inspect_grave_01": [
+          "Died of the plague."
+        ],
+        "sq001_inspect_grave_02": [
+          "Alin... Rest in peace, little brother."
+        ],
+        "sq001_inspect_kvets_tombstone": [
+          "Poor boy..."
+        ],
+        "sq001_investigation_conslusion": [
+          "Huh. Some of the wet soil stuck to the soles of the robber's shoes."
+        ],
+        "sq001_old_priest_grave": [
+          "Oh, Father Adalbert, you wouldn't want to know what the vrakhiri did to your church..."
+        ],
+        "sq001_tracks_dead_end": [
+          "This shovel, though... Looks recently used."
+        ],
+        "sq001_tracks_further_away": [
+          "Where do they lead...?"
+        ],
+        "sq001_tracks_further_away_material": [
+          "Strands of wool... Ripped from someone's clothes?"
+        ],
+        "sq001_tracks_further_away_torch": [
+          "A burned-out torch..."
+        ],
+        "sq001_tracks_near_grave": [
+          "Footprints... Right next to Kvet's grave. And bigger than Crina's, too."
+        ],
+        "sq001_vlads_shovel": [
+          "Ha. Same colour as the soil from the cemetery."
+        ],
+        "sq002_02_pig_found": [
+          "[take the pig back to Iorgu]"
+        ],
+        "sq002_2_pig_followup_gpl": [
+          "What's up? Did you find something?"
+        ],
+        "sq002_coen_shout_to_pig": [
+          "I will catch you!"
+        ],
+        "sq002_pet_pig_coen_house": [
+          "You're smarter than people think, eh?"
+        ],
+        "sq002_pig_tracks": [
+          "Cloven hooves."
+        ],
+        "sq003_coen_reacts": [
+          "What did you just say?"
+        ],
+        "sq005_finding_torch": [
+          "What's this? A bag?"
+        ],
+        "sq005_lazar_found_reaction": [
+          "Thank God! He's alive."
+        ],
+        "sq005_lazar_mud_foottracks": [
+          "They're recent..."
+        ],
+        "sq005_lazar_tracks": [
+          "Wolf tracks."
+        ],
+        "sq005_wolfs_lair": [
+          "Aw, shit."
+        ],
+        "sq006_about_cane": [
+          "Hah. A cane."
+        ],
+        "sq006_clue1_comment": [
+          "A piece of cloth..."
+        ],
+        "sq006_clue2_comment": [
+          "Footprint. Far too wide to be Gremla's."
+        ],
+        "sq006_clue3_comment": [
+          "Huh. A hole... As if left by a stick? Or a cane."
+        ],
+        "sq006_clue4_comment": [
+          "Blood? Maybe the thief cut himself taking the banner off the loom."
+        ],
+        "sq006_clue5_comment": [
+          "The pegs are broken... Someone must've yanked the banner off the loom in a hurry."
+        ],
+        "sq006_clues_summary": [
+          "So it's someone who walks with a cane – and has an injured hand."
+        ],
+        "sq006_loom_clue": [
+          "Gremla's loom."
+        ],
+        "sq708_18a_FillBowl_NEW": [
+          "[peer inside]"
+        ],
+        "sq708_21_SoldiersBeforeDuel": [
+          "[wait for nightfall]"
+        ],
+        "sq708_25_IuliansFuneral": [
+          "[pray]"
+        ],
+        "sq708_XX_gmplPikes": [
+          "What the hell has he done...?"
+        ],
+        "sq708_XX_TatzelWurmCave_Comments": [
+          "[yell]"
+        ],
+        "sq708_XX_WurmIntro": [
+          "[camera pans to sleeping wurm]"
+        ],
+        "sq709_08_daughter_decision": [
+          "[spare her life]"
+        ],
+        "sq709_gmpl_01_path_comments": [
+          "Where did they come from? Did Xanthe open Hell's gates?"
+        ],
+        "sq709_spell_book": [
+          "Interesting... I think I can make use of that. But the question is – should I?"
+        ],
+        "sq710_debug_dlg_gmpl_CoenCollectsLoot": [
+          "Another vrakhir in Svartrau? Huh, interesting."
+        ],
+        "sq710_dlg_cinematic_24_Bench": [
+          "[wait until the tournament begins]"
+        ],
+        "sq710_dlg_cinematic_25_PoisonPlant": [
+          "[walk away]"
+        ],
+        "sq710_dlg_cinematic_26_LiquorBarrel": [
+          "[step away from the barrel]"
+        ],
+        "sq710_dlg_faux_DIS_trap": [
+          "[sniff] The stench is coming from the left hole... Ugh, whatever’s rotting in there absolutely reeks."
+        ],
+        "sq710_dlg_gmpl_CoenComments": [
+          "[exhales] Since that’s settled, I suppose it’s back to Farkas the Fox and his shady family affairs... Or, I could go straight after the ring, couldn’t I?"
+        ],
+        "sq710_dlg_gmpl_CoenRingInvestigation": [
+          "Steel ring. Yellow moon."
+        ],
+        "sq710_dlg_gpl_coda_02_FarkasPossessed": [
+          "[sniff] Uh... I don't like that smell. Something bad happened here."
+        ],
+        "sq711_00_astrologist_door": [
+          "[peek through the window]"
+        ],
+        "sq711_03_chopping_wood_dis": [
+          "What the Hell is going on?!"
+        ],
+        "sq711_06_coen_comments_memories": [
+          "[sobs]I knew I shouldn't have, it felt wrong – But I didn't listen – Ahh!"
+        ],
+        "sq712_05_before_push_shelf": [
+          "This shelf doesn't look too heavy..."
+        ],
+        "sq712_07_DIS_push_ruin_shelf": [
+          "[grunts]"
+        ],
+        "sq712_10_ruins_frescoes": [
+          "What have we here..."
+        ],
+        "sq712_10_treasury": [
+          "There is a gap in the wall here..."
+        ],
+        "sq712_15_florin_hideout": [
+          "So this is where Father Florin made his plans."
+        ],
+        "sq712_20_StoneChest": [
+          "[use the strange stone key]"
+        ],
+        "sq712_20_strange_house": [
+          "Why would someone dig a hole inside a house?"
+        ],
+        "sq712_30_aoh_ruins": [
+          "[sigh] Tried to stand his ground... Poor man."
+        ],
+        "sq712_99_misc_comments": [
+          "[exhale] It... it's finally down..."
+        ],
+        "sq713_askars_house_investigation": [
+          "Think I've seen something just like it before..."
+        ],
+        "sq713_Coen_chatters": [
+          "Who's he talking to? Some woman... "
+        ],
+        "sq713_Coen_enters_tantari": [
+          "Here we are, Tantari. Now, to find this Ascar... A house with beehives, was it?"
+        ],
+        "SQ713_dlg_cinematic_10_Ascar_house_window": [
+          "[wait until morning]"
+        ],
+        "SQ713_dlg_cinematic_Ascar_dog": [
+          "[shoo the dog away]"
+        ],
+        "SQ713_dlg_cinematic_Ascar_house_door": [
+          "[open the door]"
+        ],
+        "SQ713_dlg_cinematic_Beehaves": [
+          "[use the bee smoker]"
+        ],
+        "sq713_spying_Askar_in_woods": [
+          "Nothing suspicious... At first glance, at least."
+        ],
+        "sq714_05_vicho_house": [
+          "What's all this...?"
+        ],
+        "sq714_15_jeweler_second_floor": [
+          "[sigh] Poor woman."
+        ],
+        "sq714_18_jeweler_basement": [
+          "Wine and food stains."
+        ],
+        "sq714_55_secret_farm": [
+          "[exhale] Still doesn't really explain what happened here."
+        ],
+        "sq714_60_vicho_suicide": [
+          "What a wretched existence..."
+        ],
+        "sq714_secret_farm_doors": [
+          "[open the door]"
+        ],
+        "sq715_00_wait": [
+          "[wait for night]"
+        ],
+        "sq715_06_after_bossfight": [
+          "[sob]"
+        ],
+        "sq715_herald_comment": [
+          "Brencis wants to meet... Might be a trap. Or maybe he's finally scared of me..."
+        ],
+        "sq715_marking_hideout": [
+          "[mark hideout for Brencis]"
+        ],
+        "sq715_meeting_place_investigation_gpl": [
+          "Working here... was even worse than the mines."
+        ],
+        "sq716_13_AndreisDesk": [
+          "[take the ring]"
+        ],
+        "sq716_15c_pig_cage": [
+          "[open the cage]"
+        ],
+        "sq716_gmpl-cin_CoenFistfightBarks": [
+          "How d'you like that!"
+        ],
+        "sq716_gmpl_xx_CoenCatchingCrawfish": [
+          "Is that... Uh, no. Just some trash."
+        ],
+        "sq716_gmpl_xx_CoensComments": [
+          "Well, this could work, too. Hm."
+        ],
+        "sq717_90_wakeup": [
+          "[stay]"
+        ],
+        "sq719_00_volk_assignments": [
+          "Wolf tracks... And recent, too."
+        ],
+        "sq719_04_ointment_interactive_ns_FG": [
+          "[start preparing the ointment]"
+        ],
+        "sq719_04_pieter_stash_ns_FG": [
+          "What's this? A letter? No... More like a confession..."
+        ],
+        "sq720_01_burrow_intro": [
+          "Who's that? Hello?"
+        ],
+        "sq720_02_boy_investigation": [
+          "[cough] So much dust..."
+        ],
+        "sq720_03_dead_brother_comment": [
+          "Tonis? Shit, he's dead. Bitemarks all over... Very small ones."
+        ],
+        "sq721_00_BeforeQuestRuins": [
+          "[sigh] Won't budge."
+        ],
+        "sq721_200_AncaDead": [
+          "Oh fuck. Oh shit. No, no, no. No!!!"
+        ],
+        "sq725_01_coen_comments": [
+          "I... I could feed on animals. Or... or Brencis's men, they deserve it."
+        ],
+        "Swordmasters_Coen_Lose_comments": [
+          "You're good. Really good. And I think I'm done for now."
+        ],
+        "Swordmasters_Coen_Yielding": [
+          "Stop! I've had enough."
+        ],
+        "ob103_1_coen_comments_gpl": [
+          "Bakir's men... Shit, are they burning someone alive?!",
+          "They're still alive..."
+        ],
+        "poi101_01_coen_comments": [
+          "I think I must be close now...",
+          "That sound... I swear I've heard it before...",
+          "Yes, the sound’s coming from here… The upper floor."
+        ],
+        "poi102_1_coen_comments": [
+          "Hm. Kobolds must've lived here for quite a while...",
+          "Home sweet home... Hmm.",
+          "Huh. Kobold art... Who'd have thought.",
+          "Huh. These look familiar...",
+          "The paint's peeling. It's old...",
+          "Uhh... I guess that's what she sent me after.",
+          "What a merry scene.",
+          "What's that sound?"
+        ],
+        "poi103_01_coen_comments": [
+          "Ah? What's that?",
+          "Drag marks and blood. Doesn't bode well.",
+          "Empty. Nothing of value. Huh.",
+          "Huh. The embers are still warm.",
+          "Someone turned off the road here... To camp out, I guess?",
+          "The camp's been deserted... Curious.",
+          "This bedding is clean... No one would just leave it like that."
+        ],
+        "poi104_1_coen_comments": [
+          "Blood, signs of struggle...",
+          "Good God! They've been massacred...",
+          "I know this sound...",
+          "Maybe he hoped to use it against Bakir...",
+          "Shit! This thing again!",
+          "Shit! What is this thing?!",
+          "Silver...? Intriguing.",
+          "Who turned you, I wonder... And why."
+        ],
+        "poi118_00_coen_comments": [
+          "'Razkovniche'... Is that the name of this seed?",
+          "'Razkovniche'... So I found its seeds!",
+          "'Razkovniche'... Was it kept here?",
+          "'Razkovniche'... What the hell does it mean?",
+          "A miraculous healing plant called razkovniche. Interesting.",
+          "An alchemist.",
+          "Anca seems more than capable. Or maybe someone in Svartrau... A medic, perhaps?",
+          "Anca seems more than capable. Or maybe the medic from the Silberstein quarter in Svartrau. ",
+          "I could try speaking to you. But not now. ",
+          "I guess that's enough. Now let's make a potion out of you.",
+          "I need someone who'd know how to make the potion.",
+          "I need to find someone who'd know how to use the recipe.",
+          "I should check on it in a while…",
+          "I'm taking you with me, razkovniche.",
+          "It needs some time. I'll come back later.",
+          "It wasn't here before. It's as if the plant lured it.",
+          "Let's give you more.",
+          "Let's put you here and see what happens.",
+          "Let's see what else I can find here.",
+          "Let's start with watering you. That's the least I can do.",
+          "Maybe I could plant the seeds, grow this thing... and use someone's help to make a potion.",
+          "Maybe someone in Svartrau... A medic, perhaps?",
+          "Now how to make razkovniche into a potion? I'd need a recipe.",
+          "Razkovniche was this man's obsession. He believed it to be a panacea.",
+          "Razkovniche wondrous potion... Seems useful, but the recipe is complicated. I may need some help with it.",
+          "Razkovniche wondrous potion... Seems useful, but the recipe is complicated. I'd never be able to brew it myself.",
+          "Seeds. I'm no expert... but they look odd.",
+          "So this razkovniche is a panacea – or at least that's what this person believed.",
+          "Some odd looking seeds. 'Razkovniche' is their name, I'd guess.",
+          "Something more potent than water... Blood, maybe?",
+          "The medic from the Silberstein quarter in Svartrau. Perhaps she could do it?",
+          "There's something unusual about this house.",
+          "These seeds may be useful. I'll take them.",
+          "These seeds – it must be razkovniche! They do look odd.",
+          "This plant needs more than just water - it needs fresh blood.",
+          "Too early to feed it yet.",
+          "Too early to water it yet.",
+          "You really like blood, little one. "
+        ],
+        "poi119_00_coen_comments": [
+          "Another one of these monsters.",
+          "Closed. The owner is still mourning his son. I'll try later.",
+          "I hate these creatures.",
+          "It looks old.",
+          "It was... like a vrakhir. But different.",
+          "Looks like a blood transport. Ambushed?",
+          "Lost a lot of blood.",
+          "So the monster smelled the blood, attacked the soldiers and fed on what was in the barrels.",
+          "Something hit the cart from the side. Something strong.",
+          "The barrels have been emptied.",
+          "The symbol on this ring... It was in the shop in Silberstein – on a tapestry.",
+          "The symbol on this ring... It's strange. I wonder if it stands for anything.",
+          "The trail leads off the road.",
+          "There was an engraving here... but it's unreadable now.",
+          "There's even more tracks...",
+          "This is intricate work. Whoever owned it must have been quite well-off.",
+          "What is that?!"
+        ],
+        "poi120_00_coen_comments": [
+          "A fresh body. The nearest village is Parlita. Maybe he's from there, and someone is still looking for him.",
+          "All possible means to ward off evil. ",
+          "Anca would be proud of me now.",
+          "And they all face the mountain.",
+          "Brencis... Did he live here before he took over?",
+          "Excerpts from something called 'Picatrix'... and 'Lemegeton'... These are occult grimoires.",
+          "I guess Anca would be proud of me now.",
+          "I have a hunch that something lives here.",
+          "I knew something lived here.",
+          "Is this Brencis's wife? Daughter? Mother? Someone he must have cared for.",
+          "It was hunting... which means it was hungry. If it had killed Iancu, it wouldn't have been. ",
+          "It was on a hunt. Seemed hungry.",
+          "It's Vale Sangora. Someone's been planning something. But what?",
+          "It's Vale Sangora. This is where Brencis planned his takeover.",
+          "It's probably from one of the bodies below.",
+          "Jesus...",
+          "Latin. It says: 'Helvia, 762nd year since the founding of the city'.",
+          "Looks like Brencis stopped visting the cave after he became knyaz.",
+          "Looks like a long-lost language.",
+          "Lots of Skender's men here... Can't be a coincidence.",
+          "Old blood stains... This high?",
+          "Rome was founded in 753 BC, so this would be... 9 AD.",
+          "So many of these bodies.",
+          "So there are monsters here.",
+          "So this was the beast that terrorised Parlita for years...",
+          "So this was the beast that terrorised Parlita for years... Hard to believe.",
+          "Someone had a lot of time to spare.",
+          "Someone put in a lot of effort. This woman must have been important to them.",
+          "Someone... lives here?",
+          "Something was written on it... but it faded.",
+          "The air feels different here. And it's far too quiet.",
+          "The cave goes deeper.",
+          "The tracks lead to this cave...",
+          "These candles are old. This shrine hasn't been used in a long time.",
+          "These remains have been here for years.",
+          "These tracks are quite fresh.",
+          "These tracks are quite fresh. They may be Iancu's.",
+          "This body is fresh. It must be Iancu. Shit.",
+          "This is Helvia, Brencis's wife.",
+          "This may be the monster's lair.",
+          "This must be his cave.",
+          "Was he the real monster terrorising Parlita?",
+          "Was he the real monster terrorising Parlita? And all these other creatures must have been his making.",
+          "What a revolting creature...",
+          "Who is she?"
+        ],
+        "poi121_00_coen_comments": [
+          "A roadside shrine, a fork in the road, crosses in the forest... and a cave marked with an 'X'.",
+          "An innkeeper in Svartrau mentioned a collapsed bridge. Maybe this is it.",
+          "Beams shattered with inhuman strength.",
+          "Hm. Skender's treasure is at the bottom of a mountain chasm. ",
+          "I think the inkeeper mentioned this story as well.",
+          "I wonder how much truth there is to this story.",
+          "I wonder if this is the bridge from the cathedral's chronicle.",
+          "I wonder what happened to this bridge.",
+          "Looks... promising.",
+          "No crossing to the other side.",
+          "Shit!",
+          "Skender's treasure is at the bottom of the chasm. If only there was a way to get there...",
+          "Skender's treasure... So it's true! If only there was a way to get to the bottom of that chasm...",
+          "The bottom of this chasm is a graveyard.",
+          "These again!",
+          "This is no simple sword. It looks razor-sharp.",
+          "This is no simple sword. This really must have been Skender's weapon.",
+          "This place is cursed.",
+          "Turns out it was all true.",
+          "What a horrible way to die."
+        ],
+        "poi122_00_coen_comments": [
+          "A journal... and a key!",
+          "A lone traveller. What were you looking for in these parts?",
+          "An old map of Vale Sangora. One place was marked.",
+          "I think this map leads to the the tomb I found earlier. And now I've got a key.",
+          "It's locked. I need a key.",
+          "Looks valuable. But the uriashi are watching me.",
+          "Maybe they could help me.",
+          "Now that's interesting.",
+          "Sturdy. Even an uriash couldn't force it. I need a key.",
+          "The cart was going this way. And the landslide crushed it.",
+          "The key worked! Now let's see what's inside.",
+          "The uriashi said something about other people coming here before.",
+          "There's something beneath the rocks.",
+          "There's something inside the satchel. ",
+          "This might help me a lot.",
+          "This must be the man the uriashi mentioned. Instead of ancient treasures, he found a sorry end.",
+          "Too late to ask them now, though.",
+          "Uriashi supplies. Nothing I could use.",
+          "Uriashi? Here? Hm.",
+          "With the map, I can find this place – and check what the key opens."
+        ],
+        "poi123_00_coen_comments": [
+          "A ceremonial burial of the hero. His sword is right next to him.",
+          "A key? I wonder what it opens.",
+          "A vrakhir attacked the tribe. The hero didn't manage to protect them all.",
+          "An ancient sword. Must have been a fine blade once.",
+          "Ancient stonework. It may be a part of something larger.",
+          "And what happened to the tribe?",
+          "But what happened to the tribe?",
+          "I think I recognise this place. It's somewhere in Vale Sangora.",
+          "If I find this place, I may also find the hero's shrine. It may hold something of value.",
+          "Is this the key to the shrine?",
+          "It's that cliff. That's where the hero fought and killed a vrakhir.",
+          "It's the hero – found dead...",
+          "Looks like the hero defended the tribe from the vrakhir. He may have even managed to kill him.",
+          "So after killing the vrakhir, the hero died of his wounds. He was then buried here.",
+          "So the hero defended the tribe from a vrakhir... but they killed each other in battle.",
+          "So the hero died and was buried here... But what killed him? Or who?",
+          "So the place I found earlier... It was a shrine devoted to an ancient hero. And now I have the key to open it.",
+          "The symbols on this key match the ones on the tomb I discovered.",
+          "There's something on top of this cliff. Looks like a shrine.",
+          "This is it! The spot from the fresco.",
+          "This is the place from the fresco! The shrine must be somewhere near.",
+          "This looks like a tomb.",
+          "This must be a place of worship.",
+          "This stonework looks ancient. I'm close.",
+          "Who was he? A god? A champion of old?",
+          "Won't budge. But there's a keyhole."
+        ],
+        "poi124_00_coen_comments": [
+          "Did the rubble kill you right away? Or did you get trapped under it, unable to crawl out?",
+          "I can't get down there - at least not during the day. ",
+          "I could take this pendant...",
+          "I must tread carefully.",
+          "I suppose I could find a way down there.",
+          "It all started while you were sleeping. You had no chance of escaping in time.",
+          "Jesus... How did this happen? The ground just... collapsed?",
+          "Old and useless, except maybe for a collector.",
+          "Seems you were a scholar and a collector. Rest in peace.",
+          "Some jewellery, but most of it looks like junk.",
+          "The sinkhole swallowed the whole house.",
+          "The tremors... Did the pendant cause them?",
+          "These tools are almost ancient. Why would anyone keep them?",
+          "This doesn't look like it belongs here. And it grew right next to the pendant... ",
+          "This is the pendant you wrote about... You were holding it right before you died.",
+          "You must be the owner of the house.",
+          "You were holding this pendant right before you died. Why was it so precious to you?"
+        ],
+        "q303_0_coen_comments_before_quest": [
+          "A side entrance? Huh. Who knew...",
+          "Could climb them come night...",
+          "So that key... It opens the side entrance to Greifberg!",
+          "The moment I'm in, all hell will break loose.",
+          "There it is, the side gate... Now, let's hope they didn't change the lock...",
+          "They'd be easy to climb... ",
+          "This must be the side entrance Florin mentioned..."
+        ],
+        "q303_1_coen_comments_courtyard": [
+          "I hope no more show up.",
+          "Not so tough without your master, huh?",
+          "Shit - this thing again.",
+          "That's all of them. Now let's hurry up.",
+          "What the hell is that?!",
+          "Where are you, Brencis? The throneroom, maybe?"
+        ],
+        "q303_3_coen_comments_inner_keep": [
+          "A lot of locked doors here. Shit!",
+          "Ah, it's getting tougher. Maybe it means I'm doing something right.",
+          "But... she sounded weaker. I'm on the right path.",
+          "Endlessly.",
+          "Feels like I'm losing my mind.",
+          "How is she doing this?!",
+          "How many of you are there?",
+          "How much longer?!",
+          "Huh? How? I've been here already...",
+          "I can't keep doing this forever.",
+          "I knew there was a way.",
+          "I need to stop this.",
+          "I'm going in circles... Wasting time...",
+          "It will be over soon.",
+          "Locked, but Brencis isn't there. He went to the dungeon.",
+          "Looks different... Maybe I'm out this time.",
+          "Looks different... Maybe that's how I break out?",
+          "Looks like my deal with Xanthe still stands. She's not in my way.",
+          "My servants will not stand in your way. But your path is dangerous still... And you must make haste.",
+          "Oh, shit!",
+          "Same fucking room...",
+          "Shit, this wasn't it.",
+          "Shit. At least Xanthe spared me her blood guards.",
+          "So you came.",
+          "The doors... Something changed.",
+          "The more you struggle, [laugh] the more this amuses me.",
+          "The throneroom should be close.",
+          "Then just give up.",
+          "This can't be!",
+          "This is it. I've found the way out!",
+          "This is your eternity. Accept it.",
+          "This looks like Xanthe's doing. But at least she won't show up here to stop me.",
+          "This whole place is pulsing with magic.",
+          "Welcome...  Make yourself at home.",
+          "What the hell...?",
+          "Xanthe...",
+          "Xanthe... She must be near.",
+          "You shall perish here...",
+          "You think you are clever? The deeper you go, the darker the path.",
+          "You'll stay here forever.",
+          "You're getting tired. Good.",
+          "[sigh] I must go deeper, then.",
+          "[sigh] I'm running in circles!",
+          "[sigh] These runes... They look like they mean trouble."
+        ],
+        "q303_4_coen_comments_dungeon": [
+          "Bakir was thorough, I'll grant him that...",
+          "God... Every single bone, broken...",
+          "He sent scouts outside the valley... in all directions. Is he planning to expand his domain? Conquer the neighbouring lands?",
+          "Hm, I could make use of this.",
+          "Hmph, thought-provoking read.",
+          "I hope it doesn't lead straight to Hell.",
+          "I know this. It's Lunka's. Oh, God...",
+          "I know this. It's Lunka's. She was here. Where did he take her?",
+          "I likely knew him.",
+          "It's an ancient place. What was it back in the day?",
+          "It's... a war room - where all of Brencis's schemes originate.",
+          "Jesus Christ – what is that?!",
+          "Likely the warden's handiwork... Glad I got that bastard.",
+          "Manumit sash...",
+          "Mauled to death. By those hounds, no doubt.",
+          "My entire family... put to death.",
+          "My family is still alive!",
+          "No other way but forward.",
+          "Shit. They probably got him because of me.",
+          "Something tells me he's the handler.",
+          "The memory Lacra and I saw... these must be the ruins.",
+          "The prisoners are gone.",
+          "This must be the way to the dungeon.",
+          "What is he up to?",
+          "Wonder if this is the warden's doing..."
+        ],
+        "q303_4a_coen_comments_pit": [
+          "Chills to the bone...",
+          "Dead... But why?",
+          "Doesn't bode well...",
+          "Huh? What's that sound?",
+          "It's as if the world itself were crumbling...",
+          "Just what is that...?!",
+          "Nightmares and phantoms...",
+          "Ominous...",
+          "Shit. What was that?!",
+          "They were running away from something..."
+        ],
+        "sq711_00_coen_comments": [
+          "Why are you doing this to me?!!",
+          "The well. Look down."
+        ],
+        "CD_BOI_Tower_Ambrus": {
+          "EB9D4FEF41876BD1459CD08572A9A484": "Anca's hut is over that way...",
+          "161DF7B64A4A5C5A4BB7B096DBD692FE": "Biggest mill in these parts.",
+          "D6E012BA463BAB8FC660308709C00F2C": "Brencis's men guarding the pass...",
+          "64884F664E5032D3A95E82BD64967E93": "Few brave these woods. Folks say they're chock-full of monsters.",
+          "A833346E4AB010578197F59A723E8BFB": "Home... What's left of it.",
+          "64507069454895CEC29C20A7DD928503": "Maragir monastery... Its best days are long behind it.",
+          "C61A88C54395CF501B571E879232D3D6": "Much good those gates did for us.",
+          "C546F3C5452E0FFD9EDA2CA5786F54BB": "St. Tyna's convent... Used to be such a vibrant place.",
+          "71D5D5A64EF6836876A846A263C5BE5B": "The horrors I've witnessed in this church...",
+          "EC28210C4923BC9E16E0C5BC6124AA8D": "These peat bogs have quite the reputation...",
+          "65B48F624714D86B5D8E9B87363DAA12": "This used to be a rest stop for pilgrims headed for St. Tyna's.",
+          "BA9468554823117F3331268391F58658": "Those swamps were always a desolate place... Even more so now, with the convent shut down.",
+          "1DE78A1F47D43EBEA38D038F46EBCA4D": "Unhallowed grounds... Resting place of the cursed and outcast.",
+          "FC6012D548C70D51CDD4AF9DDF12EB56": "Village of Maragir. Codrin's family's land.",
+          "B860547F47301525F2FBACAD32D77D59": "Yet another bog. Great."
+        },
+        "CD_Bakir_Tower": {
+          "AFED103C427834F787016B9517C547B5": "Boar's Back... Bristling with briar bushes and trees.",
+          "FD8DC1A8448CB721FBDAF7B9D9231DDA": "Charcoal burners's camp.",
+          "6F52993340D910430AF20C86FEA9C92A": "Oghasti. The plague hit it real hard...",
+          "7B13B3FD4D2EF6C97295D98E53A19189": "Parlita... Tiny hamlet, even before the plague.",
+          "529B0B8D4F10D310543A42951DF8D842": "Rockfall Woods. Few people live there.",
+          "A71A62B342AC5594514D2ABB10700B47": "Shrike's Crag... Old quarry turned into a mass grave.",
+          "81935E134B1935EF4A32C592DD727360": "The Rockfalls... Apt name."
+        },
+        "Coen_checkpoint_Firstreaction": {
+          "872274CE435CAE130B282A8D71486F4A": "What the hell is this? Is Brencis setting up pickets on the roads now?"
+        },
+        "CD_Xanthe_Tower": {
+          "07E7FCFE495F448DAB30A78AB0CD56AE": "Blood-lusting spectres haunt those marshes, if legends are to be believed...",
+          "69F41E7042173BB1A586CBBBA8B42D64": "Boyaress Xanthe's manor.",
+          "E0EF0FCE4FE1B4093BF1F4B542070A7D": "No one goes to these marshlands, unless they have a very good reason to do so.",
+          "874FA42943E609DB874DE9B6C2B1DD62": "Tantari, the Tatar village.",
+          "1CF57625415532125867A8BA5FF0CD42": "The Dobrescu estate... Or what remains of it.",
+          "0EAFE94E43E49415E70A59B7DA1978FD": "Way out of the valley... Guarded day and night by Brencis's men."
+        },
+        "q302_40_Brencis_BeforeFight": {
+          "BD729D354A1EDF25E3CAE5B7876D74F6": "Ah, yes. Feisty little creature. You love her the most, don't you? Of all of them.",
+          "354F0FBC41A47E681766E88A0AA6EA11": "Ah. You think yourself an expert on vrakhiri, don't you?",
+          "F9EF72394978BDADA11EADBD3FE7EF9B": "And so, I took certain precautions. Called upon powers beyond your comprehension and turned my vulnerability into a strength.",
+          "97DEA6604C9E57F188B17E921BAEBF8A": "And then I shall prop you against a wall and make you watch as I drain them all – one by one.",
+          "34E8A41349FF92AF4CDA9798A742760E": "As your mother's fate can attest.",
+          "D936C326475ADAED368BB4AC3D101CEC": "But I don't like weakness.",
+          "44EF083E4E6CFDA6D25281B817269AD2": "But aligning yourself with that despicable creature, Catalin?",
+          "06D72A92455FAF3214E775ABDCE92078": "But now? A mere human? I'll eviscerate you.",
+          "ED9290494848C60182C1DAB5438A359B": "But worry not. I shall put an end to your misery.",
+          "95830467432BC6E6ADF43384007DA256": "But you chose to spurn it.",
+          "F2165CDF431ECFD4EEA65FACB48C0D82": "Coen...",
+          "E83B8AA7401C0F6419E3B1BED45E49DA": "Fucking monster!",
+          "64E87C1145122A81B71CE5927C86098C": "Had you come here alone, maybe I'd be more amenable to offers of peace...",
+          "588F899748CAE9127886319D89C185DD": "Had you come here in the night, you might have had a sliver of a chance.",
+          "1F4C75AF4FB027B516C1F9B001697D57": "Haha!",
+          "6B12426C4FA12503C4106093B63FA747": "I extended an invitation to parley.",
+          "FE6726E74975A68ECB2C3B825C6EBCAE": "I made you an offer.",
+          "4238BF62482A7ED41D89AA9AB9C5466A": "I will break every little bone of yours, my unruly son.",
+          "A4F3508E47781885F5C10783FC25D354": "I'll start with your little brother, I think. Delicious blood. Very refreshing.",
+          "6266CE88460A259D4118B2B87AB6D021": "I'm afraid it's far too late for that.",
+          "0F7E9B1E4F6658F7A62597BDB935E5D9": "I'm not usually the one to give in to such theatrics. But I've made an exception.",
+          "EEF057E644DE8C68223D91AF3EEB0917": "Indeed. And bled yourself in the process.",
+          "82B90FBB438A33123AD017A7D01C701D": "Let them go.",
+          "945751F449D4353A6D14A287AB0E7258": "Let them go.",
+          "BE9C199E4B83F95F2345069D96F0C8D9": "Lunka – where is she?",
+          "387A991C41D46F4CDBE7F7A00A2AF9A3": "No. No, this can't be.",
+          "C12CDB964406776854D77BBFBA82F0D8": "Oh, no, I don't think so. I have different plans.",
+          "9B0634D24AFD5D5746CBC5A8B1F06230": "Oh, yes. It is. Alas, the sun... It's always been my greatest weakness – my Achilles's heel, if you will.",
+          "E5463C70454E056997629185B6F1370C": "Oh? Challenge accepted.",
+          "E851D7404D02C0B2535CD6B006A3F853": "Please – maybe we can come to an agreement.",
+          "04C179124FA00A1F30D7D3B526E6DAB5": "Please. Maybe we can come to an agreement.",
+          "0BECB2114762C8E7990A9CB705439D85": "Shh. You'll scare my guests.",
+          "B04BF364432779F58A247BB22A504965": "So I gathered my most esteemed guests for a little feast.",
+          "76F88A834235B652512C17A1BC8EE4DD": "Storming my castle in broad daylight, trying to fool me with naive little stratagems...",
+          "65E8C4C94B5E7811C4D522AC2826AFF1": "Such hubris demanded special punishment.",
+          "69E1F99B4261BF455F355ABD62FAC823": "Thank you for joining us.",
+          "7B8207FB441A63634864E2A897B5593F": "That's a slight I will not forgive.",
+          "4A4D2F4B499E52349724098DBC68A79A": "Try, then, you bald fuck.",
+          "8E33D42E460C52B77F557F825A976357": "Try, then, you bald fuck.",
+          "D4A0FE7040724B0E235616B55BED4AED": "Well... The return of the valley's rightful ruler merited a little celebration, wouldn't you agree?",
+          "EC2532634E04C780D0E26EA331767EBB": "What do you mean?",
+          "80EFC008477546875B5145900C0FC074": "What the hell are you talking about?",
+          "20EA16BA4CD7827BE931D2BBC38E7553": "What the hell is that mist? Isn't it still day outside? ",
+          "3968AE4D46FEB557C94F97A59C8A8177": "What the hell is this mist?",
+          "4C8663534C6D9DBA48E0E68CD3584F7C": "What the hell is this mist?",
+          "FC6502944F99957E4A33F287D1591399": "Where is she?!",
+          "55C09A92482FF20B90D9C2BB6012B0ED": "Where's Lunka?",
+          "72F3758E4D593923CF2ABE8D7B514339": "Where's Lunka?",
+          "0E3247E94FB7FEF1AA52BC8BB259D4C0": "You are my final guest, after all.",
+          "97210A674C45093BB3D5A59425EB5955": "You are my guests, after all... You and the elusive Crake.",
+          "1A05665349315814D1AAD286DC4581B9": "You enjoy playing with me like that?",
+          "D992C3EE4A25EFB81647ECAE8D70A355": "You enjoy playing with me like that?",
+          "F20D5B02433286E4C988FA937E57810C": "You enjoy playing with me like that?",
+          "84CAC4464947753D8FA31F8E77508A57": "You sound so sure of yourself. But we cut down all your men, all your allies.",
+          "410408384D05CC0C1266D4BA28202A08": "You understand nothing. And today, you will pay dearly for your ignorance.",
+          "8FF887144ADD002B32AFAE9D6DDAB257": "You'll have to go through me, first."
+        }
+      },
+      "vt": {}
+    }
+  }
+}

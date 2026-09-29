@@ -1,0 +1,4463 @@
+{
+  "_meta": {
+    "source": "Dialogues_All_with_speakers.json",
+    "file_role": "04_Other_named.json",
+    "structure": "character -> dialogue_sections + vt",
+    "notes": [
+      "Built fresh from Dialogues_All_with_speakers.json.",
+      "Full mixed-speaker sections are duplicated under each relevant non-Coen character.",
+      "06_Coen contains only sole-speaker Coen sections.",
+      "Unresolved GUIDs are preserved rather than discarded.",
+      "VT data exists only under vt; vt_e_/vt_c_ sections are not duplicated as dialogue sections.",
+      "Single-speaker dialogue sections are stored as arrays of plain lines.",
+      "Rebuilt with source-authoritative ordinary dialogue content; VT sets retained under vt."
+    ]
+  },
+  "characters": {
+    "Albertus": {
+      "dialogue_sections": {
+        "q102_01a_old_district_day": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.q102.beggar",
+              "line": "Hey, you! Come closer. Got something interesting. Give it to you for a coin, eh?"
+            },
+            {
+              "speaker": "Character.Background.q102.old_district_thug4",
+              "line": "I was hungry! It's been a couple of days since –"
+            },
+            {
+              "speaker": "Character.Background.q102.old_district_thug5",
+              "line": "What do you mean you ate it?"
+            },
+            {
+              "speaker": "Character.Background.q102.old_district_thug2",
+              "line": "Saw a couple of strangers skulking about the other day."
+            },
+            {
+              "speaker": "Character.Background.q102.old_district_thug3",
+              "line": "Really? Oh shit. I hope they won't bring any guards in here. Like we don't have enough trouble as it is."
+            },
+            {
+              "speaker": "Albertus",
+              "line": "The year... Wait, was it? Yes... Anno Domini... 796? No, no. 795."
+            },
+            {
+              "speaker": "Character.Background.q102.old_district_thug1",
+              "line": "Yeah? Maybe they had a few denarii on them, hm?"
+            }
+          ]
+        },
+        "q102_02_albertus_talk": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[write: 'Svartrau promenade.']"
+            },
+            {
+              "speaker": "Albertus",
+              "line": "Yes... yes. End chapter. But what now? What now! So little time, words fading..."
+            },
+            {
+              "speaker": "0949556B4339395A77757193F0CAF98F",
+              "line": "Abelard the Sorrowful?"
+            },
+            {
+              "speaker": "72FE52E944B55A5161B941A9F03A09AB",
+              "line": "Just tell me where Mihai's sword is and I'll go."
+            },
+            {
+              "speaker": "8AB0209448C24CA024571483C0DF77B3",
+              "line": "Stop the muttering, talk to me!"
+            },
+            {
+              "speaker": "4BF8A3BE4FE95A1C034B44AE26C6AAD2",
+              "line": "This is pointless. I'm leaving."
+            },
+            {
+              "speaker": "B0F66C584AB187C8776BBAA49A562BB1",
+              "line": "This is pointless. I'm leaving."
+            },
+            {
+              "speaker": "928534FA4D447806C83D239CB1CDF210",
+              "line": "What are you doing?"
+            },
+            {
+              "speaker": "F5A345BA4E54B4291430A7B08F5DCD17",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "BEC11145442905015E800E9F7C5CCE36",
+              "line": "[leave quietly]"
+            },
+            {
+              "speaker": "F50E933A4D99C4C129D1649FD0BEF8CA",
+              "line": "[pick up a piece of charcoal]"
+            },
+            {
+              "speaker": "D9E39D2F42E7980E41FFFBBFF616FDFD",
+              "line": "[write '...never found his solace in it.']"
+            },
+            {
+              "speaker": "D6EF24BD4BDC24BD45CF53A57802FF40",
+              "line": "[write '...never once set foot inside it.']"
+            },
+            {
+              "speaker": "BE6DB78840F7E387F4760AB80C6DE082",
+              "line": "[write: '...his penance, the place of his salvation.']"
+            },
+            {
+              "speaker": "4B5579CC4DC077570EBB2D965659EA52",
+              "line": "[write: '...his repentance, the place of his salvation.']"
+            },
+            {
+              "speaker": "CD50242244722CD34162FE8E46D32F7E",
+              "line": "[write: 'Abelard the Rueful.']"
+            },
+            {
+              "speaker": "0ADA6E964BD8AD32C96420A0A8AC1F54",
+              "line": "[write: 'I'm Coen.']"
+            },
+            {
+              "speaker": "FC0CF90748FDF90CA88CC69CD7ECB3F6",
+              "line": "[write: 'Svartrau hill.']"
+            },
+            {
+              "speaker": "6D3210144D3663BCF619A6B7707E41D3",
+              "line": "[write: 'Svartrau plaza.']"
+            },
+            {
+              "speaker": "1EDCFF524C6EA21B89ED3DA33E6A07FA",
+              "line": "[write: 'Where is St. Mihai's silver sword?']"
+            },
+            {
+              "speaker": "36FAF8AA46F69F66B2C54C9172A027F7",
+              "line": "[write: 'Where is St. Mihai's silver sword?']"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "What? No, no... Must focus.",
+          "You! Go away! Making my thoughts all... Agh."
+        ]
+      }
+    },
+    "Alin": {
+      "dialogue_sections": {
+        "cs_sq711_06_alin": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Alin?"
+            },
+            {
+              "speaker": "Alin",
+              "line": "Oh, Coen, I'm so cold."
+            }
+          ]
+        },
+        "q300_03_gmpl_ghost_alin": [
+          "Oh, Coen, I'm so cold."
+        ],
+        "sq711_06_alin_talk": {
+          "dialogue": [
+            {
+              "speaker": "Alin",
+              "line": "You were just a child. Only two years older."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why can't we talk more now?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Alois": {
+      "dialogue_sections": {
+        "cs_q002_02_entering_church": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Coen? We need to talk."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "The vrakhiri’s version of Heaven."
+            },
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "What is this?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What happened?"
+            },
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "Must be the devil himself..."
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "She didn't deserve this..."
+            }
+          ]
+        },
+        "sq006_02_Alois": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You haven't got hurt recently? Cut your fingers?"
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "Why would I? Hm?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Andrei": {
+      "dialogue_sections": {
+        "cs_q716_02_succesful_ritual": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.716.AndreisBodyguard",
+              "line": "Oh, God! Run!"
+            },
+            {
+              "speaker": "Andrei",
+              "line": "Aaaah! No… Ma – make it stop!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What the hell was that?!"
+            }
+          ]
+        },
+        "cs_q716_03_ocha_murders_andrei": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "Shit. Now, listen here –"
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "Please, no! Aaaagh….!"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[howls]"
+            }
+          ]
+        },
+        "sq716_12_andrei_main": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "You, friend. Wait here. We'll finish our business in a moment."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[attack]"
+            },
+            {
+              "speaker": "Character.Background.Butcher",
+              "line": "Sure thing, boss. You – let's go."
+            }
+          ]
+        },
+        "sq716_12_intro__Andrei_Meeting_at_Hideout": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.SQ716.Victim",
+              "line": "You... You'll have it! I pro-promise! Thank... thank you!"
+            },
+            {
+              "speaker": "Andrei",
+              "line": "You. Come, let's talk business."
+            },
+            {
+              "speaker": "Character.Background.Butcher",
+              "line": "Another customer, boss. Got silver."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay silent]"
+            }
+          ]
+        },
+        "sq716_14_andrei_cornered": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "You're making a huge mistake. And you can avoid it!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] Admittedly, I'd rather avoid that."
+            }
+          ]
+        },
+        "sq716_16_Andrei_Nora_At_the_Window": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "Who the – a vrakhir?! But the knyaz... No. You're not one of his. Lucky I have this then."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay hidden]"
+            }
+          ]
+        },
+        "sq716_gmpl_andrei_and_goons": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "Who the fuck is this? Kill him!"
+            },
+            {
+              "speaker": "Character.Background.716.AndreisBodyguard",
+              "line": "Thank you, boss."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Alright, you've had your chance.",
+          "Check it out - we got a jester here!",
+          "Come on, lad! Let's have some fun!",
+          "Idiot!",
+          "Is that meant to impress me?",
+          "Keep your distance, you fucking creep.",
+          "Kill this leech!",
+          "Let's fuck him up!",
+          "Put that away before you hurt yourself.",
+          "That's fucking enough!",
+          "That's really all you've got?!",
+          "Touch me again, I dare you.",
+          "You got lucky this time, you little shit!"
+        ]
+      }
+    },
+    "Atanas": {
+      "dialogue_sections": {
+        "q002_church_atanas": [
+          "You've got to leave me alone now."
+        ],
+        "sq003_02_vasil_and_atanas": {
+          "dialogue": [
+            {
+              "speaker": "Atanas",
+              "line": "Your elder asks something of you – and you're too busy?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You could say we had a little disagreement, I guess."
+            },
+            {
+              "speaker": "Vasil",
+              "line": "Nothing, pa."
+            }
+          ]
+        },
+        "sq003_02_vasil_and_atanas_B": {
+          "dialogue": [
+            {
+              "speaker": "Vasil",
+              "line": "Please... No."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[say nothing]"
+            },
+            {
+              "speaker": "Atanas",
+              "line": "You're telling me how to raise my own son? Is that right?"
+            }
+          ]
+        },
+        "sq003_atanas_lost": [
+          "You leave me be, now."
+        ],
+        "sq003_atanas_won": [
+          "You show me some respect, Coen. Or I'll beat it into you."
+        ]
+      },
+      "vt": {}
+    },
+    "BakirElite01": {
+      "dialogue_sections": {
+        "sq710_10b_BakirAndFarkas_labirynth_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[yawn]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "What about the last champion, My Liege? Sir Cockroach?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite02",
+              "line": "Yeah. But I've seen better."
+            },
+            {
+              "speaker": "Character.Background.BakirElite01",
+              "line": "Should we head down and stir things up? Kill some vermin?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite03",
+              "line": "[chuckle] And just as messy..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "BakirElite02": {
+      "dialogue_sections": {
+        "sq710_10b_BakirAndFarkas_labirynth_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[yawn]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "What about the last champion, My Liege? Sir Cockroach?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite02",
+              "line": "Yeah. But I've seen better."
+            },
+            {
+              "speaker": "Character.Background.BakirElite01",
+              "line": "Should we head down and stir things up? Kill some vermin?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite03",
+              "line": "[chuckle] And just as messy..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "BakirElite03": {
+      "dialogue_sections": {
+        "sq710_10b_BakirAndFarkas_labirynth_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[yawn]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "What about the last champion, My Liege? Sir Cockroach?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite02",
+              "line": "Yeah. But I've seen better."
+            },
+            {
+              "speaker": "Character.Background.BakirElite01",
+              "line": "Should we head down and stir things up? Kill some vermin?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite03",
+              "line": "[chuckle] And just as messy..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Brencis_Wife": {
+      "dialogue_sections": {
+        "cs_q104_03_memory_02": {
+          "dialogue": [
+            {
+              "speaker": "Young_Brencis",
+              "line": "You’re my wife. You’re coming with me."
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Isbrand",
+              "line": "The world won’t bend to your will and neither will the flames."
+            }
+          ]
+        },
+        "q104_gmpl_04_mem02_buildup": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.104_guard_01",
+              "line": "You're – what are you?"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "We're getting close."
+            },
+            {
+              "speaker": "Young_Brencis",
+              "line": "It is me. Stand aside, I'm going to see my wife."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Is that so."
+            },
+            {
+              "speaker": "Isbrand",
+              "line": "This is a terrible idea. Must you insist on learning it the hard way?"
+            },
+            {
+              "speaker": "Character.Background.104_guard_02",
+              "line": "No. That's not him."
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "Wh-what is happening?"
+            }
+          ]
+        },
+        "q300_gmpl_memory02": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Silence! Leave me be! "
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "Why didn't you insist he went? Why didn't you heed the gods?!"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "BrencisThug": {
+      "dialogue_sections": {
+        "q001_patrol_soldiers_dialogue_ns_FG": [
+          "Shit, my feet are killing me."
+        ],
+        "q001_poi_foreman_office_ns_FG": [
+          "Some sheets of parchment... They'll fetch a good price after they're scraped clean."
+        ]
+      },
+      "vt": {}
+    },
+    "Castaway": {
+      "dialogue_sections": {
+        "sq002_00_castaway": {
+          "dialogue": [
+            {
+              "speaker": "Castaway",
+              "line": "You better go back on the beaten path, then. Safer that way."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why do you live here? Like this?"
+            }
+          ]
+        },
+        "sq002_castaway_gmpl": [
+          "Yeah! Fuck off and never come back!"
+        ]
+      },
+      "vt": {}
+    },
+    "Cerbus": {
+      "dialogue_sections": {
+        "q105_cerbus_after_fight_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Cerbus",
+              "line": "No, no! Leave him be."
+            },
+            {
+              "speaker": "Coen",
+              "line": "No... no need."
+            },
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier5",
+              "line": "Should we arrest him, sir? He dared raise his filthy hand –"
+            }
+          ]
+        },
+        "Q105_Cerbus_chatters": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier10",
+              "line": "Yeah, sure... arse-licker..."
+            },
+            {
+              "speaker": "Cerbus",
+              "line": "You’ll learn the blade or find yourself on the wrong end of it!"
+            },
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier9",
+              "line": "Yeah, something doesn't add up, he –"
+            },
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier6",
+              "line": "Y-yes, sir."
+            },
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier5",
+              "line": "With your guidance, sir, we’ll be the finest soldiers in the realm!"
+            }
+          ]
+        },
+        "q105_cerbus_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Cerbus",
+              "line": "You don't strike me as a soldier...  And I’m not here to train peasants."
+            },
+            {
+              "speaker": "BD04315D4510CC1EA0FA6CBD7227FDED",
+              "line": "I hear you and the overseer have got a disagreement."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Tell me why."
+            },
+            {
+              "speaker": "D5FAC7FE4575059B3595699653DF3967",
+              "line": "I'll leave you be."
+            }
+          ]
+        },
+        "Q105_dlg_cinematic_30_Friedo_Cerbus_Coen_After_snitching": {
+          "dialogue": [
+            {
+              "speaker": "Friodo",
+              "line": "No, it won't be. We'll fix those loose lips of yours!"
+            },
+            {
+              "speaker": "Cerbus",
+              "line": "Thought you could run your mouth and get away with it, huh?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Crina": {
+      "dialogue_sections": {
+        "q002_church_crina": [
+          "Oh, Coen... Did you hear what happened? My little Kvet's grave! "
+        ],
+        "sq001_01_crina_intro": {
+          "dialogue": [
+            {
+              "speaker": "Crina",
+              "line": "Yes – a silver crucifix. But it was tiny, the size of a fingernail. Would anyone stoop so low?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "When did this happen?"
+            }
+          ]
+        },
+        "sq001_05_crina_ending": {
+          "dialogue": [
+            {
+              "speaker": "Crina",
+              "line": "Who... Who did it?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[say nothing]"
+            }
+          ]
+        },
+        "sq001_cirna_prayer": [
+          "They'll guard thee from harm while in dreamland's sweet charm..."
+        ],
+        "sq001_crina_crying": [
+          "Oh, Lord... Hasn't little Kvet suffered enough?"
+        ]
+      },
+      "vt": {}
+    },
+    "Dana": {
+      "dialogue_sections": {
+        "cs_q002_02_entering_church": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Coen? We need to talk."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "The vrakhiri’s version of Heaven."
+            },
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "What is this?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What happened?"
+            },
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "Must be the devil himself..."
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "She didn't deserve this..."
+            }
+          ]
+        },
+        "sq006_05_dana": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "You enjoy being young, lad. Even now, amidst all this."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You did just say you sprained your ankle in the woods..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Dusan": {
+      "dialogue_sections": {
+        "cc_parlita_night_terrors": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dusan",
+              "line": "Yeah, sure. I'll feast on some turnips and all my problems will go away."
+            },
+            {
+              "speaker": "Farkas",
+              "line": "You should eat more, if you want to get better."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_27_brother_swtd": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dusan",
+              "line": "[sobs]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[leave]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_coda_01_FarkasAlive": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dusan",
+              "line": "Well met, Master Friend."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[chuckle] As you can see, he shares our family's sense of humour. If only just a bit."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[chuckle] You can stop calling me 'master'. It's just Coen."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Evzen": {
+      "dialogue_sections": {
+        "cs_q002_02_entering_church": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Coen? We need to talk."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "The vrakhiri’s version of Heaven."
+            },
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "What is this?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What happened?"
+            },
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "Must be the devil himself..."
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "She didn't deserve this..."
+            }
+          ]
+        },
+        "sq006_03_evzen": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "This? Ah, it's nothing. Cut myself with a knife."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Farkas": {
+      "dialogue_sections": {
+        "cc_parlita_night_terrors": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dusan",
+              "line": "Yeah, sure. I'll feast on some turnips and all my problems will go away."
+            },
+            {
+              "speaker": "Farkas",
+              "line": "You should eat more, if you want to get better."
+            }
+          ]
+        },
+        "sq710_10b_BakirAndFarkas_labirynth_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[yawn]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "What about the last champion, My Liege? Sir Cockroach?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite02",
+              "line": "Yeah. But I've seen better."
+            },
+            {
+              "speaker": "Character.Background.BakirElite01",
+              "line": "Should we head down and stir things up? Kill some vermin?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite03",
+              "line": "[chuckle] And just as messy..."
+            }
+          ]
+        },
+        "sq710_27_peaceful_end_farkas": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You weren't telling me the whole truth."
+            },
+            {
+              "speaker": "Farkas",
+              "line": "[scoff] That... That's it...? That's your bloody answer?!"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_00_FarkasFirstTalk": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[sighs] Shame… I really hoped we could help each other."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You seem to know an awful lot."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_01_FarkasGivesQuest": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[sigh] Unfortunately, I can't do the same with your powers. I have to rely on your common sense instead."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your reasons for helping me?"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_02_FarkasPreGame": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Why would I talk to the other contestants? They're my enemies."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "In some circumstances, enemies can be turned into allies. Besides, it's good to know who you're against. Easier to pull the rug out from under them."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_07_BakirWelcomeSpeech": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[clears throat] Now, where was I? Ah, yes. I'd do anything for my friends! I share everything with them - food, drink, all my wealth!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay silent]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[gasp] What are you...? You bloody idiot..."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "You bathe them in gold, Lord Boyar!"
+            },
+            {
+              "speaker": "Character.Background.710.ContestantsChoir",
+              "line": "[cheer]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_10_BakirAndFarkasOnPlatform": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "B-But, my liege..."
+            },
+            {
+              "speaker": "Bakir",
+              "line": "Shut your mouth, Farkas! I’ll skin you too if you say another word!"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_12_FarkasMaze": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[stays silent]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "What the hell were you thinking?!"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_15_WillowTree": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You there! Finish this for us."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "N-No... I apologise."
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Background.Stelian",
+              "line": "[sobs] ...m-my salvation..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[exhale] I'm so sorry..."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_19_BakirSupper": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[sigh] I’m afraid you’ve disappointed me more than once. So, I'm sorry, but now you die."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sniff] It doesn't smell like wine. More like... blood."
+            },
+            {
+              "speaker": "Farkas",
+              "line": "You damn fool..."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_22_FarkasVault": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "You were set on killing Bakir, and I was after the ring. Bringing Dusan into it would only have complicated matters."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You've been quite resourceful yourself, Farkas."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_23_FarkasFinale": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[sigh] Goodbye, Master Coen."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_coda_01_FarkasAlive": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Dusan",
+              "line": "Well met, Master Friend."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[chuckle] As you can see, he shares our family's sense of humour. If only just a bit."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[chuckle] You can stop calling me 'master'. It's just Coen."
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_BakirAnnouncements": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Ring the bell, Farkas!"
+            },
+            {
+              "speaker": "Farkas",
+              "line": "Who, suffice to say, did not survive."
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_FarkasComments": [
+          "You can sit on the bench if you prefer to rest. "
+        ],
+        "sq710_dlg_gmpl_oh_FarkasOverhead": [
+          "The ring, the ring… I must have it."
+        ]
+      },
+      "vt": {
+        "vt_e": [
+          "At your service.",
+          "Excuse me...?",
+          "Having some fun, are we?",
+          "I enjoy your company, I really do. But I'd prefer a bit of room to breathe.",
+          "Is this a threat? Or poor manners?",
+          "No, no, no! Get up! Fight!",
+          "Not stopping, huh? How amusing.",
+          "Nothing like a good ol' brawl. How entertaining!",
+          "Oh well, a drop of rain never hurt anyone... I think. ",
+          "Oh, a visitor?",
+          "Oh, that’s just, uhm... lovely. Not terrifying at all.",
+          "Oof! That’s one way to make your greeting.",
+          "Oof. That must have hurt.",
+          "Well, that escalated quickly...",
+          "What in the devil’s name are you doing?!",
+          "What the devil...?! Stop! Please!"
+        ]
+      }
+    },
+    "Gavril": {
+      "dialogue_sections": {
+        "q002_church_gavril": [
+          "Wish father Adalbert was still here, and I could ask him to pray for Lazar..."
+        ],
+        "sq005_01_gavril_intro": {
+          "dialogue": [
+            {
+              "speaker": "Gavril",
+              "line": "Still no sign of him? I'm starting to get worried..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Wish I could help, but I'm in a bit of a rush."
+            }
+          ]
+        },
+        "sq005_06_gavril_outro": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You'll never believe me."
+            },
+            {
+              "speaker": "Gavril",
+              "line": "You stay safe, Coen. Despite everything."
+            },
+            {
+              "speaker": "Lazar",
+              "line": "Wait! I'm not letting you go without a reward! Take this."
+            }
+          ]
+        },
+        "sq005_gavril_after_quest": [
+          "Thank you again, Coen."
+        ],
+        "sq005_gavril_hook": [
+          "Hey there, Coen! Where you off to?"
+        ]
+      },
+      "vt": {}
+    },
+    "Gremla": {
+      "dialogue_sections": {
+        "q002_church_gremla": [
+          "Thank you again, Coen. Without you... Oh, makes me shudder even to think about!"
+        ],
+        "sq006_01_about_banner": {
+          "dialogue": [
+            {
+              "speaker": "Gremla",
+              "line": "Yes? What now?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What does the banner look like?"
+            }
+          ]
+        },
+        "sq006_07_gremla": {
+          "dialogue": [
+            {
+              "speaker": "Gremla",
+              "line": "You go to your family, Coen. You cherish every moment you have with them, happy or bitter... And..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Yeah. Not only him."
+            }
+          ]
+        },
+        "sq006_gremla_cry": [
+          "We're doomed. All of us! Not just me!"
+        ],
+        "sq006_gremla_oneliners": [
+          "Oh, this will be the end of me!"
+        ]
+      },
+      "vt": {}
+    },
+    "Iorgu": {
+      "dialogue_sections": {
+        "q002_church_iorgu": [
+          "Thank you again, Coen. Huh. What a day!"
+        ],
+        "sq002_01_iorgu_intro": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You know what? I think I did, actually. Kuno's got her."
+            },
+            {
+              "speaker": "Iorgu",
+              "line": "You're a godsend, Coen. Thank you so much. Just be careful, eh? You know what Kuno's like."
+            }
+          ]
+        },
+        "sq002_03_back_with_pig": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[stay quiet]"
+            },
+            {
+              "speaker": "Iorgu",
+              "line": "Your first time doing this?"
+            }
+          ]
+        },
+        "sq002_iorgu_oneliners": [
+          "Thank you, Coen! I owe you one."
+        ],
+        "sq002_upset_iorgu": [
+          "Where'd she get to this time..."
+        ]
+      },
+      "vt": {}
+    },
+    "Iorgus_Pig": {
+      "dialogue_sections": {
+        "sq002_02b_pig_caught": {
+          "dialogue": [
+            {
+              "speaker": "Iorgus_Pig",
+              "line": "*oink*!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[pet the pig]"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Iulian": {
+      "dialogue_sections": {
+        "sq708_05_IulianIntroduction": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "You see, our dear boyar... He was a simple man, before. An ordinary soldier."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You're right. How would we do it?"
+            }
+          ]
+        },
+        "sq708_06_EnteringSwamps": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "You go ahead."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You visit her often, huh? The poisoner friend?"
+            }
+          ]
+        },
+        "sq708_06_EnteringSwampsA": [
+          "I'm here, came as fast as I could. Let's not waste any more time."
+        ],
+        "sq708_06_EnteringSwampsB": [
+          "We turn here."
+        ],
+        "sq708_07_MangledBody": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "I don't like this one bit, Coen. Vera had better be safe."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Ugh..."
+            }
+          ]
+        },
+        "sq708_07_wolves_encounter": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "How? Does she hunt wolves?"
+            },
+            {
+              "speaker": "Iulian",
+              "line": "That's strange. She tends to keep the area safe from wildlife."
+            }
+          ]
+        },
+        "sq708_09_HutSpotted": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Will do."
+            },
+            {
+              "speaker": "Iulian",
+              "line": "Where the hell has she got to?"
+            }
+          ]
+        },
+        "sq708_10_HutInvestigation": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Yeah. Let's follow the tracks."
+            },
+            {
+              "speaker": "Iulian",
+              "line": "Yes. She likely didn't need more than one."
+            }
+          ]
+        },
+        "sq708_11_IulianSearches": [
+          "Where did you go, woman?"
+        ],
+        "sq708_12_Hut_After_Investigation": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "You lead the way – in case we come across some bigger game while we're out and about."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You wanted to deal with a witch?"
+            }
+          ]
+        },
+        "sq708_13_RitualSiteScene": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Christ, whatever she was running from was huge…"
+            },
+            {
+              "speaker": "Iulian",
+              "line": "No..."
+            }
+          ]
+        },
+        "sq708_14_RitualSiteInvestigationBOI": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Vera's bag is torn. The notes must've fallen out as she ran from whatever killed her."
+            },
+            {
+              "speaker": "Iulian",
+              "line": "We need them. Without these notes there's no ritual, no way to get back at Ambrus."
+            }
+          ]
+        },
+        "sq708_16a_FoundVeronicaBody_NEW": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "You don't understand, do you? I don't want to survive it."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq708_16b_AfterBodyAndBook_NEW": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Tell me what to do."
+            },
+            {
+              "speaker": "Iulian",
+              "line": "Which I know you're capable of. The boyar couldn't believe it when he first heard."
+            }
+          ]
+        },
+        "sq708_18_RitualPartOne_NEW": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "Would you mind finishing it?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "The pillars are marked - what does that mean?"
+            }
+          ]
+        },
+        "sq708_19_StartRitual_NEW": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "[gag] Holy... That's revolting."
+            },
+            {
+              "speaker": "Coen",
+              "line": "We're ready, I believe."
+            }
+          ]
+        },
+        "sq708_20_PostRitual": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "[scream] It burns!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[leave]"
+            }
+          ]
+        },
+        "sq708_22_Ambrus": {
+          "dialogue": [
+            {
+              "speaker": "Ambrus",
+              "line": "[scoff]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "Character.Background.sq708_spectators",
+              "line": "Yeah!"
+            },
+            {
+              "speaker": "Iulian",
+              "line": "[spit]"
+            }
+          ]
+        },
+        "sq708_26_AfterDuel": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "You're either delusional, stupid, or just plain cruel."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh]"
+            }
+          ]
+        },
+        "sq708_30_IulianFlagelant": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "They are in a different world now, they live a different life. They're safe, they're provided for. There's no more I can do."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Where are you going, then? What do you intend to do?"
+            }
+          ]
+        },
+        "sq708_32_IulianFlagelant_Oneliners": [
+          "[whispers to himself]"
+        ],
+        "sq708_50_IulianRefused_Oneliners": [
+          "It's time for you to go."
+        ],
+        "sq708_60_Ritual_Oneliners": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "This power feels... unpleasantly familiar."
+            },
+            {
+              "speaker": "Iulian",
+              "line": "[groan] What... those..."
+            }
+          ]
+        },
+        "sq708_61_Ritual_Iulian_Incantations": [
+          "Ha–Haec flamma – sanguinem flagitat... Sanguinem devorat."
+        ],
+        "sq708_99_Misc_Interactions": {
+          "dialogue": [
+            {
+              "speaker": "Iulian",
+              "line": "We need to find Vera. Please, no detours."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Yeah, this is where he wants to fight. Just need to wait until the sun sets."
+            }
+          ]
+        },
+        "sq708_XX_gmplIulianByTheBody": [
+          "You just went and left me alone with it, huh? Had enough of my shit?"
+        ],
+        "sq708_XX_gmplIulianSeesVeronica": [
+          "No... That isn't her, is it? It can't be."
+        ],
+        "sq708_XX_gmplMangledBodyNudge": [
+          "I think that's a person... over there."
+        ],
+        "sq708_XX_gmplWurmtimeIulian": [
+          "[scream]"
+        ],
+        "sq708_XX_gmplWurmtimeOver": [
+          "[groan]"
+        ]
+      },
+      "vt": {
+        "vt_c": [
+          "A little space, please.",
+          "And what is that for, hm?",
+          "Coen, where are you going?",
+          "Coen? Coen! Shit!",
+          "Come on!",
+          "Excuse you.",
+          "Fine, I'll wait for a bit. Whatever you're doing, better be worth it.",
+          "Finish it!",
+          "Handy...",
+          "I find that I don't mind the rain much anymore.",
+          "I won't go there with you, I'm sorry.",
+          "I'd really rather you didn't wander off right now.",
+          "Is that necessary?",
+          "Is this really necessary?",
+          "Let's find a different path, if possible.",
+          "Shit!",
+          "Watch out!",
+          "We do what we must.",
+          "What is the point of all this running around?",
+          "Why did you go there? Let's get back on track."
+        ]
+      }
+    },
+    "Kostel": {
+      "dialogue_sections": {
+        "CS003_brencis_attack_FG": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Please, this one time, just do what your old man –"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "They’re coming! "
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "What?! Our man… he said…"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I came here to fight."
+            }
+          ]
+        },
+        "cs_q001_01_Drinking_Kostels_Blood": [
+          "Help… Oh, God, no…"
+        ],
+        "cs_q001_03_transformation": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What did he do to me?!"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Kostel, no!"
+            },
+            {
+              "speaker": "Character.Background.Voices",
+              "line": "Vrakhir… Vrakhir!"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "You’re one of them… A leech…"
+            }
+          ]
+        },
+        "q001_06_kostel_new_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[press the wound]"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Yes, he must've lost a lot of it. We need to cauterise the wound, and quick."
+            },
+            {
+              "speaker": "Kostel",
+              "line": "No… No, no, no…"
+            },
+            {
+              "speaker": "87F1665047DD8B0D35993CAA8F8B50CC",
+              "line": "I shouldn't touch him."
+            },
+            {
+              "speaker": "6B690DC8483EE3FF6A005593D929AEDE",
+              "line": "Kostel, have you seen my father?"
+            },
+            {
+              "speaker": "BCAF637F42BFC8B970D7839BA4CB1B35",
+              "line": "Shhh. Easy."
+            },
+            {
+              "speaker": "4FE34B944F79D827AFBD00A40B5A8C32",
+              "line": "Vlad... I don't feel so good..."
+            },
+            {
+              "speaker": "0D072DDB482E8C1860F5A6BFAA11BECC",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "1CDB88994C2612E56E8752A33CFB718C",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "37F3664B4A12D9F9C4885F9B0AAED8D9",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "A043F488493A2F7E36A88BAC6F7D64DF",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "C08DC9684EE1BF953E6188A56EAD8479",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "CF0D0276496547B867BF90A53AF6B41D",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q300_05_gmpl_ghost_kostel": [
+          "Monster... Monster..."
+        ],
+        "sq001_02_finding_stash": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Sorry. Lost my way."
+            },
+            {
+              "speaker": "Kostel",
+              "line": "Really should've kept your nose out of this one, Coen."
+            }
+          ]
+        },
+        "sq001_03_confronting_vladimir": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Whoa! Whoa now, stop it! What's going on here?!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why did you do it?"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "I found him sneaking around. Snooping!"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Lazar": {
+      "dialogue_sections": {
+        "q002_church_lazar_gavril": [
+          "My leg still hurts... But that means I'm alive!"
+        ],
+        "sq005_02_finding_lazar": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Your brother was getting worried. Asked me to look for you."
+            },
+            {
+              "speaker": "Lazar",
+              "line": "You're not going to believe me."
+            }
+          ]
+        },
+        "sq005_03_undead_intro": {
+          "dialogue": [
+            {
+              "speaker": "Lazar",
+              "line": "Aaaaa!!!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Oh, fuck..."
+            }
+          ]
+        },
+        "sq005_04_undead_outro": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What was that thing?!"
+            },
+            {
+              "speaker": "Lazar",
+              "line": "What the hell was that?!"
+            }
+          ]
+        },
+        "sq005_05_exiting_tomb": {
+          "dialogue": [
+            {
+              "speaker": "Lazar",
+              "line": "So, uh... Any chance you're headed towards our field? Those wolves might still be around!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You knew these bogs are dangerous?"
+            }
+          ]
+        },
+        "sq005_06_gavril_outro": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You'll never believe me."
+            },
+            {
+              "speaker": "Gavril",
+              "line": "You stay safe, Coen. Despite everything."
+            },
+            {
+              "speaker": "Lazar",
+              "line": "Wait! I'm not letting you go without a reward! Take this."
+            }
+          ]
+        },
+        "sq005_lazar_crying": [
+          "Ouch... ow... ah... ah... "
+        ],
+        "sq005_peat_bog_hole": {
+          "dialogue": [
+            {
+              "speaker": "Lazar",
+              "line": "Ahh... Ahh... Ow... Ow..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Must've fallen right through... "
+            }
+          ]
+        },
+        "sq005_ruins_exit": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Can you feel it? Fresh air!"
+            },
+            {
+              "speaker": "Lazar",
+              "line": "Oh, God... Finally!"
+            }
+          ]
+        },
+        "sq005_tomb_1st_chamber": {
+          "dialogue": [
+            {
+              "speaker": "Lazar",
+              "line": "No... Oh God."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What's this? A skeleton of a dog... Or a wolf, maybe."
+            }
+          ]
+        },
+        "sq005_tomb_frescos": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Why is the sky red...?"
+            },
+            {
+              "speaker": "Lazar",
+              "line": "This is wrong. We should leave this place, now!"
+            }
+          ]
+        },
+        "sq005_tomb_props": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "This body is old... Centuries old."
+            },
+            {
+              "speaker": "Lazar",
+              "line": "Oh, no... No, no, no..."
+            }
+          ]
+        },
+        "sq005_tomb_rooms": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Who's there?!"
+            },
+            {
+              "speaker": "Lazar",
+              "line": "Oh God... Oh good God... We're going to die..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Mevasser": {
+      "dialogue_sections": {
+        "cc_city_neustadt_mevasser_petitioners": {
+          "dialogue": [
+            {
+              "speaker": "Mevasser",
+              "line": "You look worried, Ephraim. What's the matter?"
+            },
+            {
+              "speaker": "Character.Background.cc.Neustadt.commonfolk.6",
+              "line": "Rabbi, my mother-in-law's wound has opened again! Please, I need some of that tincture of yours!"
+            },
+            {
+              "speaker": "Character.Background.cc.Neustadt.commonfolk.5",
+              "line": "Rabbi, the merchants have no kosher meat to sell. What should we do?"
+            },
+            {
+              "speaker": "Character.Background.cc.Neustadt.commonfolk.4",
+              "line": "I don't need anything, rabbi. Just wanted to thank you for teaching our Leah how to read."
+            },
+            {
+              "speaker": "Character.Background.cc.Neustadt.commonfolk.8",
+              "line": "Rabbi, you need to have a word with some of the men. They're talking about arming themselves..."
+            }
+          ]
+        },
+        "Mevasser_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Mevasser",
+              "line": "Yes. Curious indeed."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What led to the falling out between you and Crake?"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Back away! Back to the abyss with you...!",
+          "Come on now – get up!",
+          "Don’t you point that at me.",
+          "Feh! I’m too old for this.",
+          "Great, just what I needed... Wet beard and soggy feet.",
+          "Heaven help us!",
+          "Hm. Watch your step.",
+          "Meshuggeneh... Keep your distance, eh?",
+          "Oi! Where do you think you're going?",
+          "Oof. That’s bound to leave a mark.",
+          "Oy gevalt! What was that?",
+          "Oy vey… I told you not to play the hero, didn’t I?",
+          "What now? I'm busy.",
+          "What-what are you doing?!"
+        ]
+      }
+    },
+    "Mihai": {
+      "dialogue_sections": {
+        "cs_q102_2_mihai_destroying_wall": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Wait… Are you – are you Mihai?"
+            },
+            {
+              "speaker": "Mihai",
+              "line": "TOBIAS!!!"
+            }
+          ]
+        },
+        "q102_05_mihai_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Mihai",
+              "line": "You'll finally pay for what you did to me, Tobias!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I'm not – shit, listen to me!"
+            }
+          ]
+        },
+        "q102_05_mihai_gmpl_alt_night": {
+          "dialogue": [
+            {
+              "speaker": "Mihai",
+              "line": "You'll finally pay for what you did to me, Tobias!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I'm not – shit, listen to me!"
+            }
+          ]
+        },
+        "q102_06_mihai": {
+          "dialogue": [
+            {
+              "speaker": "Mihai",
+              "line": "Wish that I still could. But life... What's left of it... Draining..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You're saying you're like me?"
+            },
+            {
+              "speaker": "DDE8033F4663B82B915314B38507E1EB",
+              "line": "I don't understand – how did you end up here?"
+            },
+            {
+              "speaker": "F1D3065A469D91FD1A85538D4E3B677E",
+              "line": "I'm so sorry."
+            },
+            {
+              "speaker": "F094D8214AFE87744AB1EA88064A2C8C",
+              "line": "You need help."
+            },
+            {
+              "speaker": "4D55F1704B946C4D8A09479DCC0D4AFD",
+              "line": "You're like me...?"
+            },
+            {
+              "speaker": "5E5F27A844C6F4E42C122BBEF83133E4",
+              "line": "[DB: M. starts coughig violently. Suddenly, he grabs C. arm]"
+            }
+          ]
+        },
+        "q102_07_mihai_necrospeak": {
+          "dialogue": [
+            {
+              "speaker": "Mihai",
+              "line": "Won't have me. Won't... have me."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[compel soul]"
+            },
+            {
+              "speaker": "C1C5A37640D405A7B2FC769BAC99DC2C",
+              "line": "[leave]"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Nish": {
+      "dialogue_sections": {
+        "q103_03_nish_interrogation": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.q103_nish",
+              "line": "[spit]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh] All right. I've tried. I'm sorry, but the stakes are too high."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "What? You were serious there, with all the bonding?"
+            },
+            {
+              "speaker": "38D97A1D46BE4DBA9797DBA9D57C64EE",
+              "line": "All right."
+            },
+            {
+              "speaker": "C144B6534E023624609D9987406A4C2A",
+              "line": "All right. I've tried."
+            },
+            {
+              "speaker": "65106E55422BEA7B9A78949AD9668FDA",
+              "line": "Brencis is our common enemy."
+            },
+            {
+              "speaker": "39A58F8C424D89B43269448071926680",
+              "line": "Can the Elder meet us somewhere else?"
+            },
+            {
+              "speaker": "C00FD7D34376BDBF7D663A85689C4B19",
+              "line": "I can talk to your corpse."
+            },
+            {
+              "speaker": "3D6D6BA74FFCD5ADC4E408AF05BB61E2",
+              "line": "I cannot let this go, because of my family."
+            },
+            {
+              "speaker": "93ACDCA345069F411B2DB393634DA98B",
+              "line": "I have my ways."
+            },
+            {
+              "speaker": "190BAEDD417B8CF4D092E8ABFE0D52AD",
+              "line": "I need to know how to get to your village."
+            },
+            {
+              "speaker": "BAA307204299BD251B9599BB5C05DE43",
+              "line": "I'll do my best."
+            },
+            {
+              "speaker": "962E511741B03032C51EDF9B8AF3849C",
+              "line": "I'll try, but I can't promise you that."
+            },
+            {
+              "speaker": "E7E9960A44682AC03F87B397F8EBEFA1",
+              "line": "I'm not a regular vrakhir."
+            },
+            {
+              "speaker": "C314D4C645379F7A1CD74EA782130693",
+              "line": "Is it your choice to make?"
+            },
+            {
+              "speaker": "9A4D680A4DAE776BBB5719A5E0B3FBE3",
+              "line": "Just speak up."
+            },
+            {
+              "speaker": "53F6FF9C43705E405880398C3A92E632",
+              "line": "Lacra, that's not necessary."
+            },
+            {
+              "speaker": "394D83F94CAF412BF9DE07A17AB350B4",
+              "line": "No, Lacra, I got this."
+            },
+            {
+              "speaker": "711368044C64E032DCEB1D8962A1C150",
+              "line": "Tell me or she interrogates you again."
+            },
+            {
+              "speaker": "54D573994A8489E809CA91A09657D8D0",
+              "line": "That's not my problem."
+            },
+            {
+              "speaker": "96DE3F694A8E060AA13D638EE4FED607",
+              "line": "We'll find the village on our own."
+            },
+            {
+              "speaker": "50483F6F4C417122BC2316BDCEBD7450",
+              "line": "What did he do to you?"
+            },
+            {
+              "speaker": "CA1D188D49B82FACC46245A25287F0F2",
+              "line": "Why do you refuse to help your kin?"
+            },
+            {
+              "speaker": "860D6F30413A11D99ACD1A9751465120",
+              "line": "You act like Brencis's slave."
+            },
+            {
+              "speaker": "75F14BA84E847D06E9B8A8A52B28A8EE",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "B2E4354246B942532601ECA546A7885F",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q103_04b_nish_lacra_killed": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.q103_nish",
+              "line": "[bleat] She strong in arms. Not brains. But I bigger fool."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You didn't think I'd let her torture you, did you?"
+            },
+            {
+              "speaker": "7B5866AD4D7D29C45F318FB451C1EB4D",
+              "line": "What happened here?"
+            },
+            {
+              "speaker": "6C1DDBD24BF6C864BF6FBDACAB05440C",
+              "line": "You're free to go."
+            }
+          ]
+        },
+        "q103_04b_nish_necrospeak": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.q103_nish",
+              "line": "[bleat]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[compel soul]"
+            },
+            {
+              "speaker": "D4CE99F84E5E8F8690160997F4001C99",
+              "line": "[leave the corpse be]"
+            }
+          ]
+        },
+        "q103_17_nish_return": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.q103_nish",
+              "line": "You! You end village! I trust! And you kill!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Wait!"
+            },
+            {
+              "speaker": "749C08D345D34030A7FC6B8ED4232A0E",
+              "line": "I had nothing to do with it!"
+            },
+            {
+              "speaker": "4B6C44C749A12293ACE475A93DC076CE",
+              "line": "It had be done."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Good fight!",
+          "Good rain. Less people on street, more food on field.",
+          "Look out!",
+          "Never trust vrakhir!",
+          "Nish here.",
+          "No need blade.",
+          "Not easy!",
+          "Scared now?!",
+          "This bad.",
+          "This not good!",
+          "Vrakhir...",
+          "What you want?",
+          "You bored?",
+          "[bleats]",
+          "[bleats]",
+          "[bleats]",
+          "[bleats]"
+        ]
+      }
+    },
+    "NoName_Lacra": {
+      "dialogue_sections": {
+        "q104_gmpl_05_mem03_buildup": {
+          "dialogue": [
+            {
+              "speaker": "Lacra",
+              "line": "Trust me on this."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What was this for?"
+            },
+            {
+              "speaker": "Isbrand",
+              "line": "You think you can control it?! Hubris, do you know what that is?"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "[chant]"
+            },
+            {
+              "speaker": "Character.Background.NoName_Lacra",
+              "line": "[scream]"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Nora": {
+      "dialogue_sections": {
+        "cs_q716_03_ocha_murders_andrei": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "Shit. Now, listen here –"
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "Please, no! Aaaagh….!"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[howls]"
+            }
+          ]
+        },
+        "sq716_06_Ocha_Tavern_After_Fistfight": {
+          "dialogue": [
+            {
+              "speaker": "SQ716.Nora",
+              "line": "You strike me as one of the decent ones, Coen."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[spit] You good! Huh, I give more!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your mother wants you to return, Ocha."
+            }
+          ]
+        },
+        "sq716_07_Ocha_Nora_Tavern_Exposition": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You live here?"
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "You don't get to say no to me'. 'I don't care about whores's tears'."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[grunt]"
+            }
+          ]
+        },
+        "sq716_17_killed_andrei_early": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "Yes, I use. All use. Andrei use Ocha for money. You use Ocha for prize. Men use Nora. Shit world!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh] You should've been honest with me. If you'd shared your plan..."
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "Yes. We're... Free, now. Thank you."
+            }
+          ]
+        },
+        "sq716_18_Ocha_Nora_aftermath_Nora_lives": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You want to meet by the river?"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[bleat] Coen no blame. Andrei kill. Ocha slow too."
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "I... I'll be fine. Don't worry about me, you big lug."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "My God... What are you...?",
+          "Ooh, careful, alright?",
+          "Seriously, you need to back off.",
+          "Yes? What is it?",
+          "You get hit on the head or something?",
+          "You're not impressing anyone."
+        ]
+      }
+    },
+    "Ocha": {
+      "dialogue_sections": {
+        "cs_q716_01_ocha_fistfight_start": [
+          "Good! You stand! Now – fight!"
+        ],
+        "cs_q716_03_ocha_murders_andrei": {
+          "dialogue": [
+            {
+              "speaker": "Andrei",
+              "line": "Shit. Now, listen here –"
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "Please, no! Aaaagh….!"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[howls]"
+            }
+          ]
+        },
+        "Ocha_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[chuckle] Well, yeah. But do you have any specific place in mind?"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[laugh] Beyond mountains...!"
+            }
+          ]
+        },
+        "q300_10_gmpl_ghost_ocha": [
+          "Clan dead, but one live. Saw Coen. Saw she-vrakhir. Told me."
+        ],
+        "sq716_05_Ocha_Tavern_1st_Meeting": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Listen, I don't want any trouble –"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "See how fight, yes?"
+            }
+          ]
+        },
+        "sq716_06-07_OchaUntilQuestAccepted": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Maybe some other time."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "Sure. I here if change mind."
+            }
+          ]
+        },
+        "sq716_06_Ocha_Tavern_After_Fistfight": {
+          "dialogue": [
+            {
+              "speaker": "SQ716.Nora",
+              "line": "You strike me as one of the decent ones, Coen."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[spit] You good! Huh, I give more!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your mother wants you to return, Ocha."
+            }
+          ]
+        },
+        "sq716_07_Ocha_Nora_Tavern_Exposition": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You live here?"
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "You don't get to say no to me'. 'I don't care about whores's tears'."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[grunt]"
+            }
+          ]
+        },
+        "sq716_15_Ocha_After_Collecting_item": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You're right, no time for finesse."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "Yes... Coen right. Act rash, regret."
+            }
+          ]
+        },
+        "sq716_17_killed_andrei_early": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "Yes, I use. All use. Andrei use Ocha for money. You use Ocha for prize. Men use Nora. Shit world!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh] You should've been honest with me. If you'd shared your plan..."
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "Yes. We're... Free, now. Thank you."
+            }
+          ]
+        },
+        "sq716_17_Ocha_aftermath_without_nora": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "Yes. We talk soon? Outside city. Water there. Ri-ver. I like."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You're smarter then you're letting on, I'll grant you that."
+            }
+          ]
+        },
+        "sq716_18_Ocha_Nora_aftermath_Nora_lives": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You want to meet by the river?"
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[bleat] Coen no blame. Andrei kill. Ocha slow too."
+            },
+            {
+              "speaker": "SQ716.Nora",
+              "line": "I... I'll be fine. Don't worry about me, you big lug."
+            }
+          ]
+        },
+        "sq716_19_ocha_riverbank": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "[sigh] Yes! Coen smart, like Nora."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq716_20_Ocha_Riverside_Matriarch_is_Dead": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You talked to Nora's family, right? Must've been tough."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[spit] No honour. Now – die."
+            }
+          ]
+        },
+        "sq716_22_CoenOchaVSButcher": {
+          "dialogue": [
+            {
+              "speaker": "Butcher",
+              "line": "Shit! Lads, outside! Now!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "We're here to see Andrei. Move."
+            },
+            {
+              "speaker": "Ocha",
+              "line": "[groan] Move! Or I break all bone!"
+            }
+          ]
+        },
+        "sq716_99_barks_ocha": [
+          "You go to butcher, yes?"
+        ],
+        "sq716_gmpl-cin_OchaCoenCathingCrawfish": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "Yeah, think that enough! Come to fire, Coen!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Where are they hiding?"
+            }
+          ]
+        },
+        "sq716_gmpl-oh_OchaFistfightBarks": [
+          "[grunt] Small, but fight! Good!"
+        ],
+        "sq716_gmpl_cin_Ocha": [
+          "[groans] No talk, more do!"
+        ],
+        "sq716_gmpl_OchaOverhead": [
+          "Many body on city street. Leave, no interest."
+        ],
+        "sq716_gmpl_oh_OchaAndNoraRoomChat": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "We free soon!"
+            },
+            {
+              "speaker": "Character.Background.Petra",
+              "line": "The guy you beat up earlier. Who was he?"
+            }
+          ]
+        },
+        "sq716_gmpl_oh_OchaSpell": [
+          "No waste time!"
+        ],
+        "Swordmaster_Ocha_barks": [
+          "Strong for human! But how strong, hm?"
+        ]
+      },
+      "vt": {
+        "vt_e": [
+          "Coen! Where going?",
+          "Gooooooaghh!",
+          "Ha! Look, they fight! We join?",
+          "Ha, you funny.",
+          "Hey! No more funny, okay?",
+          "Human so weird...",
+          "I not going there, you silly.",
+          "Not understand. We doing or not doing?",
+          "Oh, we fight now?",
+          "Oh, you funny! I stay here.",
+          "Ooooh, something is happen...",
+          "So I wait here now? Stupid...",
+          "That... that no good.",
+          "Ugh, Coen better block!",
+          "Why going weird? Go straight!",
+          "Why leaving? Huh? Annoying!",
+          "Yeah? What want?",
+          "You back? For good, or?"
+        ]
+      }
+    },
+    "Otokar": {
+      "dialogue_sections": {
+        "sq006_04_Otokar": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Otokar",
+              "line": "You ever so much as scrape your knee... Get it covered up straight away. Otherwise they'll come to you like moths to a flame."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You walk with a cane, Otokar?"
+            }
+          ]
+        },
+        "sq006_otokar_oneliners": [
+          "Whatever we do or don't do, we're doomed."
+        ]
+      },
+      "vt": {}
+    },
+    "Petra": {
+      "dialogue_sections": {
+        "Nora_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You don't sound too pleased."
+            },
+            {
+              "speaker": "Character.Background.Petra",
+              "line": "Yes... Although we're not quite as close as we used to be."
+            }
+          ]
+        },
+        "sq716_gmpl_cin_Nora": [
+          "Good luck, Coen."
+        ],
+        "sq716_gmpl_oh_OchaAndNoraRoomChat": {
+          "dialogue": [
+            {
+              "speaker": "Ocha",
+              "line": "We free soon!"
+            },
+            {
+              "speaker": "Character.Background.Petra",
+              "line": "The guy you beat up earlier. Who was he?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Premysl": {
+      "dialogue_sections": {
+        "q002_church_premysl": [
+          "We shouldn't be here. We shouldn't be doing this."
+        ],
+        "sq006_06_premysl": {
+          "dialogue": [
+            {
+              "speaker": "Premysl",
+              "line": "You fear for others. I understand. But... If we don't fight, if we just obey, we're all doomed."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your wife died in the plague. You never had children."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "q001_Ludwig": {
+      "dialogue_sections": {
+        "q001_04_survivor_01_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "q001_Ludwig",
+              "line": "C-Coen? H-how? The vrakhir... Arhh..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You won't get it out of him. He's gone already. Fuck. Fuck!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "My father, did you see him? Ludwig? Ludwig!"
+            },
+            {
+              "speaker": "4E55AD8C4A38CF9A32DEEA828F4DC8AC",
+              "line": "Hold on, Ludwig. We'll help you."
+            },
+            {
+              "speaker": "68E065FC44671B79217B22A4D5E52ED0",
+              "line": "This isn't your fault."
+            }
+          ]
+        },
+        "q001_04_survivor_gpl": [
+          "No... Argh... No, oh Lord, no..."
+        ]
+      },
+      "vt": {}
+    },
+    "q101_Leonica": {
+      "dialogue_sections": {
+        "q101_17_leonica": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You need to put the knife down."
+            },
+            {
+              "speaker": "Anca",
+              "line": "You – you objected to magic. Swore you'd never have anything to do with it!"
+            },
+            {
+              "speaker": "q101_Leonica",
+              "line": "You! You and your sweet words. 'Don't you want to taste forbidden fruit? Bend reality with mere words?'"
+            },
+            {
+              "speaker": "11E013224482A7A7DD362983DB633984",
+              "line": "Don't you know you can't trust the Devil?"
+            },
+            {
+              "speaker": "696E45EB490D95FBE57AFBAF3ED73CE4",
+              "line": "The Devil...?"
+            },
+            {
+              "speaker": "B5DF9A394AD32151B1B6F2B77776EBA2",
+              "line": "We're not your enemies."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Aaaaah!",
+          "Apage!",
+          "Da vires, defende me a periculo...",
+          "Devil's spawn!",
+          "I don't fear you!",
+          "I won't give up! Not now!",
+          "No!!!",
+          "Percutite inimicos vestros, nolite misereri...",
+          "You shall not defeat me!",
+          "Your Judgement is nigh."
+        ]
+      }
+    },
+    "SQ710.Gavril": {
+      "dialogue_sections": {
+        "sq710_dlg_cinematic_04_KirillPreGame": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You could do more."
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "You want to slay them... Am I right?"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_08_KirilMaze": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Sure. Separate ways."
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "[sigh] Thank you."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_15_WillowTree": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You there! Finish this for us."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "N-No... I apologise."
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Background.Stelian",
+              "line": "[sobs] ...m-my salvation..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[exhale] I'm so sorry..."
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_KirilComments": [
+          "Ugh, when will this finally start?"
+        ],
+        "sq710_dlg_gmpl_KirilOverhead": [
+          "[sip]"
+        ],
+        "sq710_dlg_gmpl_MazeEntranceAmbience": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Constanta",
+              "line": "[grunt]"
+            },
+            {
+              "speaker": "SQ710.Milan",
+              "line": "No, no, no..."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "Ha!"
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "Oh, shit."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "SQ710.Sever": {
+      "dialogue_sections": {
+        "cs_q710_02_bakir_supper_part_I": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You may surrender your weapon now. We're among friends, aren't we?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your coin..."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "[muffled sounds]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_06_SeverPreGame": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You seem pretty sure of yourself."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "Yes, he does. But don't count on that honour being yours."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_07_BakirWelcomeSpeech": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[clears throat] Now, where was I? Ah, yes. I'd do anything for my friends! I share everything with them - food, drink, all my wealth!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay silent]"
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "[gasp] What are you...? You bloody idiot..."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "You bathe them in gold, Lord Boyar!"
+            },
+            {
+              "speaker": "Character.Background.710.ContestantsChoir",
+              "line": "[cheer]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_14_SeverMaze": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Wait... You did what?!"
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "You... sick bastard..."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_27_sever_followup": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Sever",
+              "line": "[sip]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sip]"
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_MazeEntranceAmbience": {
+          "dialogue": [
+            {
+              "speaker": "SQ710.Constanta",
+              "line": "[grunt]"
+            },
+            {
+              "speaker": "SQ710.Milan",
+              "line": "No, no, no..."
+            },
+            {
+              "speaker": "SQ710.Sever",
+              "line": "Ha!"
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "Oh, shit."
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_SeverComments": [
+          "Weaklings. Pff!"
+        ],
+        "sq710_dlg_gmpl_SeverOverhead": [
+          "Sod off!"
+        ]
+      },
+      "vt": {}
+    },
+    "Stelian": {
+      "dialogue_sections": {
+        "sq710_dlg_cinematic_15_WillowTree": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You there! Finish this for us."
+            },
+            {
+              "speaker": "SQ710.Farkas",
+              "line": "N-No... I apologise."
+            },
+            {
+              "speaker": "SQ710.Gavril",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Background.Stelian",
+              "line": "[sobs] ...m-my salvation..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[exhale] I'm so sorry..."
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "TheHive": {
+      "dialogue_sections": {
+        "q103_06_gmpl_cave_traversal": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You seem quite familiar with their habits."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "You try something, we'll find out how a roast kobold dinner smells. You hear me?"
+            },
+            {
+              "speaker": "TheHive",
+              "line": "Wrrrongs! Grrr! Ha!"
+            }
+          ]
+        },
+        "q103_07_gmpl_kobold_barks": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "[sniff] Dead Wrongs! Silly, silly! Yes, yes! We eat! [panting]"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Oh, a dinner invitation, is it?"
+            }
+          ]
+        },
+        "q103_08_gmpl_cave_drawings": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "Wrong! They want wrong! Break all! Grr, grr!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "[snort]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Yeah, looks just like you."
+            }
+          ]
+        },
+        "q103_13_meeting_the_hive": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "You smell tasty! We try eat! Try, try! But fail..."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "[snort] You're joking, surely?"
+            },
+            {
+              "speaker": "D272C0214C6B52C3C583CC8DE80FD352",
+              "line": "But do we live as well?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You will show us where Isbrand is?"
+            },
+            {
+              "speaker": "35135B05404A413127CFB88F4CAC8DD2",
+              "line": "Exactly!"
+            },
+            {
+              "speaker": "B052EDC044AC1FA9609A0C9D8EB7B0FB",
+              "line": "I stand by what I said. No deal."
+            },
+            {
+              "speaker": "FDA5AE414C3FB39106D187A82CB83CC5",
+              "line": "We can help."
+            },
+            {
+              "speaker": "61A75ABC4DE607C34002348B936D3AB7",
+              "line": "We're fine on our own, as you can see."
+            },
+            {
+              "speaker": "3FD0E88D46A488C942FE9CAD916AE618",
+              "line": "Where is Isbrand?"
+            },
+            {
+              "speaker": "94A2E54B4B11EC11B4916581DDECEBE0",
+              "line": "Why would we ever trust you?"
+            },
+            {
+              "speaker": "2E9B746849397AC03DE0718F67482A24",
+              "line": "Wrongs? Chonk?"
+            },
+            {
+              "speaker": "A358B69545D65C691563B8848194B75E",
+              "line": "You kept attacking us..."
+            },
+            {
+              "speaker": "22B2F1DE4DCA1EC88A82AA934B2FA32B",
+              "line": "You're right, let's find the way on our own."
+            }
+          ]
+        },
+        "q103_13b_pre_isbrand": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "Vrakhiri no hide! Vrakhiri fight! Yes, yes!!! Look! There! Ready!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What's on your mind?"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Yeah... I guess we should..."
+            },
+            {
+              "speaker": "08F1AD73404BA00D6C7EC0966DDF7CC5",
+              "line": "Is he conscious?"
+            },
+            {
+              "speaker": "A068D94C4E3763C085FD23A65D61E5BB",
+              "line": "What's on your mind?"
+            }
+          ]
+        },
+        "q103_14_hive_ending": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "Wrongs still in cave! Must kill! Yes, yes!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Oof, the big fuckers were 'you' before, you realise that, right?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh] You're too stupid to talk to. We're done wasting time here."
+            },
+            {
+              "speaker": "7491F02E459EFF608FC2BABCC203A758",
+              "line": "One step and you're just as dead."
+            },
+            {
+              "speaker": "AA34E81C413FB68D07AF02A831589167",
+              "line": "You said it wasn't a trap."
+            },
+            {
+              "speaker": "DFF9A83144729ECD88959DA6878E6DAE",
+              "line": "You want to die? Go ahead, we'll help."
+            },
+            {
+              "speaker": "232D59094279C2AA83F9A3AE9380D987",
+              "line": "You will lose your bond if you eat it."
+            },
+            {
+              "speaker": "27A2AB144D21BCF31EB92C9B15091E90",
+              "line": "You're too stupid to talk to."
+            }
+          ]
+        },
+        "q301_03_gmpl_dungeon": {
+          "dialogue": [
+            {
+              "speaker": "TheHive",
+              "line": "More vrakhiri?! Not with Brencis! No, no! Kill!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh]"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Your soul's doomed. At least make something of it..."
+            },
+            {
+              "speaker": "Character.Background.301_1st_soldier02",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Background.301_1st_soldier01",
+              "line": "What-what is this?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Tonis": {
+      "dialogue_sections": {
+        "sq720_02a_brother": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "You think it's funny?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[start chopping]"
+            }
+          ]
+        },
+        "sq720_02c_brother_night": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "You think it's funny?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[start chopping]"
+            }
+          ]
+        },
+        "sq720_03_brother_outside_burrow": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "Make it quick, please. I-I'm not going to wait forever."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Not just yet. I'll be back, soon."
+            }
+          ]
+        },
+        "sq720_04_reunion": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "You... You haven't changed a bit. Even your clothes are the same."
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "Tonis! Oh, Coen, you found him!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Something else must live here."
+            }
+          ]
+        },
+        "sq720_05_pixie_reveal": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.PixiesLeader",
+              "line": "You walk both in the sun and by the moon's pale light. You see more than others. You can be trusted."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay quiet]"
+            },
+            {
+              "speaker": "SQ720.PixiesKid",
+              "line": "You're not listening! I said I don't want to! "
+            },
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "Yes. A plaything for fucking monsters!"
+            }
+          ]
+        },
+        "sq720_07a_brother_after_quest": {
+          "dialogue": [
+            {
+              "speaker": "SQ720.LittleBrother",
+              "line": "Well, it's tough. Two mouths to feed now."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Take this. For you and Heile."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Back off, will ya?",
+          "Dodge! Dodge next time!",
+          "Fools...",
+          "Hey! Put that down!",
+          "Hey, watch where you're going!",
+          "Just leave, if you're going to act like this...",
+          "Monster! Get away from me!",
+          "Not right now.",
+          "Raining again, huh?",
+          "Stand up!",
+          "That's it. I'm out!",
+          "The hell?!",
+          "What-what are you?!",
+          "Who invited you in?"
+        ]
+      }
+    },
+    "Uriash_Blacksmith": {
+      "dialogue_sections": {
+        "c_uriash_village_blacksmith_1_gmpl": [
+          "Come, human! See uriashi steel – it better!"
+        ],
+        "Nareh_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "6880EBA843D58FA206F512A69F7C21FF",
+              "line": "A saint's relic."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give St. Tyna's necklace]"
+            },
+            {
+              "speaker": "Uriash_Blacksmith",
+              "line": "You. Stand. No move!"
+            },
+            {
+              "speaker": "E11C126E4692C9309CBAD5910C0A4E53",
+              "line": "Are you always this friendly?"
+            },
+            {
+              "speaker": "ECB28DE748D45671FD7F2BB8B9725885",
+              "line": "Are you from clan Bakr?"
+            },
+            {
+              "speaker": "ECBA2E3C4F15BE20B10D039D7798BB7D",
+              "line": "Bakr Clan is no more."
+            },
+            {
+              "speaker": "7F7648644CE6103CFDD4BE9ED039DC1F",
+              "line": "Bakr Clan might need a new Elder."
+            },
+            {
+              "speaker": "AD232F8E4A00EFFD2A9D9E81588367D8",
+              "line": "Brencis's soldiers are looking for you."
+            },
+            {
+              "speaker": "442AE1B24493507DDFE820B1C3CEF2F3",
+              "line": "Could you improve my gear?"
+            },
+            {
+              "speaker": "1FD880E54157A8FCD727F4AE0AD98D10",
+              "line": "I can pay you."
+            },
+            {
+              "speaker": "3D93C741411A498E36192AB0E1098E94",
+              "line": "I found all the components for the armour."
+            },
+            {
+              "speaker": "E8F314B341C6C33FC08B109F3A8749A9",
+              "line": "I got a letter that mentions you."
+            },
+            {
+              "speaker": "1505142A45F1E1FE819F46B5D732B08F",
+              "line": "I got a letter."
+            },
+            {
+              "speaker": "9BEEDB0B46C15086BBD137AA105D12EA",
+              "line": "I have all the blade shards."
+            },
+            {
+              "speaker": "6513FF5C4C823CF8CEDB0CBFE7E51093",
+              "line": "I have some blade shards."
+            },
+            {
+              "speaker": "4BAA2E644FF0559DCBC1CEB9313AD88B",
+              "line": "I have to go."
+            },
+            {
+              "speaker": "8BE2BC0D45DD28FBC85195AE5CACAD3A",
+              "line": "I heard about you."
+            },
+            {
+              "speaker": "8899A8FC4B66967D2DE76B840DF98092",
+              "line": "I need it to save my family."
+            },
+            {
+              "speaker": "5FCD87644E687FAB02F8D48438A51E7C",
+              "line": "I tempered the sword."
+            },
+            {
+              "speaker": "289423A04B3C8087A6EE7BAF565A6D77",
+              "line": "I was able to find one of the components for the armour."
+            },
+            {
+              "speaker": "AE7801B246997EF47A841AAD598CAD58",
+              "line": "I'd like to know more about you."
+            },
+            {
+              "speaker": "135B453C49B0F73FA279E8A3DE2E904A",
+              "line": "I've found this silver blade shard..."
+            },
+            {
+              "speaker": "86648C7B48E131B87AEB7FA6E0E61CBB",
+              "line": "I've got these silk threads."
+            },
+            {
+              "speaker": "9E355D5B45012563F20564B05E28C56B",
+              "line": "I've got this broken sword..."
+            },
+            {
+              "speaker": "F0056970436695D4ACC98A8D5AC495E3",
+              "line": "It seems like it. I'm sorry."
+            },
+            {
+              "speaker": "CCAE05ED4B997867C6DD3B95EE9821A1",
+              "line": "Maybe I can buy something?"
+            },
+            {
+              "speaker": "824C088A44263A56F2304791D8885D99",
+              "line": "No, I'm not."
+            },
+            {
+              "speaker": "1D46786246771AB3985F3B90FEDDD3A0",
+              "line": "Nothing for now, sorry."
+            },
+            {
+              "speaker": "5C7F9D484883BD9FFCA654820B94B62E",
+              "line": "One flask of quicksilver."
+            },
+            {
+              "speaker": "971D74574C426D9053985BA189A3877D",
+              "line": "She shouldn't have done that."
+            },
+            {
+              "speaker": "ED278B8A4B51BB67D09A678FB3071721",
+              "line": "So, the ritual you mentioned..."
+            },
+            {
+              "speaker": "D48A6F76459A324C6B55829889985A9A",
+              "line": "Still more? After all this?"
+            },
+            {
+              "speaker": "02A21B224B487C860A2885BFE05A7AEB",
+              "line": "Thanks for telling me."
+            },
+            {
+              "speaker": "C81042F247255EBC56E3609B001EE98A",
+              "line": "The reason is my own."
+            },
+            {
+              "speaker": "C6BC18FD443826445D7799854A8F7485",
+              "line": "What does it involve?"
+            },
+            {
+              "speaker": "0801996E40CABEA81086AAB827E0D93B",
+              "line": "Your horns... why are they missing?"
+            },
+            {
+              "speaker": "8988E5EE4625CF2A0B2FD3A896FCC7BF",
+              "line": "[Back]"
+            },
+            {
+              "speaker": "C32E10A444007E6ED08C6EB573E3FBAC",
+              "line": "[Back]"
+            },
+            {
+              "speaker": "C430C3FB48D88021AE0E39BEC6E33F53",
+              "line": "[Back]"
+            },
+            {
+              "speaker": "4264BC454BFD8F08D012648B3FA7C9D7",
+              "line": "[give St. Bretannio's amulet]"
+            },
+            {
+              "speaker": "05E7BFAA4AD75D7EAF5340A8BDB4B57E",
+              "line": "[give St. Dasius's heart]"
+            },
+            {
+              "speaker": "DCC67479482F6F9FAFE673BF2C8401A7",
+              "line": "[give St. Tobias's hand]"
+            }
+          ]
+        },
+        "POICH103_Ritual_Cinematic": {
+          "dialogue": [
+            {
+              "speaker": "Uriash_Blacksmith",
+              "line": "You master of armour. It bind. It protect! "
+            },
+            {
+              "speaker": "Coen",
+              "line": "You never told me your name."
+            },
+            {
+              "speaker": "AF074CD24E63A015A9C2BD959F36DA67",
+              "line": "I hope it's worth it."
+            },
+            {
+              "speaker": "AEDF02084DBB1F46D8705A95C2218C3E",
+              "line": "Music? What do you mean?"
+            },
+            {
+              "speaker": "4888271546F29AAD27A9A7B1D773A8AD",
+              "line": "Not sure if I'm ready yet."
+            },
+            {
+              "speaker": "FC5C7531409EA4336AF2958E8F1CC95C",
+              "line": "Sure. Stay safe."
+            },
+            {
+              "speaker": "B7A0FBF2481B23693C64B08354C6150F",
+              "line": "What are these 'shadows'?"
+            }
+          ]
+        },
+        "POICH103_Ritual_CinematicGameplay": {
+          "dialogue": [
+            {
+              "speaker": "Uriash_Blacksmith",
+              "line": "We close! I hear song! I hear blood!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Thanks for telling me!"
+            }
+          ]
+        },
+        "Uriash_Blacksmith_DLG": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Uriash_Blacksmith",
+              "line": "[bleat] If break, come buy."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why is your steel so good?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Vasil": {
+      "dialogue_sections": {
+        "ob108_1_chats": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.OB108.Onlooker01",
+              "line": "They should just go ahead and cut his foul tongue off!"
+            },
+            {
+              "speaker": "Vasil",
+              "line": "You think my tongue is foul? Come around from the other side, I'll show you foul."
+            },
+            {
+              "speaker": "Character.Background.OB108.Soldier01",
+              "line": "Quiet, both of you!"
+            },
+            {
+              "speaker": "Character.Background.OB108.Onlooker02",
+              "line": "What?! How dare you! Did you hear what he just said?!"
+            }
+          ]
+        },
+        "ob108_2_cages_captive_alive": {
+          "dialogue": [
+            {
+              "speaker": "Vasil",
+              "line": "Yeah. You, too."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why did they put you in a pillory?"
+            },
+            {
+              "speaker": "1B1C5F1A4A37A9A09F764597F7CACC24",
+              "line": "Good? What do you mean?"
+            },
+            {
+              "speaker": "473767DD4D7FF585C2E88BAB5B62ECE5",
+              "line": "Have you seen my family?"
+            },
+            {
+              "speaker": "34149C0A44E45F8BFA7C61A920A66D6A",
+              "line": "I'm sorry, Vasil. I shouldn't have."
+            },
+            {
+              "speaker": "99B4166142A43080E8CDF3A766FFE97A",
+              "line": "Not easy to break - what do you mean?"
+            },
+            {
+              "speaker": "911AB22A46E8FA70DD93ADA43DE65DBE",
+              "line": "Why did they put you in a pillory?"
+            },
+            {
+              "speaker": "6D31457F4070E4C072A6ADB52AD3044B",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "F2FA6C8949E9A61DDFD29F8AE31B4953",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "ob108_3_vasil_laslea": {
+          "dialogue": [
+            {
+              "speaker": "Vasil",
+              "line": "Yeah? What's up?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Will you stay here?"
+            },
+            {
+              "speaker": "87F678DA461908B41FC0DA980ACB5EDB",
+              "line": "Farewell."
+            },
+            {
+              "speaker": "2CE8F59F42C52944705201B0B3FF79F7",
+              "line": "I appreciate it."
+            },
+            {
+              "speaker": "C6F0EFB648929D29237BA6ACAC0CD34E",
+              "line": "That's still stealing."
+            },
+            {
+              "speaker": "72439D864E6CE581F20343B3E7B2F8BB",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "F54A83AD49B0DDC4BB89A49BB29EEAF8",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q002_church_vasil": [
+          "Want to beat me again? Get in the line."
+        ],
+        "sq003_01_vasil_grab": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Oh, I'll show you."
+            },
+            {
+              "speaker": "Vasil",
+              "line": "That what the old man said when you were born?"
+            }
+          ]
+        },
+        "sq003_02_vasil_and_atanas": {
+          "dialogue": [
+            {
+              "speaker": "Atanas",
+              "line": "Your elder asks something of you – and you're too busy?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You could say we had a little disagreement, I guess."
+            },
+            {
+              "speaker": "Vasil",
+              "line": "Nothing, pa."
+            }
+          ]
+        },
+        "sq003_02_vasil_and_atanas_B": {
+          "dialogue": [
+            {
+              "speaker": "Vasil",
+              "line": "Please... No."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[say nothing]"
+            },
+            {
+              "speaker": "Atanas",
+              "line": "You're telling me how to raise my own son? Is that right?"
+            }
+          ]
+        },
+        "sq003_03_vasil_last_interaction": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You're angry, I get it..."
+            },
+            {
+              "speaker": "Vasil",
+              "line": "You heard my old man, Coen. Mind your own business."
+            }
+          ]
+        },
+        "sq003_vasil_insult_1": [
+          "Oi! What's that stench, Coen? I bet your mum shat herself today."
+        ],
+        "sq003_vasil_insult_2": [
+          "Think Brencis will drain your ma tonight? Eh?"
+        ],
+        "sq003_vasil_insult_3": [
+          "Oi! Your ma learned how to talk yet?"
+        ]
+      },
+      "vt": {}
+    },
+    "Veronica": {
+      "dialogue_sections": {
+        "sq708_00_Veronica": {
+          "dialogue": [
+            {
+              "speaker": "Veronica",
+              "line": "You tell me."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Who are you?"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Vladimir": {
+      "dialogue_sections": {
+        "CS003_brencis_attack_FG": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Please, this one time, just do what your old man –"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "They’re coming! "
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "What?! Our man… he said…"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I came here to fight."
+            }
+          ]
+        },
+        "cs_q001_03_transformation": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What did he do to me?!"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Kostel, no!"
+            },
+            {
+              "speaker": "Character.Background.Voices",
+              "line": "Vrakhir… Vrakhir!"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "You’re one of them… A leech…"
+            }
+          ]
+        },
+        "cs_q002_02_entering_church": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Coen? We need to talk."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "The vrakhiri’s version of Heaven."
+            },
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "What is this?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What happened?"
+            },
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "Must be the devil himself..."
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "She didn't deserve this..."
+            }
+          ]
+        },
+        "cs_q002_03b_blood_mass_fin_e_dies": {
+          "dialogue": [
+            {
+              "speaker": "Esme",
+              "line": "No. No!!!"
+            },
+            {
+              "speaker": "Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "We have to. Please."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Mother..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "No!!!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "This herd needs culling."
+            },
+            {
+              "speaker": "Ambrus",
+              "line": "Time to pay your tithes. "
+            }
+          ]
+        },
+        "q001_01_coen_and_vlad_banter": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "We'll search every nook and cranny, if need be."
+            },
+            {
+              "speaker": "Coen",
+              "line": "We're running out of time..."
+            }
+          ]
+        },
+        "q001_01_vs_opening_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "2D0321124196D7EEB431CCB8F1E76224",
+              "line": "Are you hurt?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[cough]"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Your father, he warned me. Told me this would happen. Shit, shit, shit."
+            },
+            {
+              "speaker": "C462B867423A9E2AC90A7E9B8957BB49",
+              "line": "I've got to find him."
+            },
+            {
+              "speaker": "1DF771FC450457516EEB29B257E772A0",
+              "line": "What happened?"
+            }
+          ]
+        },
+        "q001_02_mine_main_entrance_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "The entrance has collapsed. We're trapped."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "There's another corridor leading outside, from a chamber deeper down."
+            }
+          ]
+        },
+        "q001_03_first_symptoms_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "I'm fine, it's just... My head..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You all right?"
+            }
+          ]
+        },
+        "q001_04_survivor_01_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "q001_Ludwig",
+              "line": "C-Coen? H-how? The vrakhir... Arhh..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You won't get it out of him. He's gone already. Fuck. Fuck!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "My father, did you see him? Ludwig? Ludwig!"
+            },
+            {
+              "speaker": "4E55AD8C4A38CF9A32DEEA828F4DC8AC",
+              "line": "Hold on, Ludwig. We'll help you."
+            },
+            {
+              "speaker": "68E065FC44671B79217B22A4D5E52ED0",
+              "line": "This isn't your fault."
+            }
+          ]
+        },
+        "q001_05_silver_dust_reaction": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What is this? Fireflies?"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Huh? I don't see anything."
+            }
+          ]
+        },
+        "q001_06_kostel_new_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[press the wound]"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Yes, he must've lost a lot of it. We need to cauterise the wound, and quick."
+            },
+            {
+              "speaker": "Kostel",
+              "line": "No… No, no, no…"
+            },
+            {
+              "speaker": "87F1665047DD8B0D35993CAA8F8B50CC",
+              "line": "I shouldn't touch him."
+            },
+            {
+              "speaker": "6B690DC8483EE3FF6A005593D929AEDE",
+              "line": "Kostel, have you seen my father?"
+            },
+            {
+              "speaker": "BCAF637F42BFC8B970D7839BA4CB1B35",
+              "line": "Shhh. Easy."
+            },
+            {
+              "speaker": "4FE34B944F79D827AFBD00A40B5A8C32",
+              "line": "Vlad... I don't feel so good..."
+            },
+            {
+              "speaker": "0D072DDB482E8C1860F5A6BFAA11BECC",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "1CDB88994C2612E56E8752A33CFB718C",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "37F3664B4A12D9F9C4885F9B0AAED8D9",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "A043F488493A2F7E36A88BAC6F7D64DF",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "C08DC9684EE1BF953E6188A56EAD8479",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "CF0D0276496547B867BF90A53AF6B41D",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q001_08_its_not_pieter_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "They're all bloodied, torn... I can't tell."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "So? The clothes – they're your mother's handiwork?"
+            }
+          ]
+        },
+        "q001_10_vlad_hideout_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You're scared. I get it. I'm scared too."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "[cough] So you can drink my blood? [cough] Like you did Kostel's?"
+            },
+            {
+              "speaker": "34C570FF4AB04BB5248235BB7F163E58",
+              "line": "That's not true."
+            },
+            {
+              "speaker": "434622D04DD24D03F60E5994B31A2E44",
+              "line": "We can still save my father."
+            },
+            {
+              "speaker": "A60238DB4D73D83F3C77C1B23B5435A0",
+              "line": "You're afraid – I get it. I am, too."
+            },
+            {
+              "speaker": "60B7BD1C490D991EA0B40DB8C1B8AA0A",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q001_11_vlad_vantage_point_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You'll make up for it later."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Wait. Ugh... Before you go, I need to tell you something."
+            },
+            {
+              "speaker": "461FFC4244C19C375154F99705ECA23B",
+              "line": "I won't forgive you."
+            },
+            {
+              "speaker": "4C247BE3424C020A372020852360229C",
+              "line": "I'm not wasting another second on your bullshit."
+            },
+            {
+              "speaker": "003697104DC2936455BD749D5B984B41",
+              "line": "Then at least I'll die with my family."
+            },
+            {
+              "speaker": "F077D5C34DB39555BA4A74B3C4BF31FF",
+              "line": "You piece of shit."
+            },
+            {
+              "speaker": "0CD3B678449D7AA34AD15D84B0EB35D4",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "q001_kostel_heartbeat_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Can't say that I do, no. "
+            },
+            {
+              "speaker": "Coen",
+              "line": "Wait. Can you hear that? Pounding... Like a heartbeat."
+            }
+          ]
+        },
+        "q001_kostel_path_clues_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "More footprints. Going even further down."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "See? They were retreating."
+            }
+          ]
+        },
+        "q001_mine_cart_pickaxe_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "All this... For a few lumps of ore. What was the point?"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Sometimes it doesn't take much to tip the scales."
+            }
+          ]
+        },
+        "q001_mine_corpse_02_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "I didn't think it would turn out this way."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Layos. He was meant to get married this autumn..."
+            }
+          ]
+        },
+        "q001_mine_corpse_04_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Didn't even fight back. Never had the chance."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "We had to try. It was – now or never, right?"
+            }
+          ]
+        },
+        "q001_mine_corpse_10_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Better this than be turned."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Fuck. What a terrible way to die."
+            }
+          ]
+        },
+        "q001_mine_voices_upper_level_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Must be rats. They live in the lower levels."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What the hell was that?"
+            },
+            {
+              "speaker": "Voices",
+              "line": "[whispers]"
+            }
+          ]
+        },
+        "q001_noticing_kostel_ns_FG": [
+          "Look! It's Kostel!"
+        ],
+        "q001_vlad_corpse_10_ns_FG": [
+          "So much blood... Where is it coming from?"
+        ],
+        "q001_vladimir_gmpl_default_ns_FG": [
+          "What are you doing? Leave this junk be."
+        ],
+        "q001_xx_silver_dust_first_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "You're wounded, exhausted. No wonder you're seeing things."
+            },
+            {
+              "speaker": "Coen",
+              "line": "We haven't got time."
+            },
+            {
+              "speaker": "9117D4A349F40662DA286C981CDC42CB",
+              "line": "Something's wrong with me."
+            }
+          ]
+        },
+        "q002_06_pieter_vlad_argue": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "We're losing time. You know it."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "When we stand a chance."
+            }
+          ]
+        },
+        "q002_13_church_vlad_aft_cs": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Your father... I was wondering, did the two of you talk earlier?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You're not making any sense."
+            },
+            {
+              "speaker": "4C03817C477ED6D0FACBA8A6EB2E7074",
+              "line": "I see you're eager to stick your neck out."
+            },
+            {
+              "speaker": "241DBCF441D5E7EDE2B724B587C08F8E",
+              "line": "What do you want from my father?"
+            },
+            {
+              "speaker": "FE75D1C34A30772F7394C9B8A8D133FD",
+              "line": "Why didn't you share your plans with me?"
+            },
+            {
+              "speaker": "84B6679E4B9323011B328084EB279B09",
+              "line": "Why do you need him?"
+            }
+          ]
+        },
+        "q002_church_vladimir": [
+          "It'll be over before long. All of it."
+        ],
+        "Q106_dlg_gmpl_02b_Rebels_HQ_Chatters": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Q106_Random_Rebel1",
+              "line": "What do you think happened to the scouts?"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You know he can probably hear you?"
+            }
+          ]
+        },
+        "Q106_Vladimir_first_meeting_Rebel_HQ": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You too, old friend."
+            },
+            {
+              "speaker": "61DD1BE34876EEA8260CF68EF452A5A1",
+              "line": "Ah. Look what the cat dragged in."
+            },
+            {
+              "speaker": "12C8875F433B580D37552688152FA99C",
+              "line": "As usual – you've got more luck than sense."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You know they nearly got me too, that day? I'd left the mill to go the city, and by the time I got back, he was gone."
+            },
+            {
+              "speaker": "4903AA6C4A1974F269D5468E33C659D1",
+              "line": "Do you know what happened to Mert?"
+            },
+            {
+              "speaker": "DB9E4C194E03E2ECD82459B4A58CD3D2",
+              "line": "So you're not a part of it?"
+            },
+            {
+              "speaker": "B651C40D47B67D216BF929A21AA1E7A3",
+              "line": "Together, we'll prevail."
+            },
+            {
+              "speaker": "B060BC354C602F83E3A7949369DDB470",
+              "line": "Why didn't you take part in the voting?"
+            },
+            {
+              "speaker": "79F23363469005FC832A8B8651E05D39",
+              "line": "Would you help me with my assignment?"
+            }
+          ]
+        },
+        "q300_06_07_gmpl_ghost_vlad": [
+          "A monster! That's what you are!"
+        ],
+        "sq001_03_confronting_vladimir": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Whoa! Whoa now, stop it! What's going on here?!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why did you do it?"
+            },
+            {
+              "speaker": "Kostel",
+              "line": "I found him sneaking around. Snooping!"
+            }
+          ]
+        },
+        "sq001_04_vladimirs_stash": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You're gonna get us all killed."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "You're like a brother to me, you know that."
+            }
+          ]
+        },
+        "Vladimir_Default_Dialogue_NEW_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "You're sticking your nose in other people's business, seems like."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your name came up. Called you a troublemaker."
+            }
+          ]
+        },
+        "Vladimir_Default_Dialogue_Rebel_HQ": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Vlad, I wanted to –"
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "Well, then we're all fucked anyway."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Coen, that's not the way.",
+          "Coen, where are you going?",
+          "Coen, you alright?!",
+          "Coen? Hello?",
+          "Come at me!",
+          "Come on, throw a proper punch!",
+          "Have you lost your mind?!",
+          "Heh. I'm not going over there.",
+          "Hey! Get back over here.",
+          "It's about to get bloody! ",
+          "I’ll make you pay...",
+          "Let’s see what you’re made of!",
+          "No need for that.",
+          "Oh my God...",
+          "Oh, just give it a rest already.",
+          "Oh, stand still, will ya?!",
+          "Oh, this doesn't look good!",
+          "So you expect me to just stand here?",
+          "Staring me down won’t save you...",
+          "Stop wandering around. We've got something to do.",
+          "Surely not over there?",
+          "Talk later. Busy right now.",
+          "That's an... unusual way to be.",
+          "This can't be real…!",
+          "Turn around before I make you.",
+          "Ugh, the ground's all muddy already.",
+          "What are you waiting for? Move!",
+          "Woah!",
+          "Woah, watch it!"
+        ]
+      }
+    },
+    "Volk": {
+      "dialogue_sections": {
+        "sq719_00_coen_and_volk_talks": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "What are you waiting for? Do something!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Would you please just calm down?!"
+            }
+          ]
+        },
+        "sq719_00_coen_investigations": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You have a horse?"
+            },
+            {
+              "speaker": "SQ719.Volk",
+              "line": "Wild mushroom stew. I like to eat well, even when the times are tough!"
+            }
+          ]
+        },
+        "sq719_01_volk_assault": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Wait! I just want to –"
+            },
+            {
+              "speaker": "SQ719.Volk",
+              "line": "Who's there? Pieter? Is that you?"
+            }
+          ]
+        },
+        "sq719_02_volk_1st_visit_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "Yes, you've mentioned already."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq719_02_volk_2nd_visit": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "You enjoy being young, lad. Vrakhiri or not... It'll never be better."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq719_02_volk_shed_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "You're pulling my leg... Seriously? Well, shit."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Who the hell are you?"
+            }
+          ]
+        },
+        "sq719_03_volk_3rd_visit_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "Yes, yes, they might know something! Only be careful. All clergymen are greedy little fuckers! Don't tell them too much."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "sq719_03_volk_skill_learned_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "Well, use this trick, don't use it, frankly, I couldn't care less. But at least try learning it."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You said you'd teach me something...?"
+            }
+          ]
+        },
+        "sq719_03_volk_treasure_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "You know, Coen, I've been thinking... The reward we got after Cassel. You think Pieter spent his share? "
+            },
+            {
+              "speaker": "Coen",
+              "line": "You'll rest when you're dead."
+            }
+          ]
+        },
+        "sq719_05_volk_finale_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "SQ719.Volk",
+              "line": "[laughter]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Ah, I missed this!",
+          "Ah, fuck. So close.",
+          "Ah, so that's why my joints were aching.",
+          "Ah, you fight just like your father.",
+          "Are you still here?!",
+          "Come on, give me your best!",
+          "Dirty trick. I like it!",
+          "Don't hold back! I can take it!",
+          "Finally some fun!",
+          "Forgot your balls?",
+          "Fucking monster!",
+          "Gold and plenty of fornication, that's all a man needs.",
+          "Hey! I'm the blind one, remember?",
+          "How about you take a step back, hm?",
+          "I'll hand your arse to you. ",
+          "Just don't cut yourself.",
+          "Nicely done, lad!",
+          "Oh, shit!",
+          "Oh, you'll be in so much pain.",
+          "Oi! Stay away!",
+          "Pieter taught you well!",
+          "Show some courage!",
+          "Slower than a snail!",
+          "Step away from there or I'll fuck you up!",
+          "You watch out!",
+          "You're a little weird, lad."
+        ]
+      }
+    },
+    "Zdislav": {
+      "dialogue_sections": {
+        "q002_00_times_up_reaction": {
+          "dialogue": [
+            {
+              "speaker": "Zdislav",
+              "line": "Let's just hope the knyaz isn't there yet. Come right now!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Oh, no! Time for Mass already?!"
+            },
+            {
+              "speaker": "sq004.uriash",
+              "line": "We go. Together. Now."
+            }
+          ]
+        },
+        "q002_church_zdislav": [
+          "How's Esme? I hope she'll be all right..."
+        ],
+        "q002_Zdislav_Default": {
+          "dialogue": [
+            {
+              "speaker": "Zdislav",
+              "line": "Your words worry me. Vladimir, he's always been a handful."
+            },
+            {
+              "speaker": "B56BE0F94D500EA94F25A19D39218944",
+              "line": "Atanas is tormenting his son."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You know the peat bogs? Right by the woods?"
+            },
+            {
+              "speaker": "B7511E5B4755EDCF11F97F97CF73727F",
+              "line": "I found a dead soldier."
+            },
+            {
+              "speaker": "75C0F2B1466F424EBD2DA7A5AD9D6B9C",
+              "line": "I think Vladimir is up to something."
+            },
+            {
+              "speaker": "401D436F41C777567A24F996E50B75DE",
+              "line": "I'll be off now."
+            },
+            {
+              "speaker": "9904D41E45DE49103AF935A786EC6B08",
+              "line": "My mother – does she have to go to mass tonight?"
+            },
+            {
+              "speaker": "BA14240A49CBE09245B8B3A734E27D53",
+              "line": "The silver mines – people say they're haunted."
+            },
+            {
+              "speaker": "6449A1484A1F3A646836ACB671A2FE41",
+              "line": "Why does Kuno live in the forest?"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Better not catch a cold.",
+          "Don't go where they didn't ask you.",
+          "Guards! Guards!!!",
+          "I won't stand this behaviour.",
+          "I'm disappointed in you, Coen.",
+          "Let them at it.",
+          "Mind where you're going!",
+          "These are difficult times, no doubt.",
+          "Think that sword makes you a somebody?"
+        ]
+      }
+    },
+    "Armaya": {
+      "dialogue_sections": {},
+      "vt": {
+        "vt_e": [
+          "About time.",
+          "Ah, Death is here to claim you. I can feel it.",
+          "Expendable.",
+          "I shall relish your suffering.",
+          "I shall study your entrails with great interest.",
+          "Think you can scare me? ",
+          "This pales in comparison to my powers.",
+          "This place will be your grave.",
+          "Weak and slow.",
+          "Who's there?!",
+          "Worthless wretch.",
+          "Yes, exhaust yourself fighting my serfs.",
+          "You can't evade me forever.",
+          "Your blood will make a most potent ingredient."
+        ]
+      }
+    }
+  }
+}

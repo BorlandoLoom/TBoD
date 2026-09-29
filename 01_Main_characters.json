@@ -1,0 +1,3004 @@
+{
+  "_meta": {
+    "source": "Dialogues_All_with_speakers.json",
+    "file_role": "01_Main_characters.json",
+    "structure": "character -> dialogue_sections + vt",
+    "notes": [
+      "Built fresh from Dialogues_All_with_speakers.json.",
+      "Full mixed-speaker sections are duplicated under each relevant non-Coen character.",
+      "06_Coen contains only sole-speaker Coen sections.",
+      "Unresolved GUIDs are preserved rather than discarded.",
+      "VT data exists only under vt; vt_e_/vt_c_ sections are not duplicated as dialogue sections.",
+      "Single-speaker dialogue sections are stored as arrays of plain lines.",
+      "Rebuilt with source-authoritative ordinary dialogue content; VT sets retained under vt."
+    ]
+  },
+  "characters": {
+    "Brencis": {
+      "dialogue_sections": {
+        "brencis_whispers": [
+          "You're putting off the inevitable."
+        ],
+        "cs_q000_4_reunion": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What’s going on? "
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Wake up."
+            }
+          ]
+        },
+        "cs_q001_008_brencisJudgement_old": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You need to cut the tethers to the past."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You bastard... You –"
+            },
+            {
+              "speaker": "Character.Background.q001_Brencis_Soldier_Mine_02",
+              "line": "Go. The knyaz is waiting for you."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What have you done?! Where’s my family?!"
+            }
+          ]
+        },
+        "cs_q001_02_necrovision": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "They've forgotten why they feared me? Well, I shall remind them."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Dad!!!"
+            },
+            {
+              "speaker": "Pieter",
+              "line": "Please… Don’t kill him."
+            }
+          ]
+        },
+        "cs_q001_08_brencisHurt": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "What are you?!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Argh! "
+            }
+          ]
+        },
+        "cs_q001_brencis_astral_transition1": [
+          "Insolent mongrel."
+        ],
+        "cs_q002_03a_blood_mass_fin_e_lives": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Weak. Thin-blooded. "
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You'll be fine."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Monster."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "What did you just say?!"
+            }
+          ]
+        },
+        "cs_q002_03b_blood_mass_fin_e_dies": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "No. No!!!"
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "We have to. Please."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Mother..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "No!!!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "This herd needs culling."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "Time to pay your tithes. "
+            }
+          ]
+        },
+        "cs_q104_02_memory_01": {
+          "dialogue": [
+            {
+              "speaker": "Young_Brencis",
+              "line": "What are you?"
+            },
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "You should’ve listened."
+            }
+          ]
+        },
+        "cs_q104_03_memory_02": {
+          "dialogue": [
+            {
+              "speaker": "Young_Brencis",
+              "line": "You’re my wife. You’re coming with me."
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "The world won’t bend to your will and neither will the flames."
+            }
+          ]
+        },
+        "cs_q104_04_memory_03": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "You must learn to obey the rules. Or next time, this will be you."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "…No, just kill me at least!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Silence now."
+            }
+          ]
+        },
+        "cs_q104_05_memory_04": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You don’t understand that things have changed. "
+            },
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "…no. You didn’t."
+            }
+          ]
+        },
+        "cs_q300_brencis_astral_transition": [
+          "Insolent mongrel."
+        ],
+        "cs_q300_brencis_astral_transition_part_2": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Gladly."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Show yourself!"
+            }
+          ]
+        },
+        "cs_q300_brencis_defeated": [
+          "Aaaargh!"
+        ],
+        "cs_q301_06_brencis_bf_lacradies": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Fools never learn."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Lacra! No!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "[scream]"
+            }
+          ]
+        },
+        "cs_q301_07_enter_throneroom": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You know what awaits them? A slow and horrifying death. A death I wouldn't wish on my worst enemies. "
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "You must run... He's... close... Run!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Yanna? Oh God!"
+            },
+            {
+              "speaker": "Character.Background.q301_woman",
+              "line": "Help me... Please, help me..."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Spare us your drivel. You left me no choice."
+            }
+          ]
+        },
+        "cs_q301_brencis_astral_transition": [
+          "Insolent mongrel."
+        ],
+        "cs_q302_BrencisFinale": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Welcome, my son."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You bastard… I’ll tear you apart with my bare hands!"
+            },
+            {
+              "speaker": "Marat",
+              "line": "Oh, God…"
+            }
+          ]
+        },
+        "cs_q302_ThroneRoom_Intro": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Welcome home, son of Skender."
+            },
+            {
+              "speaker": "Coen",
+              "line": "That’s a strange way of mourning."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "My father. What remains of him, at least."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Sire!"
+            },
+            {
+              "speaker": "64B7A54942079458C6EE35AAA239FE34",
+              "line": "[stay silent]"
+            }
+          ]
+        },
+        "cs_q303_brencis_astral_transition": [
+          "Insolent mongrel."
+        ],
+        "cs_sq715_04_rebels_betrayed": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You will do nothing, boy. You are nothing."
+            },
+            {
+              "speaker": "Marat",
+              "line": "I’ll kill you, you fuckin’ leech – *hurk*!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Oh, shit!"
+            }
+          ]
+        },
+        "cs_sq715_brencis_astral_transition": [
+          "Insolent mongrel."
+        ],
+        "q001_13_brencis_combat_intro_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "We do not have time for this. The sun's almost up."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why?!"
+            },
+            {
+              "speaker": "81E8482442B4FEA5FC7E098819463782",
+              "line": "Malformed? What do you mean?"
+            },
+            {
+              "speaker": "84594D114CD950CCF4AFF28B8969177F",
+              "line": "My mother – my siblings – where are they?!"
+            },
+            {
+              "speaker": "8048878842D7C07DC47FE9AC169262D6",
+              "line": "What did you do to me?!"
+            }
+          ]
+        },
+        "q001_brencis_barks_ns_FG": [
+          "Yahh!"
+        ],
+        "q104_gmpl_02_mem01_buildup": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.104_soldier_01",
+              "line": "We need to run!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "You'll see far worse. Better get used to it."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What? Whose voices are those?"
+            },
+            {
+              "speaker": "Young_Brencis",
+              "line": "You will do what I say, or I’ll cut you down for mutiny. Octavius!"
+            },
+            {
+              "speaker": "Character.Background.104_soldier_02",
+              "line": "[sigh] Sire… It’s been two days. We can’t –"
+            }
+          ]
+        },
+        "q104_gmpl_04_mem02_buildup": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.104_guard_01",
+              "line": "You're – what are you?"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "We're getting close."
+            },
+            {
+              "speaker": "Young_Brencis",
+              "line": "It is me. Stand aside, I'm going to see my wife."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Is that so."
+            },
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "This is a terrible idea. Must you insist on learning it the hard way?"
+            },
+            {
+              "speaker": "Character.Background.104_guard_02",
+              "line": "No. That's not him."
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "Wh-what is happening?"
+            }
+          ]
+        },
+        "q104_gmpl_05_mem03_buildup": {
+          "dialogue": [
+            {
+              "speaker": "Lacra",
+              "line": "Trust me on this."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What was this for?"
+            },
+            {
+              "speaker": "Character.Secondary.Isbrand",
+              "line": "You think you can control it?! Hubris, do you know what that is?"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "[chant]"
+            },
+            {
+              "speaker": "Character.Background.NoName_Lacra",
+              "line": "[scream]"
+            }
+          ]
+        },
+        "q300_after_brencis_defeated": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "[laughter]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "You'll be trapped inside my head - witnessing me undo everything you've built."
+            },
+            {
+              "speaker": "E81D22CA49872185629F10BE794F2754",
+              "line": "And there's no alternative?"
+            },
+            {
+              "speaker": "7B57DB8A410AEB5C420E399D3CB7A95E",
+              "line": "And whose fault is that?"
+            },
+            {
+              "speaker": "4080C29D48E06A36C7FE21B09C1AF5D5",
+              "line": "Come with me. I invite you."
+            },
+            {
+              "speaker": "EBE02B154F56D01053BA39AFA90C1896",
+              "line": "Guess I couldn't wait to wipe off that smug smile of yours."
+            },
+            {
+              "speaker": "E3F568F4410381D686E14AA9C0C1AD1E",
+              "line": "I guess you did."
+            },
+            {
+              "speaker": "4C698F164E1BEEC4FD282293BC24960A",
+              "line": "I'm not done talking to you."
+            },
+            {
+              "speaker": "A4304E5E49300EA5F34200877F5355A9",
+              "line": "Lacra was your daughter."
+            },
+            {
+              "speaker": "088AF00B4D09B86E596C36885A127DDE",
+              "line": "Marat was important to me."
+            },
+            {
+              "speaker": "92CA0F3A4B98BB75358CC7A301D1CCBB",
+              "line": "None of this would have happened if you hadn't come for my mother."
+            },
+            {
+              "speaker": "C842105E44610AC85EEF12BE2146955E",
+              "line": "Perish, then."
+            },
+            {
+              "speaker": "AF8126AE451E5C14A968818882184A72",
+              "line": "Tell me what you did to Lunka!"
+            },
+            {
+              "speaker": "A5EE6ACD4DDF7D0197A5669EB586FE8D",
+              "line": "To punish you."
+            },
+            {
+              "speaker": "D356BC81406A838DCCEF90835A48AC2F",
+              "line": "Toiled towards what?"
+            },
+            {
+              "speaker": "60C67B9C4CC555C112DC65AD4958A432",
+              "line": "We aren't alone here, are we?"
+            },
+            {
+              "speaker": "72844016456BDE2094089BA9782A5031",
+              "line": "Where's the rest of my family?"
+            },
+            {
+              "speaker": "5591C7F94A224FB53EEA49A453D6292B",
+              "line": "Why didn't you kill me when you had the chance?"
+            },
+            {
+              "speaker": "BAF8E24A422A962A11BC8E83B8ECD77E",
+              "line": "Why would anyone invite an enemy to lodge in their head?"
+            },
+            {
+              "speaker": "4902B9E547D9FB8195EBCE9F2AE4879F",
+              "line": "Won't you beg to be saved?"
+            },
+            {
+              "speaker": "01CFDFD14093AF2B3C4AA3B254765C62",
+              "line": "You don't deserve to rot here."
+            },
+            {
+              "speaker": "838B8C1349CA0E8F89DA45A4EF67F9AE",
+              "line": "You ruined my life. Turned me into a monster."
+            },
+            {
+              "speaker": "A21A2268494A70769CFD6BA5438C8EC0",
+              "line": "You're a mass murderer."
+            }
+          ]
+        },
+        "q300_gmpl_BrencisBossfightBarksAstral": {
+          "dialogue": [
+            {
+              "speaker": "Brencis_Transformed",
+              "line": "You're merely delaying the inevitable."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Where are we?!"
+            }
+          ]
+        },
+        "q300_gmpl_BrencisBossfightBarksSolo": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You've been a nuisance long enough."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You've tried before."
+            },
+            {
+              "speaker": "242D5BCA408285426895BF8A070F4F7A",
+              "line": "No allies, no support... You're either very brave or very stupid."
+            }
+          ]
+        },
+        "q300_gmpl_BrencisBossfightBarksSolo_AstralCopy": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You've tried before."
+            },
+            {
+              "speaker": "Brencis_Transformed",
+              "line": "You'll beg me for mercy – and you shall receive none."
+            }
+          ]
+        },
+        "q300_gmpl_BrencisBossfightBarksSolo_Prologue": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You've been a nuisance long enough."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You've tried before."
+            }
+          ]
+        },
+        "q300_gmpl_memory01": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Leave me! Begone! Begone!!!"
+            },
+            {
+              "speaker": "Character.Background.104_soldier_02",
+              "line": "We trusted you! Followed you!"
+            },
+            {
+              "speaker": "Character.Background.104_soldier_01",
+              "line": "You've got your soldiers's blood on your hands!"
+            }
+          ]
+        },
+        "q300_gmpl_memory02": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Silence! Leave me be! "
+            },
+            {
+              "speaker": "Character.Background.Brencis_Wife",
+              "line": "Why didn't you insist he went? Why didn't you heed the gods?!"
+            }
+          ]
+        },
+        "q300_gmpl_memory03": {
+          "dialogue": [
+            {
+              "speaker": "Lacra",
+              "line": "You! Calling yourself a man of honour!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "I will hear none of this!"
+            }
+          ]
+        },
+        "q301_08_brencis_castle": {
+          "dialogue": [
+            {
+              "speaker": "Lacra",
+              "line": "You'd leave me for some yokels?"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "You'll waste away, meld, and bemoan your existence. I won't."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You think I'd betray her, just like that?"
+            },
+            {
+              "speaker": "B22D90DB421DC9A6C6EBCAB66DA2ABE5",
+              "line": "I accept the offer. I'm sorry, Lacra."
+            },
+            {
+              "speaker": "C3C03B5140560E7BDCC7C8A7D6F10BB3",
+              "line": "I accept the offer. I'm sorry, Lacra."
+            },
+            {
+              "speaker": "F2BB2B5F4D811CDA6E61C8B80EA30736",
+              "line": "I'm sorry."
+            },
+            {
+              "speaker": "E2078FBA4D2BCDC9EC6C80B60B606118",
+              "line": "I've heard enough."
+            },
+            {
+              "speaker": "4DB7ADCD4BFEFDA7F3A306ADFE09F005",
+              "line": "Lacra, can you handle him on your own?"
+            },
+            {
+              "speaker": "51891C6C4F82CCADF649A69938589458",
+              "line": "Lacra, can you handle him on your own?"
+            },
+            {
+              "speaker": "BECCD88A4B0807C43BB1989FFF8BA28A",
+              "line": "No. We fight Brencis together."
+            },
+            {
+              "speaker": "1525509C4841F76BD13E7FA0F941E755",
+              "line": "They? Who is he talking about?"
+            },
+            {
+              "speaker": "3F58909A41D2C5A0ECCADDBEAF933949",
+              "line": "What makes you think I'd betray her?"
+            },
+            {
+              "speaker": "508E5F49467E8C194658D499F78F752D",
+              "line": "What makes you think I'd betray her?"
+            },
+            {
+              "speaker": "D20EEB5F4D843C06263D4CA3A5BC877B",
+              "line": "What were you trying to achieve, Brencis?"
+            },
+            {
+              "speaker": "BD1D993240E1D5291673199348399E42",
+              "line": "What? You'll set them free, leave me alone - just like that?"
+            },
+            {
+              "speaker": "08427010492488C7A25CF7817A6A69D8",
+              "line": "What? You're setting them free and letting me go, just like that?"
+            }
+          ]
+        },
+        "q301_gmpl_BrencisBossfightBarksLacra": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You're still holding a grudge? Oh, Lacra."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "I've been looking forward to this, Brencis. I've wanted to see you squirm for so long."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your death is the only one I choose."
+            }
+          ]
+        },
+        "sq715_01_brencis_start": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You have my word."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[hug Pieter]"
+            },
+            {
+              "speaker": "Pieter",
+              "line": "[sob]"
+            }
+          ]
+        },
+        "sq715_02_brencis_parley": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You ruined my life."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "You're not unique in that regard. The people of Vale Sangora don't want another war, another plague."
+            }
+          ]
+        },
+        "sq715_04_pieter_tower": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Those... things reached for me..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "We made a deal."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "We do. But you'll need motivation."
+            }
+          ]
+        },
+        "sq715_rescuing_pieter_chats": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[panting] I should be safe here... but what about dad? Shit. Shit!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "You'll join them if you stop fighting now!"
+            }
+          ]
+        },
+        "q302_40_Brencis_BeforeFight": {
+          Brencis: "Ah, yes. Feisty little creature. You love her the most, don't you? Of all of them.",
+          Brencis: "Ah. You think yourself an expert on vrakhiri, don't you?",
+          Brencis: "And so, I took certain precautions. Called upon powers beyond your comprehension and turned my vulnerability into a strength.",
+          Brencis: "And then I shall prop you against a wall and make you watch as I drain them all – one by one.",
+          Brencis: "As your mother's fate can attest.",
+          Brencis: "But I don't like weakness.",
+          Brencis: "But aligning yourself with that despicable creature, Catalin?",
+          Brencis: "But now? A mere human? I'll eviscerate you.",
+          Brencis: "But worry not. I shall put an end to your misery.",
+          Brencis: "But you chose to spurn it.",
+          "F2165CDF431ECFD4EEA65FACB48C0D82": "Coen...",
+          Brencis"E83B8AA7401C0F6419E3B1BED45E49DA": "Fucking monster!",
+          Brencis: "Had you come here alone, maybe I'd be more amenable to offers of peace...",
+          Brencis: "Had you come here in the night, you might have had a sliver of a chance.",
+          Brencis "Haha!",
+          Brencis: "I extended an invitation to parley.",
+          Brencis: "I made you an offer.",
+          Brencis: "I will break every little bone of yours, my unruly son.",
+          Brencis: "I'll start with your little brother, I think. Delicious blood. Very refreshing.",
+          Brencis: "I'm afraid it's far too late for that.",
+          Brencis: "I'm not usually the one to give in to such theatrics. But I've made an exception.",
+          Brencis:Brencis "Indeed. And bled yourself in the process.",
+          Coen: "Let them go.",
+          Coen: "Lunka – where is she?",
+          "387A991C41D46F4CDBE7F7A00A2AF9A3": "No. No, this can't be.",
+          Brencis: "Oh, no, I don't think so. I have different plans.",
+          Brencis: "Oh, yes. It is. Alas, the sun... It's always been my greatest weakness – my Achilles's heel, if you will.",
+          Brencis: "Oh? Challenge accepted.",
+          Coen: "Please – maybe we can come to an agreement.",
+          Brencis: "Shh. You'll scare my guests.",
+          Brencis: "So I gathered my most esteemed guests for a little feast.",
+          Brencis: "Storming my castle in broad daylight, trying to fool me with naive little stratagems...",
+          Brencis:: "Such hubris demanded special punishment.",
+          Brencis: "Thank you for joining us.",
+          Brencis: "That's a slight I will not forgive.",
+          Coen: "Try, then, you bald fuck.",
+          Brencis: "Well... The return of the valley's rightful ruler merited a little celebration, wouldn't you agree?",
+          Coen: "What do you mean?",
+          Coen: "What the hell are you talking about?",
+          Coen: "What the hell is that mist? Isn't it still day outside? ",
+          Coen: "What the hell is this mist?",
+          Coen: "Where is she?!",
+          Coen: "Where's Lunka?",
+          Brencis: "You are my final guest, after all.",
+          Brencis: "You are my guests, after all... You and the elusive Crake.",
+          Coen: "You enjoy playing with me like that?",
+          Brencis: "You sound so sure of yourself. But we cut down all your men, all your allies.",
+          Brencis: "You understand nothing. And today, you will pay dearly for your ignorance.",
+		  Coen? Or Marat?: "You'll have to go through me, first."
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Ah. There will be blood.",
+          "As you wish.",
+          "Behave.",
+          "Don't disrespect me.",
+          "Let us fight, then.",
+          "Look out!",
+          "That's enough.",
+          "Unconventional.",
+          "We crave the same thing."
+        ]
+      }
+    },
+    "Ambrus": {
+      "dialogue_sections": {
+        "ambrus_whispers": [
+          "You're a lusty, naughty lad."
+        ],
+        "cs_q002_03a_blood_mass_fin_e_lives": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Weak. Thin-blooded. "
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You'll be fine."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Monster."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "What did you just say?!"
+            }
+          ]
+        },
+        "cs_q002_03b_blood_mass_fin_e_dies": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "No. No!!!"
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "We have to. Please."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Mother..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "No!!!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "This herd needs culling."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "Time to pay your tithes. "
+            }
+          ]
+        },
+        "q300_gmpl_AmrusBossfightBarks": [
+          "Valiant effort. Pointless, but valiant."
+        ],
+        "q301_02c_ritual_vessel_ambrus": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "You sound very sure of yourself, Coen of Laslea."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "You've no idea what's going on here. What your sire's dragged you into. "
+            },
+            {
+              "speaker": "93EC025640BFE39A49B85298859989C6",
+              "line": "Brencis's rule won't last forever."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Where is my family? Where does he keep them?!"
+            },
+            {
+              "speaker": "A314861B4B00C80C5E03E28D1DC9AD7E",
+              "line": "Duels are for men of honour - and you have none. "
+            },
+            {
+              "speaker": "A22852C94E2D43B5ECCD4C90CE57EBFC",
+              "line": "I don't walk into traps willingly."
+            },
+            {
+              "speaker": "531F70134E0F710972A358853DFFFFF8",
+              "line": "What is this thing?"
+            },
+            {
+              "speaker": "4BF0639E445DC7A7C91422B10D349FAB",
+              "line": "Where is my family?"
+            },
+            {
+              "speaker": "ED80415D4DBB829C50E533A1DC062250",
+              "line": "Where is your master now?"
+            }
+          ]
+        },
+        "q301_gmpl_AmbrusBossfightBarksLacra": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "What is Brencis trying to do here? What did he want to happen?"
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "Well, what are you waiting for? An invitation?"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "Ten years as a vrakhir, I gave you? Well, that was generous..."
+            }
+          ]
+        },
+        "sq708_22_Ambrus": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "[scoff]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "Character.Background.sq708_spectators",
+              "line": "Yeah!"
+            },
+            {
+              "speaker": "Character.Secondary.Iulian",
+              "line": "[spit]"
+            }
+          ]
+        },
+        "sq708_24_AmbrusAstral": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "You – It can't get. Not yet. But I have lost my body and now It's gnawing at my soul. It's starting to devour me."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why wouldn't I?"
+            }
+          ]
+        },
+        "sq708_98_AmbrusCoen_barks": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "I'll have... the last laugh."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "[groan] You will regret this, you coward!"
+            }
+          ]
+        }
+      },
+      "vt": {}
+    },
+    "Xanthe": {
+      "dialogue_sections": {
+        "cs_sq709_01_xanthe_bossfight_start": [
+          "You made a mistake coming here. One you'll regret severely. "
+        ],
+        "q301_gmpl_XantheBossfightBarksLacra": {
+          "dialogue": [
+            {
+              "speaker": "Xanthe",
+              "line": "This mustn't be. It mustn't!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I'll get to that throneroom over your dead body, you evil bitch."
+            },
+            {
+              "speaker": "Lacra",
+              "line": "You've grown complacent, Xanthe. Slow."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Feed as much as you wish. It will not save you.",
+          "How inconvenient.",
+          "Leave me alone.",
+          "Let us fight.",
+          "Stay away!",
+          "There is naught to say.",
+          "Who dares disturb me?"
+        ]
+      }
+    },
+    "Bakir": {
+      "dialogue_sections": {
+        "bakir_whispers": [
+          "You'll end up in Hell anyway. Why stop yourself? Drink!"
+        ],
+        "cs_q302_BakirIntro": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Well, well, what have we here? My two favourite rats, scurrying about."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "[scoff] This is where we split."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Take good care of my men, sire."
+            },
+            {
+              "speaker": "Character.Background.303.DungeonWarden",
+              "line": "None of you will live to see the sunset."
+            }
+          ]
+        },
+        "cs_q710_01_bakir_speech": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Welcome, minii naizuud! Welcome, friends!"
+            },
+            {
+              "speaker": "Character.Background.710.ContestantsChoir",
+              "line": "[gasp]"
+            }
+          ]
+        },
+        "cs_q710_02_bakir_supper_part_I": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You may surrender your weapon now. We're among friends, aren't we?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your coin..."
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Sever",
+              "line": "[muffled sounds]"
+            }
+          ]
+        },
+        "cs_q710_03_bakir_supper_part_II": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Farkas, pour our friend a drink."
+            },
+            {
+              "speaker": "710.ContestantsChoir",
+              "line": "[chuckle and hiss]"
+            }
+          ]
+        },
+        "cs_q710_05_coen_compromised": [
+          "You..."
+        ],
+        "cs_q710_06_drinking_bakir": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[kill Bakir]"
+            },
+            {
+              "speaker": "Bakir",
+              "line": "[gurgling laugh]"
+            }
+          ]
+        },
+        "q300_gmpl_BakirBossfightBarks": [
+          "[whistle] Strike my quarry!"
+        ],
+        "q301_03_bakir": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Spectacular, isn't it?! The sights, the smells! And those sweet words of His..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Why was my family taken to the throneroom?!"
+            },
+            {
+              "speaker": "34821F124D4B4048978980BA396ED7D1",
+              "line": "What are you talking about?"
+            },
+            {
+              "speaker": "AFA882B54DAE1EB12F7DFAA06E0614DB",
+              "line": "Where is Brencis?!"
+            },
+            {
+              "speaker": "0A3044C64AB3DC769A62D69B922FF1CD",
+              "line": "Why was my family taken to the throneroom?!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "You're talking to a madman, Coen. We don't have time for this. Fun ends here, Bakir!"
+            }
+          ]
+        },
+        "q301_gmpl_BakirBossfightBarksLacra": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You think this is how this ends?! Fools! Idiots!"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "I can't wait to watch your corpse turn to a pile of dirt."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Which way is his throneroom?! Tell me!"
+            }
+          ]
+        },
+        "sq710_10b_BakirAndFarkas_labirynth_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[yawn]"
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Farkas",
+              "line": "What about the last champion, My Liege? Sir Cockroach?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite02",
+              "line": "Yeah. But I've seen better."
+            },
+            {
+              "speaker": "Character.Background.BakirElite01",
+              "line": "Should we head down and stir things up? Kill some vermin?"
+            },
+            {
+              "speaker": "Character.Background.BakirElite03",
+              "line": "[chuckle] And just as messy..."
+            }
+          ]
+        },
+        "sq710_11_bakir_vault_boi": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Yes, yes. Very valuable and boring."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What’s in these barrels?"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_07_BakirWelcomeSpeech": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[clears throat] Now, where was I? Ah, yes. I'd do anything for my friends! I share everything with them - food, drink, all my wealth!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[stay silent]"
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Farkas",
+              "line": "[gasp] What are you...? You bloody idiot..."
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Sever",
+              "line": "You bathe them in gold, Lord Boyar!"
+            },
+            {
+              "speaker": "Character.Background.710.ContestantsChoir",
+              "line": "[cheer]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_10_BakirAndFarkasOnPlatform": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.SQ710.Farkas",
+              "line": "B-But, my liege..."
+            },
+            {
+              "speaker": "Bakir",
+              "line": "Shut your mouth, Farkas! I’ll skin you too if you say another word!"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_15_WillowTree": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "You there! Finish this for us."
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Farkas",
+              "line": "N-No... I apologise."
+            },
+            {
+              "speaker": "Character.Secondary.SQ710.Gavril",
+              "line": "[screams]"
+            },
+            {
+              "speaker": "Character.Background.Stelian",
+              "line": "[sobs] ...m-my salvation..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[exhale] I'm so sorry..."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_19_BakirSupper": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[sigh] I’m afraid you’ve disappointed me more than once. So, I'm sorry, but now you die."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sniff] It doesn't smell like wine. More like... blood."
+            },
+            {
+              "speaker": "Character.Secondary.Farkas",
+              "line": "You damn fool..."
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_20_BakirInVault": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[spit]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[Take an Armour]"
+            }
+          ]
+        },
+        "sq710_dlg_cinematic_21_BakirAstral": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "[snort] How boring."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sigh] Not really... But I invite you nonetheless."
+            }
+          ]
+        },
+        "sq710_dlg_gmpl_BakirAnnouncements": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Ring the bell, Farkas!"
+            },
+            {
+              "speaker": "Character.Secondary.Farkas",
+              "line": "Who, suffice to say, did not survive."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Ah, yes. Beautiful carnage.",
+          "Ahh... This should be entertaining.",
+          "Enough!",
+          "If the rain were acid... Heheh... now that would be fun!",
+          "Is it silver? If not, don’t waste my time with it.",
+          "Shouldering your Khan? Naughty, naughty.",
+          "You're not welcome here..."
+        ]
+      }
+    },
+    "Florin": {
+      "dialogue_sections": {
+        "cs_q002_03a_blood_mass_fin_e_lives": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Weak. Thin-blooded. "
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You'll be fine."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Monster."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "What did you just say?!"
+            }
+          ]
+        },
+        "cs_q002_03b_blood_mass_fin_e_dies": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "No. No!!!"
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "We have to. Please."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Mother..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "No!!!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "This herd needs culling."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "Time to pay your tithes. "
+            }
+          ]
+        },
+        "cs_q102_01_blood_baptism": [
+          "Natus ex sanguine est..."
+        ],
+        "Florin_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "– and they died for it. I'm not trying to belittle them, what they did was brave and surely granted them a place in Heaven."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] You're lucky I need you."
+            }
+          ]
+        },
+        "q002_00_florin_before_mass": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "You're young, perhaps you don't remember how it was before, under Skender. You'd wonder who's the monster then."
+            },
+            {
+              "speaker": "2EC211EE4F13FC1F18B1DB94BADC1A72",
+              "line": "Farewell."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You like serving a monster?"
+            },
+            {
+              "speaker": "9333252443C2C550024CF7918C138DEA",
+              "line": "Gremla is worried about the missing banner."
+            },
+            {
+              "speaker": "B24FE7924971DEB7DAAD0EAAD34559E5",
+              "line": "How can you serve a vrakhir?"
+            },
+            {
+              "speaker": "7581D6CE4461911E8F626290767DA361",
+              "line": "My mother – can she skip Mass?"
+            },
+            {
+              "speaker": "75CE291A41BFC51E4417AC8EB9370BD5",
+              "line": "The missing banner – it'll be returned."
+            }
+          ]
+        },
+        "q002_14_florins_sermon": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "This is sick."
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "Yes, he drinks our blood, and we drink his. We nourish Brencis, and he protects us from harm."
+            },
+            {
+              "speaker": "Character.Background.Villagers_Choir",
+              "line": "May it forever endure."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Shhh. We don't want to attract attention."
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "[sobs]"
+            },
+            {
+              "speaker": "0FB3DD834067180E4C12C788FD8F3D52",
+              "line": "[remain silent]"
+            },
+            {
+              "speaker": "B074591D4EA535F3F4AEAA876E2B57D7",
+              "line": "[remain silent]"
+            }
+          ]
+        },
+        "q102_03_cathedral_ceremony": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "It's a real shame, what happened there. So many good people, imprisoned."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You must be busy."
+            },
+            {
+              "speaker": "32185DDA48883C802CBFE380D3375E4B",
+              "line": "Clean as can be."
+            },
+            {
+              "speaker": "2CC155DC47511ECD6BEBEBACE49D4F2B",
+              "line": "Very well."
+            },
+            {
+              "speaker": "FCCE701F4793188DAF852A8F6D25F630",
+              "line": "You're mistaken."
+            }
+          ]
+        },
+        "q102_03b_florin_confession": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "[sighs] I see that you are not willing to open yourself fully to the sacrament."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[tell the truth]"
+            },
+            {
+              "speaker": "023BE38340D50427B04463BBAC8B808E",
+              "line": "About a year ago."
+            },
+            {
+              "speaker": "152A3FF14EC1F46AD4703388B3B85256",
+              "line": "Alright, the truth."
+            },
+            {
+              "speaker": "3928B4E647053086F7D635837CC4EFF2",
+              "line": "Can you tell me where the cathedral crypt is?"
+            },
+            {
+              "speaker": "C16C76F64CE3D0E87DCDCDB33CC2FD19",
+              "line": "Envy."
+            },
+            {
+              "speaker": "F15B447E42A4E4B10599FEA13BF2B915",
+              "line": "Gluttony."
+            },
+            {
+              "speaker": "60D4D9614267303C49BBAD92EC53DF26",
+              "line": "Last month."
+            },
+            {
+              "speaker": "270BF4A34E231366FA3097BF784F436C",
+              "line": "Not interested."
+            },
+            {
+              "speaker": "1BA8E5534D46031DF57F6ABC9B4F0BC1",
+              "line": "Nothing specific."
+            },
+            {
+              "speaker": "7C3B645948CF0C1B0AC6C4A0BAC3102E",
+              "line": "Wrath."
+            },
+            {
+              "speaker": "04874BF046934988A8D19FA14252CE53",
+              "line": "[make something up]"
+            }
+          ]
+        },
+        "sq712_02_mass": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "Please, come with me."
+            },
+            {
+              "speaker": "Character.Background.sq712_christian_1",
+              "line": "Trespasser!"
+            }
+          ]
+        },
+        "sq712_03_florin_after_mass": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "[sighs] Leave then."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[give in to the hunger]"
+            },
+            {
+              "speaker": "Character.Background.sq712_christian_1",
+              "line": "No! You'll burn in Hell for this!"
+            }
+          ]
+        },
+        "sq712_32_mass": [
+          "We must endure! One day, Vale Sangora shall be restored!"
+        ]
+      },
+      "vt": {
+        "vt_e": [
+          "Are you cursed or blessed, I wonder?",
+          "Behave.",
+          "Disperse!",
+          "Don't test my patience.",
+          "Go, my child.",
+          "Good heavens!",
+          "It must please the Lord.",
+          "Oh, I feel your pain.",
+          "That's not proper.",
+          "This is not for you.",
+          "Threatening a man of the cloth?"
+        ]
+      }
+    },
+    "Marat": {
+      "dialogue_sections": {
+        "cc_maps_room_marat_comments_06_gmpl": [
+          "Victory is nigh, Coen. Soon, we’ll stand free."
+        ],
+        "CS_713_01_marat_kisses_coen": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "Oh, shit. I'm so sorry."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Woah..."
+            }
+          ]
+        },
+        "CS_713_03_coen_marat_sex_scene": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[C. kisses him back]"
+            },
+            {
+              "speaker": "Marat",
+              "line": "[hisses]"
+            }
+          ]
+        },
+        "cs_q105_01_rebels_trap_coen": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "Too keen for a mere human."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[suffocates]"
+            },
+            {
+              "speaker": "Character.Secondary.Sarah",
+              "line": "Gentlemen first."
+            },
+            {
+              "speaker": "Marat",
+              "line": "You won't kill Crake today."
+            }
+          ]
+        },
+        "cs_q105_02_exposed_to_sun": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "I... I'm not... what you think I am."
+            },
+            {
+              "speaker": "Marat",
+              "line": "The hell are you then?"
+            }
+          ]
+        },
+        "cs_q302_BakirIntro": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Well, well, what have we here? My two favourite rats, scurrying about."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "[scoff] This is where we split."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Take good care of my men, sire."
+            },
+            {
+              "speaker": "Character.Background.303.DungeonWarden",
+              "line": "None of you will live to see the sunset."
+            }
+          ]
+        },
+        "cs_q302_BrencisFinale": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Welcome, my son."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You bastard… I’ll tear you apart with my bare hands!"
+            },
+            {
+              "speaker": "Marat",
+              "line": "Oh, God…"
+            }
+          ]
+        },
+        "cs_q302_SecretEntrance": {
+          "dialogue": [
+            {
+              "speaker": "Catalin",
+              "line": "Let’s not forget who’s leading this coup."
+            },
+            {
+              "speaker": "Marat",
+              "line": "There. Follow me."
+            }
+          ]
+        },
+        "cs_q302_SignalCatalin_RopeDescent": [
+          "Now! Move!"
+        ],
+        "cs_q302_ThroneRoom_Intro": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Welcome home, son of Skender."
+            },
+            {
+              "speaker": "Coen",
+              "line": "That’s a strange way of mourning."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "My father. What remains of him, at least."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Sire!"
+            },
+            {
+              "speaker": "64B7A54942079458C6EE35AAA239FE34",
+              "line": "[stay silent]"
+            }
+          ]
+        },
+        "cs_sq715_04_rebels_betrayed": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You will do nothing, boy. You are nothing."
+            },
+            {
+              "speaker": "Marat",
+              "line": "I’ll kill you, you fuckin’ leech – *hurk*!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Oh, shit!"
+            }
+          ]
+        },
+        "Marat_default_dialogue": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[snort] Yeah, I noticed that."
+            },
+            {
+              "speaker": "Marat",
+              "line": "[snort] Shut it."
+            }
+          ]
+        },
+        "q105_rebel_man_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "[sigh]"
+            },
+            {
+              "speaker": "D58EA9F6425B694F12EE6483863C3857",
+              "line": "A dawnwalker."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] That's it. Got nothing more to convince you..."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "You sure about this? He's bad luck, I'm telling you."
+            },
+            {
+              "speaker": "D5947B9B41159B6DDFC6D4991EA35494",
+              "line": "Forget it. You won’t believe me anyway."
+            },
+            {
+              "speaker": "EEF0FD9A43570094679A9FAE15236E43",
+              "line": "I don't."
+            },
+            {
+              "speaker": "92DF74144AE8A15E049966854ED13146",
+              "line": "I got Mert out of prison."
+            },
+            {
+              "speaker": "4782E3514B23F3010BB4C8A7754F8273",
+              "line": "I killed the soldiers in the mill."
+            },
+            {
+              "speaker": "7932EA0F41B2891EB1F16ABB23EBDBC4",
+              "line": "I saved Sara at the rendezvous point."
+            },
+            {
+              "speaker": "8D99D23C4C9FBC172625C4BD7A99349C",
+              "line": "I took part in the attack on the mines near Laslea."
+            },
+            {
+              "speaker": "8C075DBF400251C3ABED0F8CCA485E0A",
+              "line": "I wish I knew."
+            },
+            {
+              "speaker": "0D8ABC8C40ACCE62C2C4FBBD34928D52",
+              "line": "I'm still here."
+            },
+            {
+              "speaker": "B42D500B4AD603DA55FB488E66A2FBC5",
+              "line": "I've been disrupting Brencis's rule for some time now."
+            },
+            {
+              "speaker": "E42390A745D9BBD179174ABF5CDB5370",
+              "line": "You don’t make it easy to like you, do you?"
+            },
+            {
+              "speaker": "4C05989248E7DAE1B36F388E208C8BF6",
+              "line": "You know about my family...?"
+            }
+          ]
+        },
+        "Q106_dlg_cinematic_40_Coen_helped_Marat_get_back_to_HQ_after_cementary": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "[sigh] Figures."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] That adds up... Now, turn around."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "[snort]"
+            },
+            {
+              "speaker": "71AF2E77464B83EA0CB68A8FA1DACE79",
+              "line": "I'd rather not, sorry."
+            },
+            {
+              "speaker": "B95E3A4F40E888D0D7B063A261BC3624",
+              "line": "Not that bad."
+            },
+            {
+              "speaker": "2501ABE84DE8165F4D4310872A2A6A3B",
+              "line": "[stay silent]"
+            },
+            {
+              "speaker": "BE4B28AC4F9503543AF7008AAC71FC0D",
+              "line": "[stay silent]"
+            }
+          ]
+        },
+        "Q106_dlg_gmpl_14_Marat_and_Sara_talk_in_HQ_before_ambush": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Sarah",
+              "line": "We?"
+            },
+            {
+              "speaker": "Marat",
+              "line": "You, me and Coen."
+            }
+          ]
+        },
+        "Q106_dlg_gmpl_14a_Marat_Chace_Comments": [
+          "This way!"
+        ],
+        "Q106_dlg_gmpl_15a_soldiers_chace_screams_offscreen": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier1",
+              "line": "There! Cut them off!"
+            },
+            {
+              "speaker": "Marat",
+              "line": "Fuck! We’ve got to lose them."
+            },
+            {
+              "speaker": "Character.Background.Q105_Prison_Guard",
+              "line": "To arms, men! They’re fleeing!"
+            },
+            {
+              "speaker": "Character.Background.Q105_Post_Soldier3",
+              "line": "Spread out! Block the gates! They can’t hide forever!"
+            }
+          ]
+        },
+        "Q106_dlg_gmpl_22a2_Marat_talking_with_random_street_person": {
+          "dialogue": [
+            {
+              "speaker": "Character.Background.Q106_Random_street_person1",
+              "line": "[DB] Why the threats. I'm just trying to make a living."
+            },
+            {
+              "speaker": "Marat",
+              "line": "[DB] Silas, do you know or not? I ask one last time."
+            }
+          ]
+        },
+        "Q106_dlg_gmpl_23_Old_Bookshelf_BOI": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "The spider web... it's moving. I can feel a draft coming from behind."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Sure."
+            }
+          ]
+        },
+        "Q106_dlg_gmpl_25_Legendary_Alchemist_Book_Page_SOI": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "The book itself was likely stolen - what else?"
+            },
+            {
+              "speaker": "Marat",
+              "line": "Great, but where are the other notes?"
+            }
+          ]
+        },
+        "q300_04_gmpl_ghost_crake": [
+          "Worry about your own soul, vrakhir. As I see it, we're both far beyond redemption."
+        ],
+        "sq713_Marat_solitude": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "[sigh]"
+            },
+            {
+              "speaker": "Coen",
+              "line": "[sighs] Guess you're right... Even if Catalin isn't my dream sovereign, I sure prefer him to Brencis."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Ah, turning the ground into a cursed slip of mud.",
+          "Are you doing this on purpose? I'm not much of a hugger, you know.",
+          "Bloody hell!",
+          "Coen, we don't have time to lose like this.",
+          "Coen, we're trying to do something important here, aren't we?",
+          "Curses!",
+          "Face me!",
+          "Getting a little close, aren’t we?",
+          "Go ahead. Punch it out, if you must.",
+          "Ha! Try aiming next time.",
+          "Hah. All right. That's funny.",
+          "Hands full right now, sorry.",
+          "Have you got cold feet all of a sudden? Or what?",
+          "Hold on! This isn’t over.",
+          "Huh. Didn’t think vrakhiri were this clumsy.",
+          "I can't go there.",
+          "I like your spirit. But save that blade for Brencis and his lot, eh?",
+          "I'll tear you apart.",
+          "Is this some sort of joke? 'Cause I'm not exactly laughing.",
+          "Nothing here for you. Leave.",
+          "Oddly captivating, watching you like this… ",
+          "Standing there won’t save you...",
+          "Stay sharp! We’ve got this together.",
+          "Stay sharp. Get your weapons ready.",
+          "That all you got? Pitiful.",
+          "That is definitely not the way to go.",
+          "This is ridiculous. Get back here soon!",
+          "Too late for second thoughts!",
+          "What in the hell?!",
+          "What, you expect me to follow you there?",
+          "Where are you going?",
+          "You picked the wrong fight..."
+        ]
+      }
+    },
+    "Drogos": {
+      "dialogue_sections": {
+        "cc_drogos_training_comments_11_gmpl": [
+          "Ngh... Too slow!"
+        ],
+        "cc_interrogation_room_drogos_comments_10_gmpl": [
+          "Well done. You’ve caused a bloody uproar out there."
+        ],
+        "cs_q105_01_rebels_trap_coen": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "Too keen for a mere human."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[suffocates]"
+            },
+            {
+              "speaker": "Character.Secondary.Sarah",
+              "line": "Gentlemen first."
+            },
+            {
+              "speaker": "Marat",
+              "line": "You won't kill Crake today."
+            }
+          ]
+        },
+        "Q105_dlg_gmpl_20_Rebel_meeting_place_BOI": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "That would mean they're still close."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "[chuckle] Closer than you think, lad."
+            }
+          ]
+        },
+        "q105_rebel_man_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "[sigh]"
+            },
+            {
+              "speaker": "D58EA9F6425B694F12EE6483863C3857",
+              "line": "A dawnwalker."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] That's it. Got nothing more to convince you..."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "You sure about this? He's bad luck, I'm telling you."
+            },
+            {
+              "speaker": "D5947B9B41159B6DDFC6D4991EA35494",
+              "line": "Forget it. You won’t believe me anyway."
+            },
+            {
+              "speaker": "EEF0FD9A43570094679A9FAE15236E43",
+              "line": "I don't."
+            },
+            {
+              "speaker": "92DF74144AE8A15E049966854ED13146",
+              "line": "I got Mert out of prison."
+            },
+            {
+              "speaker": "4782E3514B23F3010BB4C8A7754F8273",
+              "line": "I killed the soldiers in the mill."
+            },
+            {
+              "speaker": "7932EA0F41B2891EB1F16ABB23EBDBC4",
+              "line": "I saved Sara at the rendezvous point."
+            },
+            {
+              "speaker": "8D99D23C4C9FBC172625C4BD7A99349C",
+              "line": "I took part in the attack on the mines near Laslea."
+            },
+            {
+              "speaker": "8C075DBF400251C3ABED0F8CCA485E0A",
+              "line": "I wish I knew."
+            },
+            {
+              "speaker": "0D8ABC8C40ACCE62C2C4FBBD34928D52",
+              "line": "I'm still here."
+            },
+            {
+              "speaker": "B42D500B4AD603DA55FB488E66A2FBC5",
+              "line": "I've been disrupting Brencis's rule for some time now."
+            },
+            {
+              "speaker": "E42390A745D9BBD179174ABF5CDB5370",
+              "line": "You don’t make it easy to like you, do you?"
+            },
+            {
+              "speaker": "4C05989248E7DAE1B36F388E208C8BF6",
+              "line": "You know about my family...?"
+            }
+          ]
+        },
+        "Q106_dlg_cinematic_40_Coen_helped_Marat_get_back_to_HQ_after_cementary": {
+          "dialogue": [
+            {
+              "speaker": "Marat",
+              "line": "[sigh] Figures."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[scoff] That adds up... Now, turn around."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "[snort]"
+            },
+            {
+              "speaker": "71AF2E77464B83EA0CB68A8FA1DACE79",
+              "line": "I'd rather not, sorry."
+            },
+            {
+              "speaker": "B95E3A4F40E888D0D7B063A261BC3624",
+              "line": "Not that bad."
+            },
+            {
+              "speaker": "2501ABE84DE8165F4D4310872A2A6A3B",
+              "line": "[stay silent]"
+            },
+            {
+              "speaker": "BE4B28AC4F9503543AF7008AAC71FC0D",
+              "line": "[stay silent]"
+            }
+          ]
+        },
+        "Q106_dlg_cinematic_60_Coen_failed_rebels": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "[scoff] Are you off your head?!"
+            },
+            {
+              "speaker": "2C5732B14D096310AB3AC2B101BBD136",
+              "line": "Doesn't matter. You must lead the rebels."
+            },
+            {
+              "speaker": "FCE704C441D92EC776CD83BF0AA2C1CB",
+              "line": "Doesn't matter. You must lead the rebels."
+            },
+            {
+              "speaker": "Coen",
+              "line": "They... They're both dead. I'm sorry."
+            },
+            {
+              "speaker": "57DF5375466545915FBE4A93F68465F1",
+              "line": "They're dead. I'm sorry."
+            }
+          ]
+        },
+        "Q106_Drogos_default": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You don't sound too happy about it."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "[snort] Sure, rookie."
+            },
+            {
+              "speaker": "9CF54AA447B3B9B9BF4B4F9D372371A9",
+              "line": "About Sara..."
+            },
+            {
+              "speaker": "4A1EEF4442E1C56E5BA312BE5497315F",
+              "line": "Do you know Lujeta?"
+            },
+            {
+              "speaker": "826C78C54A71294A954B82A0A4FA2960",
+              "line": "Have you changed your mind about me?"
+            },
+            {
+              "speaker": "F2FD39B94F6F5E3AA4C388B315F8958D",
+              "line": "How is Layos?"
+            },
+            {
+              "speaker": "6C20E75A40DC6170935A7B94A19DDFB2",
+              "line": "I found this letter in a dead man's boot."
+            },
+            {
+              "speaker": "DDF240114BAF04F533B9D68B76E6D5E9",
+              "line": "I’m heading out."
+            },
+            {
+              "speaker": "7FA1521B44DA436BE68BBFBE7BABE5A9",
+              "line": "Keep an eye on Marat for me."
+            },
+            {
+              "speaker": "2BF302554D0DDB691BE603B562544258",
+              "line": "Maybe you could teach me a thing or two about swordfighting?"
+            },
+            {
+              "speaker": "246620B54F8C52AB4D0E3A9452F34049",
+              "line": "She did well."
+            },
+            {
+              "speaker": "809CFC694AFAD51B672AA8B1E59388B4",
+              "line": "This was among the items seized by the soldiers."
+            },
+            {
+              "speaker": "59659DE545E56DAF1436E18CDD5D7FE6",
+              "line": "[give in to the hunger]"
+            }
+          ]
+        },
+        "Q106_Drogos_no_interrogation_commentary": [
+          "Ugh! What's the bloody point in waiting?"
+        ],
+        "SQ713_dlg_cinematic_20_Drogos_after_Marat_going_out": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Wish I knew. I've never seen him like this."
+            },
+            {
+              "speaker": "Character.Secondary.Drogos",
+              "line": "You two on the outs now or something?"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "...Dodge, damn it! Dodge!",
+          "Afraid to fight back, eh?",
+          "Ah, bloody half-vrakhir... Stop it!",
+          "Ah, curse this weather...",
+          "Ah... Slippery bastard!",
+          "Are you fuckin' blind?!",
+          "Argh, let’s end this!",
+          "Bloody hell!",
+          "Come on, try me.",
+          "Don't just stand there!",
+          "Fuck. I'll never get used to it...",
+          "Get the hell out.",
+          "Huh? What is it?",
+          "I've waited long enough for this.",
+          "Knew we couldn't trust you...",
+          "Look at 'em go, hahah! ...Like dogs over scraps.",
+          "Oi! Pull your shit together!",
+          "Oi! Watch it!",
+          "Try that on me, and I’ll split you in two.",
+          "Want trouble? Go ahead, try me.",
+          "Well. Not my problem.",
+          "What are you aiming at? Thin air?",
+          "What are you staring at?",
+          "What the hell...?!",
+          "What's the matter? Waiting for an invite?",
+          "When we’re done, those who sided with the vrakhiri shall hang."
+        ]
+      }
+    },
+    "Catalin": {
+      "dialogue_sections": {
+        "cs_q302_BakirIntro": {
+          "dialogue": [
+            {
+              "speaker": "Bakir",
+              "line": "Well, well, what have we here? My two favourite rats, scurrying about."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "[scoff] This is where we split."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Take good care of my men, sire."
+            },
+            {
+              "speaker": "Character.Background.303.DungeonWarden",
+              "line": "None of you will live to see the sunset."
+            }
+          ]
+        },
+        "cs_q302_CatalinArmyStormsOutpost": {
+          "dialogue": [
+            {
+              "speaker": "Catalin",
+              "line": "We’re back home!"
+            },
+            {
+              "speaker": "Character.Secondary.Q302.Catalin_Soldier.Choir",
+              "line": "Hooray!!!"
+            }
+          ]
+        },
+        "cs_q302_SecretEntrance": {
+          "dialogue": [
+            {
+              "speaker": "Catalin",
+              "line": "Let’s not forget who’s leading this coup."
+            },
+            {
+              "speaker": "Marat",
+              "line": "There. Follow me."
+            }
+          ]
+        },
+        "cs_q302_ThroneRoom_Intro": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "Welcome home, son of Skender."
+            },
+            {
+              "speaker": "Coen",
+              "line": "That’s a strange way of mourning."
+            },
+            {
+              "speaker": "Catalin",
+              "line": "My father. What remains of him, at least."
+            },
+            {
+              "speaker": "Marat",
+              "line": "Sire!"
+            },
+            {
+              "speaker": "64B7A54942079458C6EE35AAA239FE34",
+              "line": "[stay silent]"
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_e": [
+          "Await your orders.",
+          "Curses!",
+          "Damned monster.",
+          "Don't expect mercy.",
+          "Don't speak unless spoken to.",
+          "Dragoostiii!",
+          "Enough!",
+          "Good grief!",
+          "Good! Draw their attention!",
+          "How dare you!",
+          "I'll have your head on a pike.",
+          "Inclement weather shall not slow me down.",
+          "Pitiful.",
+          "Protect me!",
+          "Show some respect, or I'll have you whipped.",
+          "Stand still!",
+          "Stay away from there!",
+          "Stupid yokel.",
+          "There's no time for all this frivolity!",
+          "Vile creature.",
+          "You're but an obstacle in my path."
+        ]
+      }
+    },
+    "Pieter": {
+      "dialogue_sections": {
+        "CS003_brencis_attack_FG": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Please, this one time, just do what your old man –"
+            },
+            {
+              "speaker": "Character.Secondary.Kostel",
+              "line": "They’re coming! "
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "What?! Our man… he said…"
+            },
+            {
+              "speaker": "Coen",
+              "line": "I came here to fight."
+            }
+          ]
+        },
+        "cs_q000_1_opening": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "How about this?"
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "Up at first light, cooking for you all, and this is the thanks I get?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Tell you what – find a few more, and I’ll weave you a wreath."
+            },
+            {
+              "speaker": "Character.Secondary.Lunka",
+              "line": "Promise?"
+            },
+            {
+              "speaker": "Character.Secondary.Mirto",
+              "line": "Mama!"
+            }
+          ]
+        },
+        "cs_q001_008_brencisJudgement_old": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You need to cut the tethers to the past."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You bastard... You –"
+            },
+            {
+              "speaker": "Character.Background.q001_Brencis_Soldier_Mine_02",
+              "line": "Go. The knyaz is waiting for you."
+            },
+            {
+              "speaker": "Coen",
+              "line": "What have you done?! Where’s my family?!"
+            }
+          ]
+        },
+        "cs_q001_02_necrovision": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "They've forgotten why they feared me? Well, I shall remind them."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Dad!!!"
+            },
+            {
+              "speaker": "Pieter",
+              "line": "Please… Don’t kill him."
+            }
+          ]
+        },
+        "cs_q002_02_entering_church": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "Coen? We need to talk."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "The vrakhiri’s version of Heaven."
+            },
+            {
+              "speaker": "Character.Background.Dana",
+              "line": "What is this?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "What happened?"
+            },
+            {
+              "speaker": "Character.Background.Evzen",
+              "line": "Must be the devil himself..."
+            },
+            {
+              "speaker": "Character.Background.Alois",
+              "line": "She didn't deserve this..."
+            }
+          ]
+        },
+        "cs_q002_03a_blood_mass_fin_e_lives": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "Weak. Thin-blooded. "
+            },
+            {
+              "speaker": "Pieter",
+              "line": "You'll be fine."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Monster."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "What did you just say?!"
+            }
+          ]
+        },
+        "cs_q002_03b_blood_mass_fin_e_dies": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "No. No!!!"
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "True power can be alarming."
+            },
+            {
+              "speaker": "Pieter",
+              "line": "We have to. Please."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Mother..."
+            },
+            {
+              "speaker": "Vladimir",
+              "line": "No!!!"
+            },
+            {
+              "speaker": "Brencis",
+              "line": "This herd needs culling."
+            },
+            {
+              "speaker": "Character.Secondary.Ambrus",
+              "line": "Time to pay your tithes. "
+            }
+          ]
+        },
+        "cs_q002_04_after_church": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Why? What’s going on?"
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "Coen? What's going on?"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "We’re going to the mines, with Vlad and the others. We'll post a guard at the entrance and get to work. Grab as much silver ore as we can before Brencis realises what’s going on."
+            }
+          ]
+        },
+        "cs_q301_08_leave_lacra": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You’re fine now. It’s over."
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "Coen! Oh, God… it’s really you…"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Where is Lunka?"
+            },
+            {
+              "speaker": "Lacra",
+              "line": "[untintelligible words]"
+            }
+          ]
+        },
+        "cs_sq711_04a_another_loop": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "Nooo!"
+            },
+            {
+              "speaker": "Coen",
+              "line": "We need to block all the entrances, now! Dad –"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "[scream]"
+            }
+          ]
+        },
+        "Pieter_Default_Dialogue_NEW_ns_FG": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You've always said to stand up for the weak, to help if I can."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You'd better pray it doesn't get worse."
+            }
+          ]
+        },
+        "q002_00_times_up_pieter": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "What can happen if Brencis decides your mother is too weak for his liking?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Wait, I –"
+            },
+            {
+              "speaker": "9B76B3424946D87B5450F2AE60DC174D",
+              "line": "Of course I understand."
+            }
+          ]
+        },
+        "q002_01_coen_wakes_up": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "We all do that, every damn week. That's not how they turn people."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You weren't there that night. You didn't see her drinking the vrakhir's blood."
+            },
+            {
+              "speaker": "7F90938F442E62F0E59429BED6BFAC2D",
+              "line": "Where's Lunka?"
+            }
+          ]
+        },
+        "q002_01_pieter_warning": [
+          "Be careful. The soldiers are already here. They brought the uriashi, too."
+        ],
+        "q002_03_family_breakfast": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "[feed Esme]"
+            },
+            {
+              "speaker": "4874827F4B1861A9573AE3BC7534CBFA",
+              "line": "All adults have to."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You've seen what Brencis does to people he considers too weak."
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "Shush, Mirto. You'll make Lunka cry again."
+            },
+            {
+              "speaker": "Character.Secondary.Mirto",
+              "line": "Will the vrakhiri hurt her?"
+            },
+            {
+              "speaker": "BE74658948C087BDB8993380D60AE167",
+              "line": "Feeling alright, Lunka?"
+            },
+            {
+              "speaker": "A55A46CF46DF24C08CF9579D6DB6620C",
+              "line": "I won't feed her against her will."
+            },
+            {
+              "speaker": "Character.Secondary.Lunka",
+              "line": "Yes, father."
+            },
+            {
+              "speaker": "F357129D4CEBD63E94A26080F033AAF3",
+              "line": "It must be hard for you."
+            },
+            {
+              "speaker": "1CBFF7214003981FE6AA56AB7D5A38E4",
+              "line": "Mum's mind is elsewhere."
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "[cries]"
+            },
+            {
+              "speaker": "CF06DFE041FF73792D5DC59F6AC47A48",
+              "line": "She's gone to mass before."
+            }
+          ]
+        },
+        "q002_06_pieter_vlad_argue": {
+          "dialogue": [
+            {
+              "speaker": "Vladimir",
+              "line": "We're losing time. You know it."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "When we stand a chance."
+            }
+          ]
+        },
+        "q002_07_back_with_herbs": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "You want to help mum, or keep interrogating me?"
+            },
+            {
+              "speaker": "FA453464401EE86935B513AAFA78D1D6",
+              "line": "Answer my question, dad."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You make a mistake, you own up to it."
+            },
+            {
+              "speaker": "92D9ADA34DCFC048E800E1A580B91AD1",
+              "line": "Maybe."
+            },
+            {
+              "speaker": "7C1FC2F2441B4C8785E084A912C1ACDA",
+              "line": "No, I haven't!"
+            }
+          ]
+        },
+        "q002_07b_back_with_herbs": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Then get to work."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[use boiling water]"
+            },
+            {
+              "speaker": "16D841544F077ABC97CB428F05C4E8FF",
+              "line": "[add three spoonfuls of herbs]"
+            },
+            {
+              "speaker": "827CB64641D766CF30C174945BC96A85",
+              "line": "[add two spoonfuls of herbs]"
+            },
+            {
+              "speaker": "202A47BB4F3B9860B7D12D804FA72DE2",
+              "line": "[use cold water]"
+            },
+            {
+              "speaker": "52C5D0674DE44B11AE0BC69E33DD011F",
+              "line": "[use hot water]"
+            }
+          ]
+        },
+        "q002_07c_back_with_herbs": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You're sharp, son. But... careful it doesn't get you into trouble."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You've never told me that story."
+            },
+            {
+              "speaker": "B8E30C2B4B4497E759E4DFA7ECBF3A6C",
+              "line": "Dad, if you want to talk about this..."
+            },
+            {
+              "speaker": "83CF240D46245381EF6E0C8397C25FF5",
+              "line": "Has it got something to do with Vladimir?"
+            },
+            {
+              "speaker": "E795354346096298EAA8299912A44E18",
+              "line": "I feel guilty about mum."
+            },
+            {
+              "speaker": "BB7B5E9643B46C4168ACE39ED3804822",
+              "line": "I've got other plans."
+            },
+            {
+              "speaker": "09136AD3443089B404553FBE6DD4C010",
+              "line": "Just a sip."
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "No. No."
+            }
+          ]
+        },
+        "q002_08_training": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Alright. Let's start."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Hold on, I'll..."
+            }
+          ]
+        },
+        "q002_09_training_outro": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You think I relish this? The responsibility they want to put on my shoulders?"
+            },
+            {
+              "speaker": "712ABDAE4E2F66D3F414BFB976561794",
+              "line": "Brencis's men know something's afoot."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You came at me like you wanted to kill me!"
+            },
+            {
+              "speaker": "D792525740176ED442F5ECAC7F1AFD09",
+              "line": "I'll wait with you. [Skip time until the mass]"
+            },
+            {
+              "speaker": "4313EA8F45C8D1AF80B1A4A8DBFA9AD0",
+              "line": "People say the mines are haunted."
+            },
+            {
+              "speaker": "7F62C8704FFE2D0DFC638688D463BCAA",
+              "line": "They need your military experience."
+            },
+            {
+              "speaker": "E88AB2D444337FA872E2E7A9CA375DA1",
+              "line": "This plan is crazy. We'll never win."
+            },
+            {
+              "speaker": "2ADBADB84748AD45322B15A8F9D71DA7",
+              "line": "What are you sorry for?"
+            },
+            {
+              "speaker": "B4660CC841FD50F7D7B36EA33707C3A1",
+              "line": "Whatever you decide, you can count on me."
+            }
+          ]
+        },
+        "q002_11_walk_to_church": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "The children?"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "We've got to."
+            }
+          ]
+        },
+        "q002_14_florins_sermon": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "This is sick."
+            },
+            {
+              "speaker": "Character.Secondary.Florin",
+              "line": "Yes, he drinks our blood, and we drink his. We nourish Brencis, and he protects us from harm."
+            },
+            {
+              "speaker": "Character.Background.Villagers_Choir",
+              "line": "May it forever endure."
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Shhh. We don't want to attract attention."
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "[sobs]"
+            },
+            {
+              "speaker": "0FB3DD834067180E4C12C788FD8F3D52",
+              "line": "[remain silent]"
+            },
+            {
+              "speaker": "B074591D4EA535F3F4AEAA876E2B57D7",
+              "line": "[remain silent]"
+            }
+          ]
+        },
+        "q002_church_pieter": [
+          "Just sit down already."
+        ],
+        "q002_path_to_training": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "We'll talk afterwards."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You sure this is a good time?"
+            }
+          ]
+        },
+        "q002_training_gmpl": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You think that's how it works? Folks waiting politely for you to warm up?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Shit! Dad, I said hold on!"
+            }
+          ]
+        },
+        "q300_08_gmpl_ghost_pieter": [
+          "You're such a disappointment."
+        ],
+        "sq711_01_pieter_in_home": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "[scoff] What's gotten into you?"
+            },
+            {
+              "speaker": "Coen",
+              "line": "Wood...?"
+            }
+          ]
+        },
+        "sq711_02_gargoyles": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "[scoff] What sort of a question is that?"
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "You're forgetting something."
+            },
+            {
+              "speaker": "Coen",
+              "line": "Your olatki. Your smile. Your voice."
+            },
+            {
+              "speaker": "Character.Secondary.Mirto",
+              "line": "Huh, dumb one!"
+            },
+            {
+              "speaker": "Character.Secondary.Lunka",
+              "line": "Please!"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Run? Where to? What are you talking about?"
+            }
+          ]
+        },
+        "sq711_03c_pieter": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "You're such a disappointment."
+            },
+            {
+              "speaker": "Coen",
+              "line": "You don't mean that."
+            }
+          ]
+        },
+        "sq711_04a_another_loop": {
+          "dialogue": [
+            {
+              "speaker": "Coen",
+              "line": "Who are you talking about?"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Why is he not with you?!"
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "Where is he?!"
+            }
+          ]
+        },
+        "sq711_05_family_barks": {
+          "dialogue": [
+            {
+              "speaker": "Character.Secondary.Mirto",
+              "line": "I'm just as strong as dad! Only shorter!"
+            },
+            {
+              "speaker": "Character.Secondary.Esme",
+              "line": "Where are those two? Always sleeping in..."
+            },
+            {
+              "speaker": "Character.Secondary.Yanna",
+              "line": "No! Don't touch me!"
+            },
+            {
+              "speaker": "Character.Secondary.Lunka",
+              "line": "I'll eat and eat and eat until I'm as big as Coen!"
+            },
+            {
+              "speaker": "Character.Secondary.Pieter",
+              "line": "Get a move on! Idle hands are the devil's workshop!"
+            }
+          ]
+        },
+        "sq715_01_brencis_start": {
+          "dialogue": [
+            {
+              "speaker": "Brencis",
+              "line": "You have my word."
+            },
+            {
+              "speaker": "Coen",
+              "line": "[hug Pieter]"
+            },
+            {
+              "speaker": "Pieter",
+              "line": "[sob]"
+            }
+          ]
+        },
+        "sq715_02a_pieters_scream": [
+          "[screams in pain and fear]"
+        ],
+        "sq715_04_pieter_tower": {
+          "dialogue": [
+            {
+              "speaker": "Pieter",
+              "line": "Those... things reached for me..."
+            },
+            {
+              "speaker": "Coen",
+              "line": "We made a deal."
+            },
+            {
+              "speaker": "Brencis",
+              "line": "We do. But you'll need motivation."
+            }
+          ]
+        }
+      },
+      "vt": {
+        "vt_c": [
+          "Are you trying to provoke me?",
+          "Cut it out.",
+          "Give me your best shot!",
+          "Hit me - if you can!",
+          "It's all gone to shit.",
+          "Let's see what you remember.",
+          "Not now.",
+          "Pff. Fools.",
+          "Shit!",
+          "The weather's never what you want it to be.",
+          "You're being childish.",
+          "You're quick. Good."
+        ]
+      }
+    }
+  }
+}
