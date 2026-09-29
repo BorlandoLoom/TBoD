@@ -25,7 +25,7 @@ jobs:
           for f in *.png; do
             [ -f "$f" ] || continue
             base="${f%.png}"
-            base64 -w 0 "$f" | fold -w 100000 | split -d -a 4 -l 1 - "encoded_images/${base}.png.b64.part-"
+            base64 -w 0 "$f" | fold -w 200000 | split -d -a 4 -l 1 - "encoded_images/${base}.png.b64.part-"
             echo "Encoded and split: $f"
           done
 
