@@ -1,0 +1,42 @@
+name: Encode repository images
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "*.png"
+
+permissions:
+  contents: write
+
+jobs:
+  encode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Encode PNG
+        shell: bash
+        run: |
+          set -e
+          for f in *.png; do
+            [ -f "$f" ] || continue
+            base="${f%.png}"
+            base64 -w 0 "$f" > "${base}.png.b64.txt"
+            printf '\n' >> "${base}.png.b64.txt"
+            echo "Encoded: $f -> ${base}.png.b64.txt"
+          done
+
+      - name: Commit encoded files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.png.b64.txt'
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Generate base64 image copies [skip ci]"
+          git push
