@@ -16,27 +16,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Encode PNG
+      - name: Encode PNG into chunks
         shell: bash
         run: |
           set -e
+          rm -f -- *.png.b64.txt *.png.b64.part-*
           for f in *.png; do
             [ -f "$f" ] || continue
             base="${f%.png}"
-            base64 -w 0 "$f" > "${base}.png.b64.txt"
-            printf '\n' >> "${base}.png.b64.txt"
-            echo "Encoded: $f -> ${base}.png.b64.txt"
+            base64 -w 0 "$f" | fold -w 100000 | split -d -a 4 -l 1 - "${base}.png.b64.part-"
+            echo "Encoded and split: $f"
           done
 
-      - name: Commit encoded files
+      - name: Commit chunks
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- '*.png.b64.txt'
+          git add -- '*.png.b64.part-*'
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0
           fi
-          git commit -m "Generate base64 image copies [skip ci]"
+          git commit -m "Generate chunked base64 image copies [skip ci]"
           git push
