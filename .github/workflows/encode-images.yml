@@ -20,11 +20,12 @@ jobs:
         shell: bash
         run: |
           set -e
-          rm -f -- *.png.b64.txt *.png.b64.part-*
+          mkdir -p encoded_images
+          rm -f -- encoded_images/*.png.b64.part-*
           for f in *.png; do
             [ -f "$f" ] || continue
             base="${f%.png}"
-            base64 -w 0 "$f" | fold -w 100000 | split -d -a 4 -l 1 - "${base}.png.b64.part-"
+            base64 -w 0 "$f" | fold -w 100000 | split -d -a 4 -l 1 - "encoded_images/${base}.png.b64.part-"
             echo "Encoded and split: $f"
           done
 
@@ -33,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- '*.png.b64.part-*'
+          git add -- 'encoded_images/*.png.b64.part-*'
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0
